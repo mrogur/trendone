@@ -23,7 +23,7 @@ function tair_enqueue_styles() {
  */
 function tair_enqueue_scripts() {
 	$scripts = [
-		"tair_bootstrap" => [BOWER_HOME."/bootstrap/js/bootstrap.min.js", true]
+		"tair_bootstrap" => [BOWER_HOME."/bootstrap/dist/js/bootstrap.min.js", true]
 	];
 
 	tair_enqueue_wp_scripts();

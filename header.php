@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-    <?php wp_head() ?>
+    <?php wp_head(); ?>
 </head>
 <body>
 <header class="site-header" role="banner">
