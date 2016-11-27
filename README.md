@@ -1,0 +1,2 @@
+###TrendOne WordPress Theme
+
