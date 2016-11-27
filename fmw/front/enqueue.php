@@ -23,25 +23,22 @@ function tair_enqueue_styles() {
  */
 function tair_enqueue_scripts() {
 	$scripts = [
-		"tair_bootstrap" => [BOWER_HOME."/bootstrap/dist/js/bootstrap.min.js", true]
+		"tair_bootstrap" => [BOWER_HOME."/bootstrap/dist/js/bootstrap.min.js", ['jquery'], true]
 	];
 
-	tair_enqueue_wp_scripts();
 	foreach ( $scripts as $key => $script ) {
 
 		$script_to_load = $script;
 		$load_in_footer = false;
+		$dependents = [];
 
 		if (is_array($script)) {
 			$script_to_load = $script[0];
-			$load_in_footer = $script[1];
+			$dependents = $script[1];
+			$load_in_footer = $script[2];
 		}
 
-		wp_register_script( $key, $script_to_load, [], false, $load_in_footer );
+		wp_register_script( $key, $script_to_load, $dependents, false, $load_in_footer );
 		wp_enqueue_script($key);
 	}
-}
-
-function tair_enqueue_wp_scripts() {
-	wp_enqueue_script( 'jquery' );
 }
