@@ -1,1 +1,1 @@
-a{color:silver}@media(min-width:979px){ul.nav li.dropdown:hover>ul.dropdown-menu{display:block}}
+.menu-item a{color:#23282d;margin-left:1%;font-size:.9em}.caret{display:none}@media(min-width:979px){ul.nav li.dropdown:hover>ul.dropdown-menu{display:block}}
