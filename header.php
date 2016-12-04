@@ -40,7 +40,7 @@
                 <?php wp_nav_menu( ['theme_location' => 'header-menu' ,
                     'menu_class' => "nav navbar-nav",
                     'container' => false,
-                    'depth' => 2,
+                    'depth' => 3,
                     'walker' => new BootstrapNavMenuWalker()
                 ]); ?>
             <form class="form-inline float-lg-right">
