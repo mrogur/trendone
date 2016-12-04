@@ -8,7 +8,9 @@ define(BOWER_HOME, get_template_directory_uri() . "/bower_components");
 function tair_enqueue_styles() {
 	$styles = [
 		"tair_bootstrap" =>  BOWER_HOME."/bootstrap/dist/css/bootstrap.min.css",
-		"tair_font-awesome" => BOWER_HOME."/font-awesome/css/font-awesome.css"
+        "tair_tether" => BOWER_HOME."/tether/dist/css/tether.min.css",
+		"tair_font-awesome" => BOWER_HOME."/font-awesome/css/font-awesome.css",
+        "tair_trendone" => get_template_directory_uri() . '/css/trendone.css'
 	];
 
 	foreach ( $styles as $style_name => $style_path) {
@@ -23,7 +25,8 @@ function tair_enqueue_styles() {
  */
 function tair_enqueue_scripts() {
 	$scripts = [
-		"tair_bootstrap" => [BOWER_HOME."/bootstrap/dist/js/bootstrap.min.js", ['jquery'], true]
+		"tair_tether" => [BOWER_HOME."/tether/dist/js/tether.min.js", ['jquery'], true],
+		"tair_bootstrap" => [BOWER_HOME."/bootstrap/dist/js/bootstrap.min.js", ['tair_tether'], true]
 	];
 
 	foreach ( $scripts as $key => $script ) {
