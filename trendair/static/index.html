@@ -9,54 +9,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css"
           integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
-    <style>
-        .dropdown-submenu {
-            position: relative;
-        }
-
-        .dropdown-submenu > .dropdown-menu {
-            top: 0;
-            left: 100%;
-            /*margin-top: -6px;*/
-            margin-left: -1px;
-            /*  -webkit-border-radius: 0 6px 6px 6px;
-              -moz-border-radius: 0 6px 6px;
-              border-radius: 0 6px 6px 6px;*/
-        }
-
-        .dropdown-submenu:hover > .dropdown-menu {
-            display: block;
-        }
-
-        .dropdown-submenu > a:after {
-            display: block;
-            content: " ";
-            float: right;
-            width: 0;
-            height: 0;
-            border: 5px solid transparent;
-            border-right-width: 0;
-            border-left-color: #ccc;
-            margin-top: 5px;
-            margin-right: -10px;
-        }
-
-        .dropdown-submenu:hover > a:after {
-            border-left-color: #fff;
-        }
-
-        .dropdown-submenu.pull-left {
-            float: none;
-        }
-
-        .dropdown-submenu.pull-left > .dropdown-menu {
-            left: -100%;
-            margin-left: 10px;
-            /*  -webkit-border-radius: 6px 0 6px 6px;
-              -moz-border-radius: 6px 0 6px 6px;
-              border-radius: 6px 0 6px 6px;*/
-        }
-    </style>
+    <link rel="stylesheet" type="text/css" href="css/nav.css">
 </head>
 
 <body>
@@ -82,7 +35,7 @@
                     <li class="dropdown-item" href="#"><a class="nav-link" href="#">Item 1</a></li>
                     <li class="dropdown-item"><a class="nav-link" href="#">Item 2</a></li>
                     <li class="dropdown-item"><a class="nav-link" href="#">Item 3</a></li>
-                    <li class="dropdown-item dropdown-submenu" href="#">
+                    <li class="dropdown-item dropdown-submenu">
                         <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="false"
                            aria-expanded="false">Item 5</a>
                         <ul class="dropdown-menu" aria-labelledby="supportedContentDropdown">
@@ -91,7 +44,12 @@
                             <li class="dropdown-item"><a href="#" class="nav-link">Sub Item 3</a></li>
                             <li class="dropdown-item"><a href="#" class="nav-link">Sub Item 4</a></li>
                             <li class="dropdown-item"><a href="#" class="nav-link">Sub Item 5</a></li>
-                            <li class="dropdown-item"><a href="#" class="nav-link">Sub Item 6</a></li>
+                            <li class="dropdown-item dropdown-submenu"><a href="#" class="nav-link">Sub Item 6</a>
+                                <ul class="dropdown-menu" aria-labelledby="supportedContentDropdown">
+                                    <li class="dropdown-item"><a href="#" class="nav-link">Sub Item 1</a></li>
+                                    <li class="dropdown-item"><a href="#" class="nav-link">Sub Item 2</a></li>
+                                </ul>
+                            </li>
                         </ul>
                     </li>
 
