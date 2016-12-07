@@ -28,6 +28,8 @@
     border-left-color: #fff;
   }
 
+
+
   .pull-left {
     float: none;
 
@@ -36,5 +38,17 @@
       margin-left: 10px;
     }
 
+  }
+}
+
+@media (max-width: 768px) {
+  .dropdown-menu {
+    display: none !important;
+  }
+  .open .dropdown-menu {
+    display: none !important;
+  }
+  .dropdown-toggle:after {
+    display: none !important;
   }
 }
