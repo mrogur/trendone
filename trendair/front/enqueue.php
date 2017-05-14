@@ -1,7 +1,6 @@
 <?php
 
 define("BOWER_HOME", get_template_directory_uri() . "/bower_components");
-define("TEMPLATE_HOME", get_template_directory_uri());
 
 /**
  * Function enqueue styles on page.
@@ -11,8 +10,7 @@ function trendair_enqueue_styles() {
 		"trendair_bootstrap" =>  BOWER_HOME."/bootstrap/dist/css/bootstrap.min.css",
         "trendair_tether" => BOWER_HOME."/tether/dist/css/tether.min.css",
 		"trendair_font-awesome" => BOWER_HOME."/font-awesome/css/font-awesome.css",
-        "trendair_trendone" => TEMPLATE_HOME . '/css/trendone.min.css',
-        "trendair_nav" => TEMPLATE_HOME . '/trendair/dist/css/nav.min.css'
+        "trendair_trendone" => get_template_directory_uri() . '/css/trendone.min.css'
 	];
 
 	foreach ( $styles as $style_name => $style_path) {
