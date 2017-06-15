@@ -24,16 +24,17 @@ class wp_bootstrap_navwalker extends Walker_Nav_Menu {
 		$output .= "\n$indent<ul role=\"menu\" class=\" dropdown-menu\">\n";
 	}
 
-	/**
-	 * @see Walker::start_el()
-	 * @since 3.0.0
-	 *
-	 * @param string $output Passed by reference. Used to append additional content.
-	 * @param object $item Menu item data object.
-	 * @param int $depth Depth of menu item. Used for padding.
-	 * @param int $current_page Menu item ID.
-	 * @param object $args
-	 */
+    /**
+     * @see Walker::start_el()
+     * @since 3.0.0
+     *
+     * @param string $output Passed by reference. Used to append additional content.
+     * @param object $item Menu item data object.
+     * @param int $depth Depth of menu item. Used for padding.
+     * @param array|object $args
+     * @param int $id
+     * @internal param int $current_page Menu item ID.
+     */
 	public function start_el( &$output, $item, $depth = 0, $args = array(), $id = 0 ) {
 		$indent = ( $depth ) ? str_repeat( "\t", $depth ) : '';
 

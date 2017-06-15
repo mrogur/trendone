@@ -1,16 +1,16 @@
 <?php
 
-define("BOWER_HOME", get_template_directory_uri() . "/bower_components");
+define("NODE_HOME", get_template_directory_uri() . "/node_modules");
 
 /**
  * Function enqueue styles on page.
  */
 function trendair_enqueue_styles() {
 	$styles = [
-		"trendair_bootstrap" =>  BOWER_HOME."/bootstrap/dist/css/bootstrap.min.css",
-        "trendair_tether" => BOWER_HOME."/tether/dist/css/tether.min.css",
-		"trendair_font-awesome" => BOWER_HOME."/font-awesome/css/font-awesome.css",
-        "trendair_trendone" => get_template_directory_uri() . '/css/trendone.min.css'
+		"trendair_bootstrap" => NODE_HOME . "/bootstrap/dist/css/bootstrap.min.css",
+        "trendair_tether" => NODE_HOME . "/tether/dist/css/tether.min.css",
+		"trendair_font-awesome" => NODE_HOME . "/font-awesome/css/font-awesome.css",
+        "trendair_trendone" => get_template_directory_uri() . '/public/css/app.css'
 	];
 
 	foreach ( $styles as $style_name => $style_path) {
@@ -25,8 +25,9 @@ function trendair_enqueue_styles() {
  */
 function trendair_enqueue_scripts() {
 	$scripts = [
-		"trendair_tether" => [BOWER_HOME."/tether/dist/js/tether.min.js", ['jquery'], true],
-		"trendair_bootstrap" => [BOWER_HOME."/bootstrap/dist/js/bootstrap.min.js", ['trendair_tether'], true]
+		"trendair_tether" => [ NODE_HOME . "/tether/dist/js/tether.min.js", ['jquery'], true],
+		"trendair_bootstrap" => [ NODE_HOME . "/bootstrap/dist/js/bootstrap.min.js", ['trendair_tether'], true],
+		"trendair_app" => [ get_template_directory_uri() . "/public/js/app.js", ['trendair_bootstrap'], true]
 	];
 
 	foreach ( $scripts as $key => $script ) {
