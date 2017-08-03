@@ -42,7 +42,7 @@ const config = {
 	plugins: [
 		new ExtractTextPlugin('/css/[name].css'),
 		new BrowserSyncPlugin({
-		    proxy: 'wp.dev',
+		    proxy: 'localhost:10080',
 		    port: 3000,
 		    files: [
 		        '**/*.php'
