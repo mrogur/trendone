@@ -3,7 +3,7 @@
 <section>
 </section>
 <!-- OPT IN SECTION -->
-<div>Hello world my dockerusiusiu</div>
+<div></div>
 <section>
 </section>
 <!-- BOOST YOUR INCOME -->

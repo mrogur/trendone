@@ -29,9 +29,12 @@ class BootstrapNavMenuWalker extends Walker_Nav_Menu {
         $classes[] = ($item->current || $item->current_item_ancestor) ? 'active' : '';
         $classes[] = 'menu-item-' . $item->ID;
         if($depth && $args->has_children){
-            $classes[] = 'dropdown-submenu';
+	        $classes[] = 'dropdown-submenu dropdown-item';
         }
-        $classes[] = 'nav-item';
+        else if($depth) {
+	        $classes[] = 'dropdown-item';
+        }
+	    $classes[] = 'nav-item';
 
         $class_names = join( ' ', apply_filters( 'nav_menu_css_class', array_filter( $classes ), $item, $args ) );
         $class_names = ' class="' . esc_attr( $class_names ) . '"';
@@ -42,7 +45,7 @@ class BootstrapNavMenuWalker extends Walker_Nav_Menu {
         $attributes .= ! empty( $item->target )     ? ' target="' . esc_attr( $item->target     ) .'"' : '';
         $attributes .= ! empty( $item->xfn )        ? ' rel="'    . esc_attr( $item->xfn        ) .'"' : '';
         $attributes .= ! empty( $item->url )        ? ' href="'   . esc_attr( $item->url        ) .'"' : '';
-        $attributes .= ($args->has_children) 	    ? ' class="dropdown-toggle" data-toggle="dropdown" ' : '';
+        $attributes .= ($args->has_children) 	    ? ' class="dropdown-toggle nav-link" data-toggle="dropdown" ' : 'class="nav-link"';
         $item_output = $args->before;
         $item_output .= '<a'. $attributes .'>';
         $item_output .= $args->link_before . apply_filters( 'the_title', $item->title, $item->ID ) . $args->link_after;

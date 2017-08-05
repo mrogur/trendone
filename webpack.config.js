@@ -42,7 +42,7 @@ const config = {
 	plugins: [
 		new ExtractTextPlugin('/css/[name].css'),
 		new BrowserSyncPlugin({
-		    proxy: 'localhost:10080',
+		    proxy: 'wpress.dev',
 		    port: 3000,
 		    files: [
 		        '**/*.php'
