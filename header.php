@@ -20,16 +20,22 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <a class="navbar-brand" href="#">Navbar</a>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+
 			<?php wp_nav_menu( [
 				'theme_location' => 'header-menu',
-				'menu_class'     => "nav navbar-nav",
+				'menu_class'     => "nav navbar-nav ",
 				'container'      => false,
 				'depth'          => 3,
 				'walker'         => new BootstrapNavMenuWalker()
 			] ); ?>
-
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="text" placeholder="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
         </div>
+
+
 
 
     </nav>
