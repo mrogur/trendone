@@ -24,7 +24,7 @@
 
 			<?php wp_nav_menu( [
 				'theme_location' => 'header-menu',
-				'menu_class'     => "nav navbar-nav mr-sm-4",
+				'menu_class'     => "nav navbar-nav mr-sm-5",
 				'container'      => false,
 				'depth'          => 3,
 				'walker'         => new BootstrapNavMenuWalker()
