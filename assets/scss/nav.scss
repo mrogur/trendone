@@ -2,6 +2,13 @@
 $border-radius: 6px 0 6px 6px;
 
 //SCSS
+.navbar-brand {
+  img {
+    max-width: 150px;
+    width: 150px;
+    height: auto;
+  }
+}
 .dropdown-submenu {
   position: relative;
   > .dropdown-menu {
@@ -40,3 +47,24 @@ $border-radius: 6px 0 6px 6px;
     }
   }
 }
+
+.carousel {
+  margin-bottom: 4rem;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+  bottom: 3rem;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 42rem;
+  background-color: #777;
+}
+.carousel-item > img {
+  position: absolute;
+  min-width: 100%;
+  height: auto;
+}
+

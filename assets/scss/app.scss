@@ -1,5 +1,9 @@
-body {
-  background-color: #CCCCCC;
-  margin: 0;
-  padding: 0;
+$heroColor: #ccc;
+
+.trendone-hero {
+  background-color: $heroColor;
+}
+
+.trendone-cards {
+
 }
