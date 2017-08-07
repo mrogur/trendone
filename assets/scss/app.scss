@@ -1,9 +1,28 @@
 $heroColor: #ccc;
+$footerHeight: 100px;
+
+html, body {
+  height: 100%;
+}
+
+/*#wrapper {
+  min-height: 75%;
+  position: relative;
+}*/
 
 .trendone-hero {
   background-color: $heroColor;
+  margin-bottom: 4rem;
 }
 
 .trendone-cards {
+  margin-bottom: 4rem;
+}
 
+.trendone-footer {
+  width:100%;
+  position: relative;
+  margin-bottom: 0.2rem;
+  height: 26em;
+  background-color: $heroColor;
 }
