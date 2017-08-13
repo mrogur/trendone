@@ -4,7 +4,7 @@
  */
 
 function slider_add_custom_box() {
-	$screens = [ 'trendone-slider' ];
+	$screens = [ 'slider', 'trendone-card' ];
 	foreach ( $screens as $screen ) {
 		add_meta_box(
 			'trendone_slider_box_id',           // Unique ID

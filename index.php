@@ -25,9 +25,16 @@
                                 <h4 class="card-title"><?php echo $card->post_title ?></h4>
                                 <p class="card-text"><?php echo $card->post_content ?></p>
                             </div>
+
                             <div class="card-footer">
-                                <a href="<?php echo get_post_custom( $card->ID )['btn_url'][0] ?>"
-                                   class="btn">Zobacz więcej</a>
+                                <?php
+                                    $button_url = get_post_meta( $card->ID, "tro_button_url", true );
+                                    $button_text = get_post_meta( $card->ID, "tro_button_text", true );
+                                    if(!empty($button_url) && !empty($button_text)) :
+                                ?>
+                                <a href="<?php echo $button_url; ?>"
+                                   class="btn"><?php echo $button_text; ?></a>
+                                <?php endif; ?>
                             </div>
                         </div>
 					<?php endforeach; ?>

@@ -7,7 +7,7 @@ define( "ROOT_DIR", get_template_directory() );
 include( get_template_directory() . "/modules/enqueue.php" );
 include( get_template_directory() . "/modules/common.php" );
 include( get_template_directory() . "/lib/BootstrapNavMenuWalker.php" );
-//include( get_template_directory() . "/modules/button_metabox.php" );
+include( get_template_directory() . "/modules/metaboxes/button_metabox.php" );
 include( get_template_directory() . "/modules/post_types/trendone_slider.php" );
 include( get_template_directory() . "/modules/post_types/trendone_cards.php" );
 
