@@ -40,3 +40,4 @@ function custom_bootstrap_cards() {
 
 	register_post_type( 'trendone-card', $args );
 }
+add_action( 'init', 'custom_bootstrap_cards' );

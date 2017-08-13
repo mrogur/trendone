@@ -55,5 +55,5 @@ function setup_custom_logo() {
 	}
 }
 
-add_action( 'init', 'custom_bootstrap_slider' );
-add_action( 'init', 'custom_bootstrap_cards' );
+
+

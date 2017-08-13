@@ -39,4 +39,8 @@ function custom_bootstrap_slider() {
 	);
 
 	register_post_type( 'slider', $args );
+
+
 }
+
+add_action( 'init', 'custom_bootstrap_slider' );
