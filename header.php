@@ -13,7 +13,7 @@
 </head>
 <body>
 <!--<header class="site-header" role="banner">-->
-<!--<div class="trendone-wrapper">-->
+
     <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
                 data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
@@ -36,7 +36,7 @@
             </form>
         </div>
     </nav>
-
+<div class="trendone-wrapper">
     <!--</header>-->
     <div class="trendone-slider carousel slide" data-ride="carousel">
         <div class="carousel-inner" role="listbox">

@@ -24,12 +24,10 @@
                             <div class="card-block">
                                 <h4 class="card-title"><?php echo $card->post_title ?></h4>
                                 <p class="card-text"><?php echo $card->post_content ?></p>
-
-
                             </div>
                             <div class="card-footer">
                                 <a href="<?php echo get_post_custom( $card->ID )['btn_url'][0] ?>"
-                                   class="btn btn-primary">Zobacz więcej</a>
+                                   class="btn">Zobacz więcej</a>
                             </div>
                         </div>
 					<?php endforeach; ?>

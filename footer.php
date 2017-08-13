@@ -1,22 +1,12 @@
-<!--</div>-->
-    <footer class="trendone-footer">
-        <div class="container-fluid">
+</div> <!-- wrapper end -->
+    <footer class="footer">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-12">
-                        Menu
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-sm-6">
-                        H1
-                    </div>
-                    <div class="col-sm-4">
-                        mapka
+                    <div class="col-sm-12 trendone-footer-menu">
+                        <?php wp_nav_menu( array( 'theme_location' => 'footer-menu' ) ); ?>
                     </div>
                 </div>
             </div>
-        </div>
     </footer>
 
 <?php
