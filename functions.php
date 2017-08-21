@@ -26,6 +26,8 @@ if ( ! function_exists( 'trendone_setup' ) ):
 		load_theme_textdomain( 'trendone' );
 		add_theme_support( 'custom-logo' );
 		add_theme_support( 'post-thumbnails' );
+		add_theme_support( 'html5', array( 'comment-list', 'comment-form', 'search-form', 'gallery', 'caption' ) );
+
 
 	}
 
@@ -57,5 +59,53 @@ function setup_custom_logo() {
 	}
 }
 
+/**
+ * Widget areas
+ */
 
+/**
+ * Front page widgets
+ */
+function trendone_frontpage_widgets() {
 
+	register_sidebar( array(
+		'name'          => 'Frontpage widget area',
+		'id'            => 'home_right',
+		'before_widget' => '<div>',
+		'after_widget'  => '</div>',
+		'before_title'  => '<h2 class="rounded">',
+		'after_title'   => '</h2>',
+	) );
+
+}
+add_action( 'widgets_init', 'trendone_frontpage_widgets' );
+
+/**
+ * Sidebar
+ */
+
+function trendone_sidebar() {
+
+	register_sidebar( array(
+		'name'          => 'Sidebar',
+		'id'            => 'sidebar-1',
+		'before_widget' => '<div>',
+		'after_widget'  => '</div>',
+		'before_title'  => '<h2 class="rounded">',
+		'after_title'   => '</h2>',
+	) );
+
+}
+add_action( 'widgets_init', 'trendone_sidebar' );
+
+function new_excerpt_more($more) {
+	return '';
+}
+add_filter('excerpt_more', 'new_excerpt_more', 21 );
+
+function the_excerpt_more_link( $excerpt ){
+	$post = get_post();
+	$excerpt .= '<a href="'. get_permalink($post->ID) . '">czytaj dalej</a>';
+	return $excerpt;
+}
+add_filter( 'the_excerpt', 'the_excerpt_more_link', 21 );

@@ -1,10 +1,14 @@
-$heroColor: #ccc;
 $footerHeight: 80px;
+$mainGrey: #f7f7f7;
+$borderGrey: #dfdfdf;
+$heroColor: $mainGrey;
+$bannerGreen: #063002;
 
 html {
   position: relative;
   min-height: 100%;
 }
+
 body {
   margin-bottom: $footerHeight;
 }
@@ -12,6 +16,14 @@ body {
 .trendone-hero {
   background-color: $heroColor;
   margin-bottom: 4rem;
+}
+
+.navbar-brand {
+  height: 5rem;
+  img {
+    width: 300px;
+    height: auto;
+  }
 }
 
 .trendone-cards {
@@ -22,10 +34,39 @@ body {
   padding-bottom: 2rem;
 }
 
+.trendone-page-section {
+  padding-bottom: 2em;
+}
+
+.trendone-frontpage-widgets {
+    border: 1px solid $borderGrey;
+    border-radius: .25rem;
+    padding-top: 1.5em;
+}
+
+.trendone-blog-posts {
+  .container {
+    min-width: 80%;
+    max-width: 80%;
+  }
+  margin-top: 1rem;
+  article {
+    h3 {
+      a {
+        color: $bannerGreen;
+      }
+    }
+    box-shadow: #3A3A3A;
+    border-bottom: 1px solid #e2e2e2;
+    padding: 1.8em;
+    margin-bottom: 1em;
+  }
+}
+
 .footer {
   width: 100%;
   position: absolute;
-  bottom:0;
+  bottom: 0;
   height: $footerHeight;
   background-color: $heroColor;
 }
@@ -43,9 +84,23 @@ body {
         list-style-type: none;
         margin: 2rem 1rem;
         a {
-          color: #4c4c4d;
+          color: $bannerGreen;
         }
       }
     }
   }
+
+}
+
+a.read-more-link {
+  font-size: 0.9em;
+  text-transform: uppercase;
+  display: inline-block;
+  white-space: nowrap;
+}
+a.read-more-link:before {
+  content: "(";
+}
+a.read-more-link:after {
+  content: ")";
 }
