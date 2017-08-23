@@ -39,9 +39,19 @@ body {
 }
 
 .trendone-frontpage-widgets {
+  border: 1px solid $borderGrey;
+  border-radius: .25rem;
+  padding-top: 1.5em;
+
+}
+
+.trendone-page-widgets {
+  .container {
     border: 1px solid $borderGrey;
     border-radius: .25rem;
-    padding-top: 1.5em;
+    padding-top: 1rem;
+    padding-right: 1rem;
+  }
 }
 
 .trendone-blog-posts {
@@ -98,9 +108,26 @@ a.read-more-link {
   display: inline-block;
   white-space: nowrap;
 }
+
 a.read-more-link:before {
   content: "(";
 }
+
 a.read-more-link:after {
   content: ")";
+}
+
+.map-responsive {
+  overflow: hidden;
+  padding-bottom: 57.69%;
+  position: relative;
+  height: 0;
+  iframe
+  {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+  }
 }

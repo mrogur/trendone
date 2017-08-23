@@ -1,0 +1,2022 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4e502621-2b7f-41b8-84fc-0f27fb542280" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/scss/app.scss" afterPath="$PROJECT_DIR$/assets/scss/app.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template-parts/common/common-widgets.php" afterPath="$PROJECT_DIR$/template-parts/common/common-widgets.php" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <expand>
+      <path>
+        <item name="" type="eadb38e5:DatabaseStructure$Root" />
+        <item name="wordpress@localhost" type="e3449647:DbNodeDescriptor" />
+      </path>
+      <path>
+        <item name="" type="eadb38e5:DatabaseStructure$Root" />
+        <item name="wordpress@localhost" type="e3449647:DbNodeDescriptor" />
+        <item name="wordpress" type="e3449647:DbNodeDescriptor" />
+      </path>
+      <path>
+        <item name="" type="eadb38e5:DatabaseStructure$Root" />
+        <item name="wordpress@localhost" type="e3449647:DbNodeDescriptor" />
+        <item name="wordpress" type="e3449647:DbNodeDescriptor" />
+        <item name="wp_options" type="e3449647:DbNodeDescriptor" />
+      </path>
+      <path>
+        <item name="" type="eadb38e5:DatabaseStructure$Root" />
+        <item name="wordpress@localhost" type="e3449647:DbNodeDescriptor" />
+        <item name="wordpress" type="e3449647:DbNodeDescriptor" />
+        <item name="wp_postmeta" type="e3449647:DbNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="trendone" />
+  </component>
+  <component name="FileColors">
+    <fileColor scope="Non-Project Files (Material Default)" color="2E3C43" />
+    <fileColor scope="Non-Project Files (Material Darker)" color="323232" />
+    <fileColor scope="Non-Project Files (Material Lighter)" color="eae8e8" />
+    <fileColor scope="Non-Project Files (Material Palenight)" color="2f2e43" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="trendone-widget.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../../plugins/trendone-maps/trendone-widget.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="468">
+              <caret line="62" column="10" lean-forward="true" selection-start-line="62" selection-start-column="10" selection-end-line="62" selection-end-column="10" />
+              <folding>
+                <element signature="n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="false" />
+                <element signature="n#style#0;n#iframe#0;n#div#1;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Slide</find>
+      <find>ul</find>
+      <find>footer fixed-bottom</find>
+      <find>80px</find>
+      <find>trendone-form-element</find>
+      <find>trendone-maps-input</find>
+      <find>/*padding-bottom:56.25%;</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+      <replace>Card</replace>
+      <replace>260px</replace>
+      <replace>&lt;?php echo $this-&gt;cssFormClasses; ?&gt;</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="jmusial" />
+      </map>
+    </option>
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/assets/css/post.css" />
+        <option value="$PROJECT_DIR$/public/js/app.js" />
+        <option value="$PROJECT_DIR$/lib/BootstrapNavMenuWalker.php" />
+        <option value="$PROJECT_DIR$/modules/customizer/hero_section.php" />
+        <option value="$PROJECT_DIR$/modules/common.php" />
+        <option value="$PROJECT_DIR$/assets/scss/nav.scss" />
+        <option value="$PROJECT_DIR$/modules/post_types/trendone_cards.php" />
+        <option value="$PROJECT_DIR$/modules/CustomButtonMetabox.php" />
+        <option value="$PROJECT_DIR$/modules/button_metabox.php" />
+        <option value="$PROJECT_DIR$/modules/post_types/trendone_slider.php" />
+        <option value="$PROJECT_DIR$/modules/metaboxes/button_metabox.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/assets/js/app.js" />
+        <option value="$PROJECT_DIR$/public/css/app.css" />
+        <option value="$PROJECT_DIR$/../../plugins/trendone-maps/trendOne-maps.php" />
+        <option value="$PROJECT_DIR$/../../plugins/trendone-maps/languages/default.po" />
+        <option value="$PROJECT_DIR$/../../plugins/trendone-maps/trendone-settings-form.php" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/6355471a-6c43-401b-ad97-8aa578c62ada/console.sql" />
+        <option value="$PROJECT_DIR$/../../plugins/trendone-maps/trendone-maps.php" />
+        <option value="$PROJECT_DIR$/../twentysixteen/index.php" />
+        <option value="$PROJECT_DIR$/sidebar.php" />
+        <option value="$PROJECT_DIR$/template-parts/content-page.php" />
+        <option value="$PROJECT_DIR$/template-parts/frontpage/front-content.php" />
+        <option value="$PROJECT_DIR$/template-parts/frontpage/front-cards.php" />
+        <option value="$PROJECT_DIR$/template-parts/frontpage/front-sidebar.php" />
+        <option value="$PROJECT_DIR$/../twentyseventeen/front-page.php" />
+        <option value="$PROJECT_DIR$/front-page.php" />
+        <option value="$PROJECT_DIR$/template-parts/common/common-cards.php" />
+        <option value="$PROJECT_DIR$/assets/scss/media.scss" />
+        <option value="$PROJECT_DIR$/template-parts/content/content-page.php" />
+        <option value="$PROJECT_DIR$/template-parts/content/content-post.php" />
+        <option value="$PROJECT_DIR$/archive.php" />
+        <option value="$PROJECT_DIR$/single.php" />
+        <option value="$PROJECT_DIR$/../twentyseventeen/searchform.php" />
+        <option value="$PROJECT_DIR$/header.php" />
+        <option value="$PROJECT_DIR$/functions.php" />
+        <option value="$PROJECT_DIR$/home.php" />
+        <option value="$PROJECT_DIR$/template-parts/header/slider-main.php" />
+        <option value="$PROJECT_DIR$/../../../inf.php" />
+        <option value="$PROJECT_DIR$/../../../.htpasswd" />
+        <option value="$PROJECT_DIR$/../../../.htaccess" />
+        <option value="&lt;02fe26eb-0c96-410a-95e2-6b95bbaee988&gt;/wp-config.php" />
+        <option value="&lt;02fe26eb-0c96-410a-95e2-6b95bbaee988&gt;/auth/.htpasswd" />
+        <option value="&lt;02fe26eb-0c96-410a-95e2-6b95bbaee988&gt;/.htaccess" />
+        <option value="$PROJECT_DIR$/page.php" />
+        <option value="$PROJECT_DIR$/modules/enqueue.php" />
+        <option value="$PROJECT_DIR$/template-parts/common/common-widgets.php" />
+        <option value="$PROJECT_DIR$/footer.php" />
+        <option value="$PROJECT_DIR$/assets/scss/app.scss" />
+        <option value="$PROJECT_DIR$/../../plugins/trendone-maps/trendone-widget.php" />
+        <option value="$PROJECT_DIR$/../../plugins/trendone-maps/css/trendone-maps.css" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
+    <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>false</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>false</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="PhpDebugGeneral" notify_if_session_was_finished_without_being_paused="false" />
+  <component name="PhpServers">
+    <servers>
+      <server host="wpress.dev" id="3e33ed8d-cf27-4eea-a473-2f96e97dca1d" name="wpress.dev" use_path_mappings="true">
+        <path_mappings>
+          <mapping local-root="$PROJECT_DIR$/../../.." remote-root="/var/www/html" />
+        </path_mappings>
+      </server>
+    </servers>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1920" />
+    <option name="height" value="2133" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Correctness</id>
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Usability &gt; Typography</id>
+          </State>
+          <State>
+            <id>Assignment issuesGroovy</id>
+          </State>
+          <State>
+            <id>Assignment issuesJava</id>
+          </State>
+          <State>
+            <id>Bitwise operation issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Control flow issuesJava</id>
+          </State>
+          <State>
+            <id>GeneralJavaScript</id>
+          </State>
+          <State>
+            <id>Groovy</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+          <State>
+            <id>PHP</id>
+          </State>
+          <State>
+            <id>Potentially confusing code constructsGroovy</id>
+          </State>
+          <State>
+            <id>Potentially confusing code constructsJavaScript</id>
+          </State>
+          <State>
+            <id>Probable bugsGroovy</id>
+          </State>
+          <State>
+            <id>Probable bugsJava</id>
+          </State>
+          <State>
+            <id>Probable bugsJavaScript</id>
+          </State>
+          <State>
+            <id>Probable bugsPHP</id>
+          </State>
+          <State>
+            <id>Spelling</id>
+          </State>
+          <State>
+            <id>Threading issuesGroovy</id>
+          </State>
+          <State>
+            <id>Threading issuesJava</id>
+          </State>
+          <State>
+            <id>UI Form Problems</id>
+          </State>
+          <State>
+            <id>XPath</id>
+          </State>
+        </expanded-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource ProjectPane="true" />
+      <autoscrollFromSource ProjectPane="true" />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="trendone" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wordpress" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="trendone" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wordpress" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="trendone" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wordpress" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+              <item name="plugins" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="trendone" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wordpress" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+              <item name="plugins" type="462c0819:PsiDirectoryNode" />
+              <item name="trendone-maps" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="trendone" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wordpress" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+              <item name="plugins" type="462c0819:PsiDirectoryNode" />
+              <item name="trendone-maps" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="trendone" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wordpress" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="trendone" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wordpress" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="trendone" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="trendone" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wordpress" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="trendone" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="trendone" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wordpress" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="trendone" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="scss" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="trendone" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wordpress" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="trendone" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="trendone" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wordpress" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="trendone" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="trendone" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wordpress" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="trendone" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="trendone" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wordpress" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="trendone" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="trendone" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wordpress" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="trendone" type="462c0819:PsiDirectoryNode" />
+              <item name="template-parts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="trendone" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wordpress" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="trendone" type="462c0819:PsiDirectoryNode" />
+              <item name="template-parts" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="javascript.nodejs.core.library.configured.version" value="8.2.1" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/lib/wp_bootstrap_navwalker.php" />
+    <property name="GO_FMT" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
+    <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/template-parts/content" />
+      <recent name="$PROJECT_DIR$/template-parts" />
+      <recent name="$PROJECT_DIR$/modules/post_types" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/template-parts/content" />
+      <recent name="$PROJECT_DIR$/template-parts/common" />
+      <recent name="$PROJECT_DIR$/modules/metaboxes" />
+      <recent name="$PROJECT_DIR$/assets" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="PHP Remote Debug.wpress.dev">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="passParentEnv" value="true" />
+      <setting name="launchBrowser" value="true" />
+      <setting name="launchBrowserUrl" value="" />
+      <setting name="depsClasspath" value="false" />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
+        <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
+        <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
+      </Profilers>
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Cold Fusion runner description" factoryName="Cold Fusion" custom_browser="" web_path="">
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="/Applications/Flash Player Debugger.app" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="/Applications/Flash Player Debugger.app" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SCRATCH_FILE_ID" value="0" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="trendone" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpRemoteDebugRunConfigurationType" factoryName="PHP Remote Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="ScalaTestRunConfiguration" factoryName="ScalaTest">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <setting name="useSbt" value="false" />
+      <setting name="useUiWithSbt" value="false" />
+      <classRegexps />
+      <testRegexps />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Specs2RunConfiguration" factoryName="Specs2">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <setting name="useSbt" value="false" />
+      <setting name="useUiWithSbt" value="false" />
+      <classRegexps />
+      <testRegexps />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
+      <method />
+    </configuration>
+    <configuration default="true" type="uTestRunConfiguration" factoryName="utest">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <setting name="useSbt" value="false" />
+      <setting name="useUiWithSbt" value="false" />
+      <classRegexps />
+      <testRegexps />
+      <envs />
+      <method />
+    </configuration>
+    <configuration name="build" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+    </configuration>
+    <configuration name="watch" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="watch" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+    </configuration>
+    <configuration name="wpress.dev" type="PhpRemoteDebugRunConfigurationType" factoryName="PHP Remote Debug" server_name="wpress.dev" session_id="xdebug" />
+    <list size="3">
+      <item index="0" class="java.lang.String" itemvalue="PHP Remote Debug.wpress.dev" />
+      <item index="1" class="java.lang.String" itemvalue="npm.watch" />
+      <item index="2" class="java.lang.String" itemvalue="npm.build" />
+    </list>
+    <recent_temporary>
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="npm.watch" />
+        <item index="1" class="java.lang.String" itemvalue="npm.build" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4e502621-2b7f-41b8-84fc-0f27fb542280" name="Default" comment="" />
+      <created>1501924507297</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1501924507297</updated>
+      <workItem from="1501924514145" duration="8070000" />
+      <workItem from="1501949353549" duration="156000" />
+      <workItem from="1501949537542" duration="372000" />
+      <workItem from="1501950181902" duration="641000" />
+      <workItem from="1501951140585" duration="80000" />
+      <workItem from="1501951250715" duration="438000" />
+      <workItem from="1501951818895" duration="56000" />
+      <workItem from="1501952151883" duration="481000" />
+      <workItem from="1501952670570" duration="330000" />
+      <workItem from="1501953687601" duration="3318000" />
+      <workItem from="1501959699995" duration="18348000" />
+      <workItem from="1502032850481" duration="9646000" />
+      <workItem from="1502051624014" duration="2226000" />
+      <workItem from="1502082021814" duration="1006000" />
+      <workItem from="1502128514501" duration="6729000" />
+      <workItem from="1502168675292" duration="127000" />
+      <workItem from="1502379711447" duration="3176000" />
+      <workItem from="1502606747004" duration="7982000" />
+      <workItem from="1502624435122" duration="11101000" />
+      <workItem from="1502647942415" duration="3948000" />
+      <workItem from="1502698834780" duration="1154000" />
+      <workItem from="1502700025932" duration="440000" />
+      <workItem from="1502700494449" duration="105000" />
+      <workItem from="1502700618675" duration="9264000" />
+      <workItem from="1502712687605" duration="5930000" />
+      <workItem from="1502737297656" duration="1019000" />
+      <workItem from="1502779931508" duration="9082000" />
+      <workItem from="1502910930750" duration="2306000" />
+      <workItem from="1502991849827" duration="292000" />
+      <workItem from="1502992187854" duration="142000" />
+      <workItem from="1502992352734" duration="1544000" />
+      <workItem from="1503236245662" duration="6106000" />
+      <workItem from="1503260188595" duration="3040000" />
+      <workItem from="1503291185313" duration="573000" />
+      <workItem from="1503338664506" duration="3350000" />
+      <workItem from="1503379188235" duration="237000" />
+      <workItem from="1503464880901" duration="147000" />
+      <workItem from="1503465273032" duration="884000" />
+      <workItem from="1503517478330" duration="2839000" />
+    </task>
+    <task id="LOCAL-00001" summary="Improved menu walker">
+      <created>1501948241140</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1501948241158</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Working config">
+      <created>1501948380321</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1501948380321</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Working postcss autoprefixer">
+      <created>1502001211204</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1502001211205</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Working navbar menu and search box placement">
+      <created>1502002481618</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1502002481618</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Fixed margins">
+      <created>1502004084086</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1502004084086</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Fixed margins">
+      <created>1502005248749</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1502005248749</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Added Cart Custom Post">
+      <created>1502042440119</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1502042440120</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Main page positioning. Footer placement.">
+      <created>1502132945281</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1502132945281</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Fixed sticky footer">
+      <created>1502608542717</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1502608542717</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Moved hooks to post type files">
+      <created>1502609251482</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1502609251482</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Fixed margins">
+      <created>1502624699602</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1502624699603</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Added custom fields to cards">
+      <created>1502626584496</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1502626584496</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Fixed margins">
+      <created>1503343009798</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1503343009798</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="126685000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1920" height="2133" extended-state="0" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40873405" sideWeight="0.5042598" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4625" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Colour Chooser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Tail" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44107142" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973376" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21378621" sideWeight="0.49574015" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921812" sideWeight="0.49361023" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.375" sideWeight="0.07146845" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15158692" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32875368" sideWeight="0.49361023" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.375" sideWeight="0.9285315" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25773746" sideWeight="0.54864436" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Dynamic Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.8637532" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40873405" sideWeight="0.5042598" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20238096" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Colour Chooser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Tail" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.44107142" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Dynamic Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973376" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21378621" sideWeight="0.49574015" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921812" sideWeight="0.49361023" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1875" sideWeight="0.5805369" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14857143" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32875368" sideWeight="0.49361023" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.8637532" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1875" sideWeight="0.4194631" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25773746" sideWeight="0.54864436" order="6" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="jmusial" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="Improved menu walker" />
+    <MESSAGE value="Working config" />
+    <MESSAGE value="Working postcss autoprefixer" />
+    <MESSAGE value="Working navbar menu and search box placement" />
+    <MESSAGE value="Added Cart Custom Post" />
+    <MESSAGE value="Main page positioning. Footer placement." />
+    <MESSAGE value="Fixed sticky footer" />
+    <MESSAGE value="Moved hooks to post type files" />
+    <MESSAGE value="Added custom fields to cards" />
+    <MESSAGE value="Fixed margins" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed margins" />
+  </component>
+  <component name="WordPressConfiguration" enabled="true">
+    <wordpressPath>$PROJECT_DIR$/../../..</wordpressPath>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/webpack.config.js</url>
+          <line>40</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/index.php</url>
+          <line>2</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="39" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../twentysixteen/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../wp-includes/comment-template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="1292" column="0" lean-forward="false" selection-start-line="1292" selection-start-column="0" selection-end-line="1292" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../twentysixteen/template-parts/content-page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../twentysixteen/inc/template-tags.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="470">
+          <caret line="157" column="4" lean-forward="false" selection-start-line="157" selection-start-column="4" selection-end-line="157" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../twentysixteen/template-parts/content-single.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="15" column="17" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../twentysixteen/template-parts/content-search.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../twentysixteen/page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="30" column="17" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="30" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../twentyseventeen/template-parts/page/content-front-page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="25" column="49" lean-forward="true" selection-start-line="25" selection-start-column="49" selection-end-line="25" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../twentyseventeen/template-parts/footer/site-info.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../twentyseventeen/template-parts/footer/footer-widgets.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../wp-includes/theme.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="470">
+          <caret line="854" column="0" lean-forward="false" selection-start-line="854" selection-start-column="0" selection-end-line="854" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../twentyseventeen/inc/template-functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2268">
+          <caret line="87" column="54" lean-forward="true" selection-start-line="87" selection-start-column="54" selection-end-line="87" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../twentyseventeen/page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../twentyseventeen/archive.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1108">
+          <caret line="57" column="27" lean-forward="true" selection-start-line="57" selection-start-column="27" selection-end-line="57" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template-parts/frontpage/front-content.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="3" selection-end-column="6" />
+          <folding>
+            <marker date="1502626804000" expanded="true" signature="5:20" ph="..." />
+            <marker date="1502626804000" expanded="true" signature="52:60" ph="..." />
+            <marker date="1502626804000" expanded="true" signature="67:82" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template-parts/content/content-page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="23" column="20" lean-forward="false" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="14" column="17" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="74" />
+          <folding>
+            <marker date="1502807834000" expanded="true" signature="5:20" ph="..." />
+            <marker date="1502807834000" expanded="true" signature="52:747" ph="..." />
+            <marker date="1502807834000" expanded="true" signature="74:512" ph="..." />
+            <marker date="1502807834000" expanded="true" signature="175:505" ph="..." />
+            <marker date="1502807834000" expanded="true" signature="239:496" ph="..." />
+            <marker date="1502807834000" expanded="true" signature="275:481" ph="..." />
+            <marker date="1502807834000" expanded="true" signature="320:365" ph="..." />
+            <marker date="1502807834000" expanded="true" signature="410:457" ph="..." />
+            <marker date="1502807834000" expanded="true" signature="525:586" ph="..." />
+            <marker date="1502807834000" expanded="true" signature="598:663" ph="..." />
+            <marker date="1502807834000" expanded="true" signature="675:738" ph="..." />
+            <marker date="1502807834000" expanded="true" signature="754:769" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/single.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="650">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../twentyseventeen/front-page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="30" column="32" lean-forward="true" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../twentyseventeen/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../twentyseventeen/template-parts/navigation/navigation-top.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../twentyseventeen/searchform.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="19" column="36" lean-forward="true" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sidebar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="1" column="21" lean-forward="false" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../twentyseventeen/search.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="29" column="32" lean-forward="true" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/archive.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="27" column="22" lean-forward="true" selection-start-line="25" selection-start-column="14" selection-end-line="27" selection-end-column="22" />
+          <folding>
+            <marker date="1502992423000" expanded="true" signature="5:20" ph="..." />
+            <marker date="1502992423000" expanded="true" signature="76:1030" ph="..." />
+            <marker date="1502992423000" expanded="true" signature="108:1019" ph="..." />
+            <marker date="1502992423000" expanded="true" signature="138:1004" ph="..." />
+            <marker date="1502992423000" expanded="true" signature="177:878" ph="..." />
+            <marker date="1502992423000" expanded="true" signature="189:322" ph="..." />
+            <marker date="1502992423000" expanded="true" signature="219:306" ph="..." />
+            <marker date="1502992423000" expanded="true" signature="368:854" ph="..." />
+            <marker date="1502992423000" expanded="true" signature="381:826" ph="..." />
+            <marker date="1502992423000" expanded="true" signature="402:817" ph="..." />
+            <marker date="1502992423000" expanded="true" signature="409:815" ph="..." />
+            <marker date="1502992423000" expanded="true" signature="917:985" ph="..." />
+            <marker date="1502992423000" expanded="true" signature="929:961" ph="..." />
+            <marker date="1502992423000" expanded="true" signature="1038:1053" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="27" column="26" lean-forward="false" selection-start-line="25" selection-start-column="18" selection-end-line="27" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="36" column="19" lean-forward="false" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
+          <folding>
+            <marker date="1503237337000" expanded="true" signature="5:42" ph="..." />
+            <marker date="1503237337000" expanded="true" signature="67:1871" ph="..." />
+            <marker date="1503237337000" expanded="true" signature="73:100" ph="..." />
+            <marker date="1503237337000" expanded="true" signature="110:376" ph="..." />
+            <marker date="1503237337000" expanded="true" signature="156:176" ph="..." />
+            <marker date="1503237337000" expanded="true" signature="355:367" ph="..." />
+            <marker date="1503237337000" expanded="true" signature="383:1871" ph="..." />
+            <marker date="1503237337000" expanded="true" signature="389:403" ph="..." />
+            <marker date="1503237337000" expanded="true" signature="520:1721" ph="..." />
+            <marker date="1503237337000" expanded="true" signature="614:822" ph="..." />
+            <marker date="1503237337000" expanded="true" signature="863:897" ph="..." />
+            <marker date="1503237337000" expanded="true" signature="906:927" ph="..." />
+            <marker date="1503237337000" expanded="true" signature="1026:1714" ph="..." />
+            <marker date="1503237337000" expanded="true" signature="1036:1254" ph="..." />
+            <marker date="1503237337000" expanded="true" signature="1049:1251" ph="..." />
+            <marker date="1503237337000" expanded="true" signature="1051:1249" ph="..." />
+            <marker date="1503237337000" expanded="true" signature="1267:1319" ph="..." />
+            <marker date="1503237337000" expanded="true" signature="1377:1703" ph="..." />
+            <marker date="1503237337000" expanded="true" signature="1436:1452" ph="..." />
+            <marker date="1503237337000" expanded="true" signature="1469:1592" ph="..." />
+            <marker date="1503237337000" expanded="true" signature="1554:1580" ph="..." />
+            <marker date="1503237337000" expanded="true" signature="1752:1866" ph="..." />
+            <marker date="1503237337000" expanded="true" signature="1761:1858" ph="..." />
+            <marker date="1503237337000" expanded="true" signature="1787:1855" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template-parts/header/slider-main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="23" column="31" lean-forward="false" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template-parts/content/content-post.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../inf.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="10" column="2" lean-forward="true" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../.htpasswd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="42" lean-forward="false" selection-start-line="0" selection-start-column="42" selection-end-line="0" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="18" column="33" lean-forward="false" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template-parts/common/common-cards.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding>
+            <marker date="1502808029000" expanded="true" signature="70:1214" ph="..." />
+            <marker date="1502808029000" expanded="true" signature="78:159" ph="..." />
+            <marker date="1502808029000" expanded="true" signature="200:1202" ph="..." />
+            <marker date="1502808029000" expanded="true" signature="234:1194" ph="..." />
+            <marker date="1502808029000" expanded="true" signature="261:1185" ph="..." />
+            <marker date="1502808029000" expanded="true" signature="272:1174" ph="..." />
+            <marker date="1502808029000" expanded="true" signature="301:1162" ph="..." />
+            <marker date="1502808029000" expanded="false" signature="347:360" ph="..." />
+            <marker date="1502808029000" expanded="true" signature="361:1150" ph="..." />
+            <marker date="1502808029000" expanded="true" signature="413:562" ph="..." />
+            <marker date="1502808029000" expanded="true" signature="435:501" ph="..." />
+            <marker date="1502808029000" expanded="true" signature="593:739" ph="..." />
+            <marker date="1502808029000" expanded="true" signature="630:654" ph="..." />
+            <marker date="1502808029000" expanded="true" signature="695:721" ph="..." />
+            <marker date="1502808029000" expanded="true" signature="772:1137" ph="..." />
+            <marker date="1502808029000" expanded="true" signature="786:1123" ph="..." />
+            <marker date="1502808029000" expanded="true" signature="991:1116" ph="..." />
+            <marker date="1502808029000" expanded="true" signature="1025:1044" ph="..." />
+            <marker date="1502808029000" expanded="true" signature="1047:1101" ph="..." />
+            <marker date="1502808029000" expanded="true" signature="1076:1096" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="27" column="4" lean-forward="false" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../plugins/trendone-maps/trendone-settings-form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1502705287000" expanded="true" signature="5:96" ph="..." />
+            <marker date="1502705287000" expanded="false" signature="9:92" ph=" Created by IntelliJ IDEA. ..." />
+            <marker date="1502705287000" expanded="true" signature="131:478" ph="..." />
+            <marker date="1502705287000" expanded="true" signature="154:191" ph="..." />
+            <marker date="1502705287000" expanded="true" signature="194:249" ph="..." />
+            <marker date="1502705287000" expanded="true" signature="203:235" ph="..." />
+            <marker date="1502705287000" expanded="true" signature="266:473" ph="..." />
+            <marker date="1502705287000" expanded="true" signature="291:325" ph="..." />
+            <marker date="1502705287000" expanded="true" signature="352:392" ph="..." />
+            <marker date="1502705287000" expanded="true" signature="444:464" ph="..." />
+            <marker date="1502705287000" expanded="true" signature="526:877" ph="..." />
+            <marker date="1502705287000" expanded="true" signature="549:585" ph="..." />
+            <marker date="1502705287000" expanded="true" signature="588:642" ph="..." />
+            <marker date="1502705287000" expanded="true" signature="597:628" ph="..." />
+            <marker date="1502705287000" expanded="true" signature="659:872" ph="..." />
+            <marker date="1502705287000" expanded="true" signature="684:718" ph="..." />
+            <marker date="1502705287000" expanded="true" signature="745:784" ph="..." />
+            <marker date="1502705287000" expanded="true" signature="836:863" ph="..." />
+            <marker date="1502705287000" expanded="true" signature="931:1301" ph="..." />
+            <marker date="1502705287000" expanded="true" signature="954:997" ph="..." />
+            <marker date="1502705287000" expanded="true" signature="1000:1061" ph="..." />
+            <marker date="1502705287000" expanded="true" signature="1009:1047" ph="..." />
+            <marker date="1502705287000" expanded="true" signature="1078:1296" ph="..." />
+            <marker date="1502705287000" expanded="true" signature="1103:1137" ph="..." />
+            <marker date="1502705287000" expanded="true" signature="1164:1210" ph="..." />
+            <marker date="1502705287000" expanded="true" signature="1262:1287" ph="..." />
+            <marker date="1502705287000" expanded="true" signature="1351:1711" ph="..." />
+            <marker date="1502705287000" expanded="true" signature="1374:1412" ph="..." />
+            <marker date="1502705287000" expanded="true" signature="1415:1476" ph="..." />
+            <marker date="1502705287000" expanded="true" signature="1424:1462" ph="..." />
+            <marker date="1502705287000" expanded="true" signature="1493:1706" ph="..." />
+            <marker date="1502705287000" expanded="true" signature="1518:1552" ph="..." />
+            <marker date="1502705287000" expanded="true" signature="1579:1620" ph="..." />
+            <marker date="1502705287000" expanded="true" signature="1672:1697" ph="..." />
+            <marker date="1502705287000" expanded="true" signature="1760:2103" ph="..." />
+            <marker date="1502705287000" expanded="true" signature="1783:1819" ph="..." />
+            <marker date="1502705287000" expanded="true" signature="1822:1876" ph="..." />
+            <marker date="1502705287000" expanded="true" signature="1831:1862" ph="..." />
+            <marker date="1502705287000" expanded="true" signature="1893:2098" ph="..." />
+            <marker date="1502705287000" expanded="true" signature="1918:1952" ph="..." />
+            <marker date="1502705287000" expanded="true" signature="1979:2018" ph="..." />
+            <marker date="1502705287000" expanded="true" signature="2070:2089" ph="..." />
+            <marker date="1502705287000" expanded="true" signature="2160:2548" ph="..." />
+            <marker date="1502705287000" expanded="true" signature="2183:2229" ph="..." />
+            <marker date="1502705287000" expanded="true" signature="2232:2296" ph="..." />
+            <marker date="1502705287000" expanded="true" signature="2241:2282" ph="..." />
+            <marker date="1502705287000" expanded="true" signature="2316:2543" ph="..." />
+            <marker date="1502705287000" expanded="true" signature="2384:2418" ph="..." />
+            <marker date="1502705287000" expanded="true" signature="2445:2494" ph="..." />
+            <marker date="1502705287000" expanded="true" signature="2503:2531" ph="..." />
+            <marker date="1502705287000" expanded="true" signature="2600:2964" ph="..." />
+            <marker date="1502705287000" expanded="true" signature="2623:2661" ph="..." />
+            <marker date="1502705287000" expanded="true" signature="2664:2733" ph="..." />
+            <marker date="1502705287000" expanded="true" signature="2673:2719" ph="..." />
+            <marker date="1502705287000" expanded="true" signature="2750:2959" ph="..." />
+            <marker date="1502705287000" expanded="true" signature="2775:2809" ph="..." />
+            <marker date="1502705287000" expanded="true" signature="2836:2877" ph="..." />
+            <marker date="1502705287000" expanded="true" signature="2929:2950" ph="..." />
+            <marker date="1502705287000" expanded="true" signature="3014:3378" ph="..." />
+            <marker date="1502705287000" expanded="true" signature="3037:3075" ph="..." />
+            <marker date="1502705287000" expanded="true" signature="3078:3147" ph="..." />
+            <marker date="1502705287000" expanded="true" signature="3087:3133" ph="..." />
+            <marker date="1502705287000" expanded="true" signature="3164:3373" ph="..." />
+            <marker date="1502705287000" expanded="true" signature="3189:3223" ph="..." />
+            <marker date="1502705287000" expanded="true" signature="3250:3291" ph="..." />
+            <marker date="1502705287000" expanded="true" signature="3343:3364" ph="..." />
+            <marker date="1502705287000" expanded="true" signature="3429:3819" ph="..." />
+            <marker date="1502705287000" expanded="true" signature="3452:3503" ph="..." />
+            <marker date="1502705287000" expanded="true" signature="3506:3575" ph="..." />
+            <marker date="1502705287000" expanded="true" signature="3515:3561" ph="..." />
+            <marker date="1502705287000" expanded="true" signature="3592:3814" ph="..." />
+            <marker date="1502705287000" expanded="true" signature="3617:3651" ph="..." />
+            <marker date="1502705287000" expanded="true" signature="3678:3732" ph="..." />
+            <marker date="1502705287000" expanded="true" signature="3784:3805" ph="..." />
+            <marker date="1502705287000" expanded="true" signature="3871:4245" ph="..." />
+            <marker date="1502705287000" expanded="true" signature="3894:3935" ph="..." />
+            <marker date="1502705287000" expanded="true" signature="3938:4009" ph="..." />
+            <marker date="1502705287000" expanded="true" signature="3947:3995" ph="..." />
+            <marker date="1502705287000" expanded="true" signature="4026:4240" ph="..." />
+            <marker date="1502705287000" expanded="true" signature="4051:4085" ph="..." />
+            <marker date="1502705287000" expanded="true" signature="4112:4156" ph="..." />
+            <marker date="1502705287000" expanded="true" signature="4208:4231" ph="..." />
+            <marker date="1502705287000" expanded="true" signature="4298:4676" ph="..." />
+            <marker date="1502705287000" expanded="true" signature="4321:4363" ph="..." />
+            <marker date="1502705287000" expanded="true" signature="4366:4438" ph="..." />
+            <marker date="1502705287000" expanded="true" signature="4375:4424" ph="..." />
+            <marker date="1502705287000" expanded="true" signature="4455:4671" ph="..." />
+            <marker date="1502705287000" expanded="true" signature="4480:4514" ph="..." />
+            <marker date="1502705287000" expanded="true" signature="4541:4586" ph="..." />
+            <marker date="1502705287000" expanded="true" signature="4638:4662" ph="..." />
+            <marker date="1502705287000" expanded="true" signature="4732:5142" ph="..." />
+            <marker date="1502705287000" expanded="true" signature="4755:4811" ph="..." />
+            <marker date="1502705287000" expanded="true" signature="4814:4888" ph="..." />
+            <marker date="1502705287000" expanded="true" signature="4823:4874" ph="..." />
+            <marker date="1502705287000" expanded="true" signature="4905:5137" ph="..." />
+            <marker date="1502705287000" expanded="true" signature="4930:4964" ph="..." />
+            <marker date="1502705287000" expanded="true" signature="4991:5050" ph="..." />
+            <marker date="1502705287000" expanded="true" signature="5102:5128" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../plugins/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../plugins/hello.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1369256920000" expanded="true" signature="5:2252" ph="..." />
+            <marker date="1369256920000" expanded="false" signature="9:51" ph=" @package Hello_Dolly ..." />
+            <marker date="1369256920000" expanded="true" signature="56:507" ph="..." />
+            <marker date="1369256920000" expanded="true" signature="545:1581" ph="..." />
+            <marker date="1369256920000" expanded="true" signature="1669:1741" ph="..." />
+            <marker date="1369256920000" expanded="true" signature="1941:2207" ph="..." />
+            <marker date="1369256920000" expanded="true" signature="2091:2201" ph="..." />
+            <marker date="1369256920000" expanded="true" signature="2101:2192" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../plugins/svg-support/functions/enqueue.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="676">
+          <caret line="26" column="39" lean-forward="true" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/enqueue.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="728">
+          <caret line="28" column="93" lean-forward="false" selection-start-line="28" selection-start-column="93" selection-end-line="28" selection-end-column="93" />
+          <folding>
+            <marker date="1503342491000" expanded="true" signature="80:118" ph=" Function enqueue styles on page. ..." />
+            <marker date="1503342491000" expanded="true" signature="157:630" ph="..." />
+            <marker date="1503342491000" expanded="true" signature="170:490" ph="..." />
+            <marker date="1503342491000" expanded="true" signature="545:627" ph="..." />
+            <marker date="1503342491000" expanded="true" signature="636:676" ph=" Function enqueues scripts on page. ..." />
+            <marker date="1503342491000" expanded="true" signature="716:1482" ph="..." />
+            <marker date="1503342491000" expanded="true" signature="730:1116" ph="..." />
+            <marker date="1503342491000" expanded="true" signature="1162:1480" ph="..." />
+            <marker date="1503342491000" expanded="true" signature="1267:1365" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2782">
+          <caret line="107" column="75" lean-forward="false" selection-start-line="107" selection-start-column="75" selection-end-line="107" selection-end-column="75" />
+          <folding>
+            <marker date="1503239705000" expanded="true" signature="723:743" ph=" Template setup ..." />
+            <marker date="1503239705000" expanded="true" signature="791:1057" ph="..." />
+            <marker date="1503239705000" expanded="true" signature="820:1054" ph="..." />
+            <marker date="1503239705000" expanded="true" signature="1169:1382" ph="..." />
+            <marker date="1503239705000" expanded="true" signature="1192:1380" ph="..." />
+            <marker date="1503239705000" expanded="true" signature="1250:1343" ph="..." />
+            <marker date="1503239705000" expanded="true" signature="1464:1732" ph="..." />
+            <marker date="1503239705000" expanded="true" signature="1618:1670" ph="..." />
+            <marker date="1503239705000" expanded="true" signature="1678:1730" ph="..." />
+            <marker date="1503239705000" expanded="true" signature="1738:1756" ph=" Widget areas ..." />
+            <marker date="1503239705000" expanded="true" signature="1763:1787" ph=" Front page widgets ..." />
+            <marker date="1503239705000" expanded="true" signature="1829:2081" ph="..." />
+            <marker date="1503239705000" expanded="true" signature="1849:2077" ph="..." />
+            <marker date="1503239705000" expanded="true" signature="1856:2075" ph="..." />
+            <marker date="1503239705000" expanded="true" signature="2147:2160" ph=" Sidebar ..." />
+            <marker date="1503239705000" expanded="true" signature="2193:2430" ph="..." />
+            <marker date="1503239705000" expanded="true" signature="2213:2426" ph="..." />
+            <marker date="1503239705000" expanded="true" signature="2220:2424" ph="..." />
+            <marker date="1503239705000" expanded="true" signature="2517:2530" ph="..." />
+            <marker date="1503239705000" expanded="true" signature="2629:2744" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/scss/nav.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1502052067000" expanded="true" signature="65:116" ph="{...}" />
+            <marker date="1502052067000" expanded="true" signature="73:114" ph="{...}" />
+            <marker date="1502052067000" expanded="true" signature="135:833" ph="{...}" />
+            <marker date="1502052067000" expanded="true" signature="178:234" ph="{...}" />
+            <marker date="1502052067000" expanded="true" signature="245:354" ph="{...}" />
+            <marker date="1502052067000" expanded="true" signature="268:297" ph="{...}" />
+            <marker date="1502052067000" expanded="true" signature="312:350" ph="{...}" />
+            <marker date="1502052067000" expanded="true" signature="367:593" ph="{...}" />
+            <marker date="1502052067000" expanded="true" signature="608:831" ph="{...}" />
+            <marker date="1502052067000" expanded="true" signature="648:827" ph="{...}" />
+            <marker date="1502052067000" expanded="true" signature="845:871" ph="{...}" />
+            <marker date="1502052067000" expanded="true" signature="957:991" ph="{...}" />
+            <marker date="1502052067000" expanded="true" signature="1068:1114" ph="{...}" />
+            <marker date="1502052067000" expanded="true" signature="1136:1196" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/app.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2131">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1503520683000" expanded="true" signature="18:53" ph="{...}" />
+            <marker date="1503520683000" expanded="true" signature="73:98" ph="{...}" />
+            <marker date="1503520683000" expanded="true" signature="136:190" ph="{...}" />
+            <marker date="1503520683000" expanded="true" signature="234:257" ph="{...}" />
+            <marker date="1503520683000" expanded="true" signature="294:326" ph="{...}" />
+            <marker date="1503520683000" expanded="true" signature="357:581" ph="{...}" />
+            <marker date="1503520683000" expanded="true" signature="612:632" ph="{...}" />
+            <marker date="1503520683000" expanded="true" signature="682:765" ph="{...}" />
+            <marker date="1503520683000" expanded="true" signature="777:803" ph="{...}" />
+            <marker date="1503520683000" expanded="true" signature="890:924" ph="{...}" />
+            <marker date="1503520683000" expanded="true" signature="1001:1047" ph="{...}" />
+            <marker date="1503520683000" expanded="true" signature="1070:1130" ph="{...}" />
+            <marker date="1503520683000" expanded="true" signature="1136:1181" ph="{...}" />
+            <marker date="1503520683000" expanded="true" signature="1188:1214" ph="{...}" />
+            <marker date="1503520683000" expanded="true" signature="1231:1286" ph="{...}" />
+            <marker date="1503520683000" expanded="true" signature="1302:1321" ph="{...}" />
+            <marker date="1503520683000" expanded="true" signature="1342:1381" ph="{...}" />
+            <marker date="1503520683000" expanded="true" signature="1399:1426" ph="{...}" />
+            <marker date="1503520683000" expanded="true" signature="1458:1511" ph="{...}" />
+            <marker date="1503520683000" expanded="true" signature="1536:1562" ph="{...}" />
+            <marker date="1503520683000" expanded="true" signature="1592:1671" ph="{...}" />
+            <marker date="1503520683000" expanded="true" signature="1707:1808" ph="{...}" />
+            <marker date="1503520683000" expanded="true" signature="1831:1854" ph="{...}" />
+            <marker date="1503520683000" expanded="true" signature="1889:1932" ph="{...}" />
+            <marker date="1503520683000" expanded="true" signature="1964:2074" ph="{...}" />
+            <marker date="1503520683000" expanded="true" signature="2113:2138" ph="{...}" />
+            <marker date="1503520683000" expanded="true" signature="2148:2246" ph="{...}" />
+            <marker date="1503520683000" expanded="true" signature="2270:2291" ph="{...}" />
+            <marker date="1503520683000" expanded="true" signature="2347:2374" ph="{...}" />
+            <marker date="1503520683000" expanded="true" signature="2435:2487" ph="{...}" />
+            <marker date="1503520683000" expanded="true" signature="2553:2660" ph="{...}" />
+            <marker date="1503520683000" expanded="true" signature="2730:2759" ph="{...}" />
+            <marker date="1503520683000" expanded="true" signature="2778:2878" ph="{...}" />
+            <marker date="1503520683000" expanded="true" signature="2904:2923" ph="{...}" />
+            <marker date="1503520683000" expanded="true" signature="2948:2967" ph="{...}" />
+            <marker date="1503520683000" expanded="true" signature="2985:3036" ph="{...}" />
+            <marker date="1503520683000" expanded="true" signature="3179:3182" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <marker date="1503520487000" expanded="true" signature="54:364" ph="..." />
+            <marker date="1503520487000" expanded="true" signature="90:350" ph="..." />
+            <marker date="1503520487000" expanded="true" signature="124:331" ph="..." />
+            <marker date="1503520487000" expanded="true" signature="189:308" ph="..." />
+            <marker date="1503520487000" expanded="true" signature="220:280" ph="..." />
+            <marker date="1503520487000" expanded="true" signature="372:386" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template-parts/common/common-widgets.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="2" column="25" lean-forward="true" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+          <folding>
+            <marker date="1503465664000" expanded="true" signature="5:332" ph="..." />
+            <marker date="1503465664000" expanded="true" signature="48:325" ph="..." />
+            <marker date="1503465664000" expanded="true" signature="94:317" ph="..." />
+            <marker date="1503465664000" expanded="true" signature="186:302" ph="..." />
+            <marker date="1503465664000" expanded="true" signature="222:287" ph="..." />
+            <marker date="1503465664000" expanded="true" signature="233:267" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/scss/media.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="3" column="1" lean-forward="false" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+          <folding>
+            <marker date="1502861081000" expanded="true" signature="49:54" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/scss/app.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1464">
+          <caret line="125" column="3" lean-forward="true" selection-start-line="125" selection-start-column="3" selection-end-line="125" selection-end-column="3" />
+          <folding>
+            <marker date="1503520682000" expanded="true" signature="115:160" ph="{...}" />
+            <marker date="1503520682000" expanded="true" signature="167:202" ph="{...}" />
+            <marker date="1503520682000" expanded="true" signature="219:277" ph="{...}" />
+            <marker date="1503520682000" expanded="true" signature="293:360" ph="{...}" />
+            <marker date="1503520682000" expanded="true" signature="317:358" ph="{...}" />
+            <marker date="1503520682000" expanded="true" signature="378:476" ph="{...}" />
+            <marker date="1503520682000" expanded="true" signature="395:450" ph="{...}" />
+            <marker date="1503520682000" expanded="true" signature="501:527" ph="{...}" />
+            <marker date="1503520682000" expanded="true" signature="557:641" ph="{...}" />
+            <marker date="1503520682000" expanded="true" signature="666:798" ph="{...}" />
+            <marker date="1503520682000" expanded="true" signature="681:796" ph="{...}" />
+            <marker date="1503520682000" expanded="true" signature="821:1088" ph="{...}" />
+            <marker date="1503520682000" expanded="true" signature="836:881" ph="{...}" />
+            <marker date="1503520682000" expanded="true" signature="912:1086" ph="{...}" />
+            <marker date="1503520682000" expanded="true" signature="921:975" ph="{...}" />
+            <marker date="1503520682000" expanded="true" signature="931:969" ph="{...}" />
+            <marker date="1503520682000" expanded="true" signature="1098:1208" ph="{...}" />
+            <marker date="1503520682000" expanded="true" signature="1232:1557" ph="{...}" />
+            <marker date="1503520682000" expanded="true" signature="1285:1554" ph="{...}" />
+            <marker date="1503520682000" expanded="true" signature="1318:1550" ph="{...}" />
+            <marker date="1503520682000" expanded="true" signature="1378:1544" ph="{...}" />
+            <marker date="1503520682000" expanded="true" signature="1494:1536" ph="{...}" />
+            <marker date="1503520682000" expanded="true" signature="1576:1676" ph="{...}" />
+            <marker date="1503520682000" expanded="true" signature="1702:1721" ph="{...}" />
+            <marker date="1503520682000" expanded="true" signature="1746:1765" ph="{...}" />
+            <marker date="1503520682000" expanded="true" signature="1783:1968" ph="{...}" />
+            <marker date="1503520682000" expanded="true" signature="1877:1966" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../plugins/trendone-maps/css/trendone-maps.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="13" column="3" lean-forward="false" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+          <folding>
+            <marker date="1503521104000" expanded="true" signature="19:46" ph="{...}" />
+            <marker date="1503521104000" expanded="true" signature="66:91" ph="{...}" />
+            <marker date="1503521104000" expanded="true" signature="112:115" ph="{...}" />
+            <marker date="1503521104000" expanded="true" signature="139:142" ph="{...}" />
+            <marker date="1503521104000" expanded="true" signature="172:176" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../plugins/trendone-maps/trendone-maps.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1254">
+          <caret line="127" column="9" lean-forward="true" selection-start-line="127" selection-start-column="9" selection-end-line="127" selection-end-column="9" />
+          <folding>
+            <marker date="1502720428000" expanded="false" signature="8:324" ph="..." />
+            <marker date="1502720428000" expanded="true" signature="412:4891" ph="..." />
+            <marker date="1502720428000" expanded="true" signature="453:4251" ph="..." />
+            <marker date="1502720428000" expanded="true" signature="889:1122" ph="..." />
+            <marker date="1502720428000" expanded="true" signature="913:1006" ph="..." />
+            <marker date="1502720428000" expanded="true" signature="1171:1526" ph="..." />
+            <marker date="1502720428000" expanded="true" signature="1289:1414" ph="..." />
+            <marker date="1502720428000" expanded="true" signature="1588:2610" ph="..." />
+            <marker date="1502720428000" expanded="true" signature="2650:2814" ph="..." />
+            <marker date="1502720428000" expanded="true" signature="2672:2727" ph="..." />
+            <marker date="1502720428000" expanded="true" signature="2822:2848" ph=" @param $instance ..." />
+            <marker date="1502720428000" expanded="true" signature="2909:3752" ph="..." />
+            <marker date="1502720428000" expanded="true" signature="3799:3841" ph="..." />
+            <marker date="1502720428000" expanded="true" signature="3884:4116" ph="..." />
+            <marker date="1502720428000" expanded="true" signature="4160:4248" ph="..." />
+            <marker date="1502720428000" expanded="true" signature="4193:4244" ph="..." />
+            <marker date="1502720428000" expanded="true" signature="4282:4413" ph="..." />
+            <marker date="1502720428000" expanded="true" signature="4482:4658" ph="..." />
+            <marker date="1502720428000" expanded="true" signature="4517:4657" ph="..." />
+            <marker date="1502720428000" expanded="true" signature="4557:4579" ph="{...}" />
+            <marker date="1502720428000" expanded="true" signature="4674:4746" ph="..." />
+            <marker date="1502720428000" expanded="true" signature="4704:4744" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../plugins/trendone-maps/trendone-widget.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="62" column="10" lean-forward="true" selection-start-line="62" selection-start-column="10" selection-end-line="62" selection-end-column="10" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#iframe#0;n#div#1;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
