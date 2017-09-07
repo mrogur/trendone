@@ -1,5 +1,5 @@
 <!--</header>-->
-<div class="trendone-slider carousel slide mt-2" data-ride="carousel">
+<div class="trendone-slider carousel slide mt-2 d-sm-none" data-ride="carousel">
 	<div class="carousel-inner" role="listbox">
 		<?php $slider = get_posts( [ 'post_type' => 'slider', 'posts_per_page' => 5 ] ) ?>
 		<?php $count = 0; ?>
@@ -19,6 +19,7 @@
 			<?php $count ++ ?>
 		<?php endforeach; ?>
 	</div>
+</div>
 	<!--<a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
 		<span class="carousel-control-prev-icon" aria-hidden="true"></span>
 		<span class="sr-only">Previous</span>

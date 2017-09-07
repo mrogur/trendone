@@ -3,14 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4e502621-2b7f-41b8-84fc-0f27fb542280" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/scss/app.scss" afterPath="$PROJECT_DIR$/assets/scss/app.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/footer.php" afterPath="$PROJECT_DIR$/footer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front-page.php" afterPath="$PROJECT_DIR$/front-page.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/header.php" afterPath="$PROJECT_DIR$/header.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/BootstrapNavMenuWalker.php" afterPath="$PROJECT_DIR$/lib/BootstrapNavMenuWalker.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/enqueue.php" afterPath="$PROJECT_DIR$/modules/enqueue.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/scss/media.scss" afterPath="$PROJECT_DIR$/assets/scss/media.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template-parts/common/common-cards.php" afterPath="$PROJECT_DIR$/template-parts/common/common-cards.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template-parts/header/slider-main.php" afterPath="$PROJECT_DIR$/template-parts/header/slider-main.php" />
     </list>
@@ -65,11 +58,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="app.scss" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/assets/scss/app.scss">
+      <file leaf-file-name="slider-main.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/template-parts/header/slider-main.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="17" column="24" lean-forward="false" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="24" />
+            <state relative-caret-position="546">
+              <caret line="21" column="6" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -156,20 +149,20 @@
         <option value="$PROJECT_DIR$/page.php" />
         <option value="$PROJECT_DIR$/template-parts/common/common-widgets.php" />
         <option value="$PROJECT_DIR$/../../plugins/trendone-maps/css/trendone-maps.css" />
-        <option value="$PROJECT_DIR$/assets/scss/media.scss" />
         <option value="$PROJECT_DIR$/../../plugins/trendone-maps/languages/trendone-maps.pot" />
         <option value="$PROJECT_DIR$/../../plugins/trendone-maps/trendone-widget.php" />
         <option value="$PROJECT_DIR$/../../plugins/trendone-maps/trendone-maps.php" />
         <option value="$PROJECT_DIR$/../../plugins/trendone-maps/class-trendone-maps.php" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/lib/BootstrapNavMenuWalker.php" />
-        <option value="$PROJECT_DIR$/template-parts/common/common-cards.php" />
-        <option value="$PROJECT_DIR$/template-parts/header/slider-main.php" />
         <option value="$PROJECT_DIR$/front-page.php" />
         <option value="$PROJECT_DIR$/modules/enqueue.php" />
         <option value="$PROJECT_DIR$/header.php" />
         <option value="$PROJECT_DIR$/footer.php" />
         <option value="$PROJECT_DIR$/assets/scss/app.scss" />
+        <option value="$PROJECT_DIR$/template-parts/common/common-cards.php" />
+        <option value="$PROJECT_DIR$/assets/scss/media.scss" />
+        <option value="$PROJECT_DIR$/template-parts/header/slider-main.php" />
       </list>
     </option>
   </component>
@@ -1007,7 +1000,7 @@
       <workItem from="1504542506497" duration="4443000" />
       <workItem from="1504676208372" duration="13807000" />
       <workItem from="1504768480493" duration="229000" />
-      <workItem from="1504768732739" duration="54000" />
+      <workItem from="1504768732739" duration="3112000" />
     </task>
     <task id="LOCAL-00001" summary="Improved menu walker">
       <created>1501948241140</created>
@@ -1118,31 +1111,34 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="151768000" />
+    <option name="totallyTimeSpent" value="154826000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="532" y="422" width="2577" height="1552" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18724158" sideWeight="0.5063191" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921812" sideWeight="0.49361023" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19635235" sideWeight="0.1267974" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15816994" sideWeight="0.4936809" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4625" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19635235" sideWeight="0.8732026" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Colour Chooser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Tail" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44107142" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24960506" sideWeight="0.49709302" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44248366" sideWeight="0.49574015" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921812" sideWeight="0.49361023" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19635235" sideWeight="0.12702079" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1509804" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15816994" sideWeight="0.4936809" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19635235" sideWeight="0.8729792" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25773746" sideWeight="0.54864436" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1151,13 +1147,10 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Tail" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Dynamic Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44248366" sideWeight="0.49574015" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1509804" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.8637532" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1289,20 +1282,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../plugins/trendone-maps/css/trendone-maps.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../../wp-config-sample.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1488,13 +1467,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/scss/media.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="5" column="3" lean-forward="false" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../../.maintenance" />
     <entry file="file://$PROJECT_DIR$/../../plugins/trendone-maps/trendone-widget.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -1578,81 +1550,6 @@
             <marker date="1504724965000" expanded="true" signature="4046:4473" ph="..." />
             <marker date="1504724965000" expanded="true" signature="4089:4349" ph="..." />
             <marker date="1504724965000" expanded="true" signature="4578:4764" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="27" column="4" lean-forward="false" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
-          <folding>
-            <marker date="1503262349000" expanded="true" signature="5:20" ph="..." />
-            <marker date="1503262349000" expanded="true" signature="61:770" ph="..." />
-            <marker date="1503262349000" expanded="true" signature="93:759" ph="..." />
-            <marker date="1503262349000" expanded="true" signature="123:743" ph="..." />
-            <marker date="1503262349000" expanded="true" signature="163:593" ph="..." />
-            <marker date="1503262349000" expanded="true" signature="175:569" ph="..." />
-            <marker date="1503262349000" expanded="true" signature="205:554" ph="..." />
-            <marker date="1503262349000" expanded="true" signature="434:519" ph="..." />
-            <marker date="1503262349000" expanded="true" signature="615:722" ph="..." />
-            <marker date="1503262349000" expanded="true" signature="663:697" ph="..." />
-            <marker date="1503262349000" expanded="true" signature="781:844" ph="..." />
-            <marker date="1503262349000" expanded="true" signature="853:868" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template-parts/common/common-cards.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="12" column="45" lean-forward="false" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
-          <folding>
-            <marker date="1504725409000" expanded="true" signature="70:1213" ph="..." />
-            <marker date="1504725409000" expanded="true" signature="78:159" ph="..." />
-            <marker date="1504725409000" expanded="true" signature="200:1201" ph="..." />
-            <marker date="1504725409000" expanded="true" signature="234:1193" ph="..." />
-            <marker date="1504725409000" expanded="true" signature="261:1184" ph="..." />
-            <marker date="1504725409000" expanded="true" signature="272:1173" ph="..." />
-            <marker date="1504725409000" expanded="true" signature="301:1161" ph="..." />
-            <marker date="1504725409000" expanded="false" signature="347:360" ph="..." />
-            <marker date="1504725409000" expanded="true" signature="361:1149" ph="..." />
-            <marker date="1504725409000" expanded="true" signature="413:562" ph="..." />
-            <marker date="1504725409000" expanded="true" signature="435:501" ph="..." />
-            <marker date="1504725409000" expanded="true" signature="592:738" ph="..." />
-            <marker date="1504725409000" expanded="true" signature="629:653" ph="..." />
-            <marker date="1504725409000" expanded="true" signature="694:720" ph="..." />
-            <marker date="1504725409000" expanded="true" signature="771:1136" ph="..." />
-            <marker date="1504725409000" expanded="true" signature="785:1122" ph="..." />
-            <marker date="1504725409000" expanded="true" signature="990:1115" ph="..." />
-            <marker date="1504725409000" expanded="true" signature="1024:1043" ph="..." />
-            <marker date="1504725409000" expanded="true" signature="1046:1100" ph="..." />
-            <marker date="1504725409000" expanded="true" signature="1075:1095" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template-parts/header/slider-main.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="1" column="47" lean-forward="false" selection-start-line="1" selection-start-column="47" selection-end-line="1" selection-end-column="47" />
-          <folding>
-            <marker date="1504726013000" expanded="true" signature="86:1340" ph="..." />
-            <marker date="1504726013000" expanded="true" signature="131:933" ph="..." />
-            <marker date="1504726013000" expanded="true" signature="140:215" ph="..." />
-            <marker date="1504726013000" expanded="true" signature="225:238" ph="..." />
-            <marker date="1504726013000" expanded="true" signature="248:924" ph="..." />
-            <marker date="1504726013000" expanded="true" signature="279:912" ph="..." />
-            <marker date="1504726013000" expanded="true" signature="317:351" ph="..." />
-            <marker date="1504726013000" expanded="true" signature="354:880" ph="..." />
-            <marker date="1504726013000" expanded="true" signature="423:540" ph="..." />
-            <marker date="1504726013000" expanded="true" signature="443:510" ph="..." />
-            <marker date="1504726013000" expanded="true" signature="568:870" ph="..." />
-            <marker date="1504726013000" expanded="true" signature="632:859" ph="..." />
-            <marker date="1504726013000" expanded="true" signature="649:674" ph="..." />
-            <marker date="1504726013000" expanded="true" signature="696:723" ph="..." />
-            <marker date="1504726013000" expanded="true" signature="890:901" ph="..." />
-            <marker date="1504726013000" expanded="true" signature="940:1338" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1742,10 +1639,140 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <marker date="1504726349000" expanded="true" signature="51:289" ph="..." />
+            <marker date="1504726349000" expanded="true" signature="79:279" ph="..." />
+            <marker date="1504726349000" expanded="true" signature="105:268" ph="..." />
+            <marker date="1504726349000" expanded="true" signature="162:253" ph="..." />
+            <marker date="1504726349000" expanded="true" signature="173:233" ph="..." />
+            <marker date="1504726349000" expanded="true" signature="377:392" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/common.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1502043761000" expanded="true" signature="33:150" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template-parts/common/common-widgets.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1503465664000" expanded="true" signature="5:332" ph="..." />
+            <marker date="1503465664000" expanded="true" signature="48:325" ph="..." />
+            <marker date="1503465664000" expanded="true" signature="94:317" ph="..." />
+            <marker date="1503465664000" expanded="true" signature="186:302" ph="..." />
+            <marker date="1503465664000" expanded="true" signature="222:287" ph="..." />
+            <marker date="1503465664000" expanded="true" signature="233:267" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="22" column="25" lean-forward="true" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+          <folding>
+            <marker date="1503262349000" expanded="true" signature="5:20" ph="..." />
+            <marker date="1503262349000" expanded="true" signature="61:770" ph="..." />
+            <marker date="1503262349000" expanded="true" signature="93:759" ph="..." />
+            <marker date="1503262349000" expanded="true" signature="123:743" ph="..." />
+            <marker date="1503262349000" expanded="true" signature="163:593" ph="..." />
+            <marker date="1503262349000" expanded="true" signature="175:569" ph="..." />
+            <marker date="1503262349000" expanded="true" signature="205:554" ph="..." />
+            <marker date="1503262349000" expanded="true" signature="434:519" ph="..." />
+            <marker date="1503262349000" expanded="true" signature="615:722" ph="..." />
+            <marker date="1503262349000" expanded="true" signature="663:697" ph="..." />
+            <marker date="1503262349000" expanded="true" signature="781:844" ph="..." />
+            <marker date="1503262349000" expanded="true" signature="853:868" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template-parts/common/common-cards.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="754">
+          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding>
+            <marker date="1504770321000" expanded="true" signature="70:1413" ph="..." />
+            <marker date="1504770321000" expanded="true" signature="78:159" ph="..." />
+            <marker date="1504770321000" expanded="true" signature="203:1401" ph="..." />
+            <marker date="1504770321000" expanded="true" signature="229:1390" ph="..." />
+            <marker date="1504770321000" expanded="true" signature="239:1374" ph="..." />
+            <marker date="1504770321000" expanded="true" signature="268:1362" ph="..." />
+            <marker date="1504770321000" expanded="true" signature="330:1351" ph="..." />
+            <marker date="1504770321000" expanded="true" signature="386:1328" ph="..." />
+            <marker date="1504770321000" expanded="true" signature="472:538" ph="..." />
+            <marker date="1504770321000" expanded="true" signature="603:809" ph="..." />
+            <marker date="1504770321000" expanded="true" signature="661:685" ph="..." />
+            <marker date="1504770321000" expanded="true" signature="747:773" ph="..." />
+            <marker date="1504770321000" expanded="true" signature="859:1300" ph="..." />
+            <marker date="1504770321000" expanded="true" signature="873:1268" ph="..." />
+            <marker date="1504770321000" expanded="true" signature="1088:1261" ph="..." />
+            <marker date="1504770321000" expanded="true" signature="1146:1165" ph="..." />
+            <marker date="1504770321000" expanded="true" signature="1168:1246" ph="..." />
+            <marker date="1504770321000" expanded="true" signature="1221:1241" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/scss/app.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="17" column="24" lean-forward="false" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="24" />
+          <folding>
+            <marker date="1504726528000" expanded="true" signature="115:160" ph="{...}" />
+            <marker date="1504726528000" expanded="true" signature="167:202" ph="{...}" />
+            <marker date="1504726528000" expanded="true" signature="219:279" ph="{...}" />
+            <marker date="1504726528000" expanded="true" signature="295:362" ph="{...}" />
+            <marker date="1504726528000" expanded="true" signature="319:360" ph="{...}" />
+            <marker date="1504726528000" expanded="true" signature="380:478" ph="{...}" />
+            <marker date="1504726528000" expanded="true" signature="397:452" ph="{...}" />
+            <marker date="1504726528000" expanded="true" signature="503:529" ph="{...}" />
+            <marker date="1504726528000" expanded="true" signature="559:643" ph="{...}" />
+            <marker date="1504726528000" expanded="true" signature="668:800" ph="{...}" />
+            <marker date="1504726528000" expanded="true" signature="683:798" ph="{...}" />
+            <marker date="1504726528000" expanded="true" signature="823:1090" ph="{...}" />
+            <marker date="1504726528000" expanded="true" signature="838:883" ph="{...}" />
+            <marker date="1504726528000" expanded="true" signature="914:1088" ph="{...}" />
+            <marker date="1504726528000" expanded="true" signature="923:977" ph="{...}" />
+            <marker date="1504726528000" expanded="true" signature="933:971" ph="{...}" />
+            <marker date="1504726528000" expanded="true" signature="1100:1210" ph="{...}" />
+            <marker date="1504726528000" expanded="true" signature="1234:1559" ph="{...}" />
+            <marker date="1504726528000" expanded="true" signature="1287:1556" ph="{...}" />
+            <marker date="1504726528000" expanded="true" signature="1320:1552" ph="{...}" />
+            <marker date="1504726528000" expanded="true" signature="1380:1546" ph="{...}" />
+            <marker date="1504726528000" expanded="true" signature="1496:1538" ph="{...}" />
+            <marker date="1504726528000" expanded="true" signature="1578:1678" ph="{...}" />
+            <marker date="1504726528000" expanded="true" signature="1704:1723" ph="{...}" />
+            <marker date="1504726528000" expanded="true" signature="1748:1767" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/scss/media.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="593">
-          <caret line="48" column="0" lean-forward="true" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+        <state relative-caret-position="676">
+          <caret line="26" column="46" lean-forward="true" selection-start-line="26" selection-start-column="46" selection-end-line="26" selection-end-column="46" />
           <folding>
             <marker date="1504726337000" expanded="true" signature="5:42" ph="..." />
             <marker date="1504726337000" expanded="true" signature="67:1882" ph="..." />
@@ -1775,25 +1802,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/footer.php">
+    <entry file="file://$PROJECT_DIR$/template-parts/header/slider-main.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding>
-            <marker date="1504726349000" expanded="true" signature="51:289" ph="..." />
-            <marker date="1504726349000" expanded="true" signature="79:279" ph="..." />
-            <marker date="1504726349000" expanded="true" signature="105:268" ph="..." />
-            <marker date="1504726349000" expanded="true" signature="162:253" ph="..." />
-            <marker date="1504726349000" expanded="true" signature="173:233" ph="..." />
-            <marker date="1504726349000" expanded="true" signature="377:392" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/scss/app.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="17" column="24" lean-forward="false" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="24" />
+        <state relative-caret-position="546">
+          <caret line="21" column="6" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="6" />
           <folding />
         </state>
       </provider>
