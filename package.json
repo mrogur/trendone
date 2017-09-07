@@ -27,9 +27,10 @@
   },
   "homepage": "https://github.com/mrogur/trendone#readme",
   "dependencies": {
-    "bootstrap": "^4.0.0-alpha.6",
+    "bootstrap": "^4.0.0-beta",
     "font-awesome": "^4.7.0",
-    "holderjs": "^2.9.4"
+    "holderjs": "^2.9.4",
+    "popper.js": "^1.12.5"
   },
   "devDependencies": {
     "autoprefixer": "^6.7.5",

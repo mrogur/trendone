@@ -1,5 +1,5 @@
 <!--</header>-->
-<div class="trendone-slider carousel slide" data-ride="carousel">
+<div class="trendone-slider carousel slide mt-2" data-ride="carousel">
 	<div class="carousel-inner" role="listbox">
 		<?php $slider = get_posts( [ 'post_type' => 'slider', 'posts_per_page' => 5 ] ) ?>
 		<?php $count = 0; ?>

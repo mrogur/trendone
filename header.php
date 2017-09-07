@@ -14,7 +14,7 @@
 <body <?php body_class() ?>>
 <!--<header class="site-header" role="banner">-->
 
-<nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+<nav class="navbar navbar-expand-md navbar-light bg-light">
     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
             data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
             aria-label="Toggle navigation">
@@ -40,14 +40,12 @@
         </form>
     </div>
 </nav>
-<div class="trendone-wrapper">
-
+<div class="trendone-wrapper"> <!-- wrapper start -->
 	<?php
 	if ( is_front_page() ) {
 		get_template_part( 'template-parts/header/slider', 'main' );
     }
 	?>
-</div>
 
 
 

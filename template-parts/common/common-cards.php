@@ -10,7 +10,7 @@
 						     src="<?php echo wp_get_attachment_url( get_post_thumbnail_id( $card->ID ) ) ?>"
 						     width="150px" height="150px"
 						     alt="">
-						<div class="card-block">
+						<div class="card-body">
 							<h4 class="card-title"><?php echo $card->post_title ?></h4>
 							<p class="card-text"><?php echo $card->post_content ?></p>
 						</div>
