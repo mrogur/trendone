@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e502621-2b7f-41b8-84fc-0f27fb542280" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/scss/media.scss" afterPath="$PROJECT_DIR$/assets/scss/media.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template-parts/common/common-cards.php" afterPath="$PROJECT_DIR$/template-parts/common/common-cards.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/enqueue.php" afterPath="$PROJECT_DIR$/modules/enqueue.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template-parts/header/slider-main.php" afterPath="$PROJECT_DIR$/template-parts/header/slider-main.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -61,8 +59,8 @@
       <file leaf-file-name="slider-main.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/template-parts/header/slider-main.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="546">
-              <caret line="21" column="6" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="6" />
+            <state relative-caret-position="26">
+              <caret line="1" column="59" lean-forward="false" selection-start-line="1" selection-start-column="59" selection-end-line="1" selection-end-column="59" />
               <folding />
             </state>
           </provider>
@@ -156,12 +154,12 @@
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/lib/BootstrapNavMenuWalker.php" />
         <option value="$PROJECT_DIR$/front-page.php" />
-        <option value="$PROJECT_DIR$/modules/enqueue.php" />
         <option value="$PROJECT_DIR$/header.php" />
         <option value="$PROJECT_DIR$/footer.php" />
         <option value="$PROJECT_DIR$/assets/scss/app.scss" />
         <option value="$PROJECT_DIR$/template-parts/common/common-cards.php" />
         <option value="$PROJECT_DIR$/assets/scss/media.scss" />
+        <option value="$PROJECT_DIR$/modules/enqueue.php" />
         <option value="$PROJECT_DIR$/template-parts/header/slider-main.php" />
       </list>
     </option>
@@ -365,24 +363,6 @@
               <item name="themes" type="462c0819:PsiDirectoryNode" />
               <item name="trendone" type="462c0819:PsiDirectoryNode" />
               <item name="template-parts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="trendone" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wordpress" type="462c0819:PsiDirectoryNode" />
-              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="trendone" type="462c0819:PsiDirectoryNode" />
-              <item name="template-parts" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="trendone" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wordpress" type="462c0819:PsiDirectoryNode" />
-              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="trendone" type="462c0819:PsiDirectoryNode" />
-              <item name="template-parts" type="462c0819:PsiDirectoryNode" />
-              <item name="frontpage" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="trendone" type="b2602c69:ProjectViewProjectNode" />
@@ -1000,7 +980,7 @@
       <workItem from="1504542506497" duration="4443000" />
       <workItem from="1504676208372" duration="13807000" />
       <workItem from="1504768480493" duration="229000" />
-      <workItem from="1504768732739" duration="3112000" />
+      <workItem from="1504768732739" duration="3777000" />
     </task>
     <task id="LOCAL-00001" summary="Improved menu walker">
       <created>1501948241140</created>
@@ -1111,7 +1091,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="154826000" />
+    <option name="totallyTimeSpent" value="155491000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="532" y="422" width="2577" height="1552" extended-state="0" />
@@ -1589,24 +1569,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="606">
-          <caret line="36" column="28" lean-forward="false" selection-start-line="36" selection-start-column="28" selection-end-line="36" selection-end-column="28" />
-          <folding>
-            <marker date="1504723707000" expanded="true" signature="0:1558" ph="{&quot;name&quot;: &quot;trendone&quot;...}" />
-            <marker date="1504723707000" expanded="true" signature="132:159" ph="[...]" />
-            <marker date="1504723707000" expanded="true" signature="172:212" ph="{...}" />
-            <marker date="1504723707000" expanded="true" signature="189:208" ph="[...]" />
-            <marker date="1504723707000" expanded="true" signature="227:346" ph="{&quot;build&quot;: &quot;webpack&quot;...}" />
-            <marker date="1504723707000" expanded="true" signature="364:444" ph="{&quot;type&quot;: &quot;git&quot;...}" />
-            <marker date="1504723707000" expanded="true" signature="504:564" ph="{&quot;url&quot;: &quot;https://github.com/mrogur/trendone/issues&quot;...}" />
-            <marker date="1504723707000" expanded="true" signature="643:763" ph="{&quot;bootstrap&quot;: &quot;^4.0.0-beta&quot;...}" />
-            <marker date="1504723707000" expanded="true" signature="786:1556" ph="{&quot;autoprefixer&quot;: &quot;^6.7.5&quot;...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/font-awesome/css/font-awesome.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1618,24 +1580,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/enqueue.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="728">
-          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding>
-            <marker date="1504726230000" expanded="true" signature="80:118" ph=" Function enqueue styles on page. ..." />
-            <marker date="1504726230000" expanded="true" signature="157:634" ph="..." />
-            <marker date="1504726230000" expanded="true" signature="170:494" ph="..." />
-            <marker date="1504726230000" expanded="true" signature="549:631" ph="..." />
-            <marker date="1504726230000" expanded="true" signature="640:680" ph=" Function enqueues scripts on page. ..." />
-            <marker date="1504726230000" expanded="true" signature="720:1553" ph="..." />
-            <marker date="1504726230000" expanded="true" signature="734:1187" ph="..." />
-            <marker date="1504726230000" expanded="true" signature="1233:1551" ph="..." />
-            <marker date="1504726230000" expanded="true" signature="1338:1436" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1675,27 +1619,6 @@
             <marker date="1503465664000" expanded="true" signature="186:302" ph="..." />
             <marker date="1503465664000" expanded="true" signature="222:287" ph="..." />
             <marker date="1503465664000" expanded="true" signature="233:267" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="22" column="25" lean-forward="true" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
-          <folding>
-            <marker date="1503262349000" expanded="true" signature="5:20" ph="..." />
-            <marker date="1503262349000" expanded="true" signature="61:770" ph="..." />
-            <marker date="1503262349000" expanded="true" signature="93:759" ph="..." />
-            <marker date="1503262349000" expanded="true" signature="123:743" ph="..." />
-            <marker date="1503262349000" expanded="true" signature="163:593" ph="..." />
-            <marker date="1503262349000" expanded="true" signature="175:569" ph="..." />
-            <marker date="1503262349000" expanded="true" signature="205:554" ph="..." />
-            <marker date="1503262349000" expanded="true" signature="434:519" ph="..." />
-            <marker date="1503262349000" expanded="true" signature="615:722" ph="..." />
-            <marker date="1503262349000" expanded="true" signature="663:697" ph="..." />
-            <marker date="1503262349000" expanded="true" signature="781:844" ph="..." />
-            <marker date="1503262349000" expanded="true" signature="853:868" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1802,10 +1725,67 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="606">
+          <caret line="36" column="28" lean-forward="false" selection-start-line="36" selection-start-column="28" selection-end-line="36" selection-end-column="28" />
+          <folding>
+            <marker date="1504723707000" expanded="true" signature="0:1558" ph="{&quot;name&quot;: &quot;trendone&quot;...}" />
+            <marker date="1504723707000" expanded="true" signature="132:159" ph="[...]" />
+            <marker date="1504723707000" expanded="true" signature="172:212" ph="{...}" />
+            <marker date="1504723707000" expanded="true" signature="189:208" ph="[...]" />
+            <marker date="1504723707000" expanded="true" signature="227:346" ph="{&quot;build&quot;: &quot;webpack&quot;...}" />
+            <marker date="1504723707000" expanded="true" signature="364:444" ph="{&quot;type&quot;: &quot;git&quot;...}" />
+            <marker date="1504723707000" expanded="true" signature="504:564" ph="{&quot;url&quot;: &quot;https://github.com/mrogur/trendone/issues&quot;...}" />
+            <marker date="1504723707000" expanded="true" signature="643:763" ph="{&quot;bootstrap&quot;: &quot;^4.0.0-beta&quot;...}" />
+            <marker date="1504723707000" expanded="true" signature="786:1556" ph="{&quot;autoprefixer&quot;: &quot;^6.7.5&quot;...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/enqueue.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="754">
+          <caret line="29" column="67" lean-forward="false" selection-start-line="29" selection-start-column="67" selection-end-line="29" selection-end-column="67" />
+          <folding>
+            <marker date="1504798630000" expanded="true" signature="80:118" ph=" Function enqueue styles on page. ..." />
+            <marker date="1504798630000" expanded="true" signature="157:634" ph="..." />
+            <marker date="1504798630000" expanded="true" signature="170:494" ph="..." />
+            <marker date="1504798630000" expanded="true" signature="549:631" ph="..." />
+            <marker date="1504798630000" expanded="true" signature="640:680" ph=" Function enqueues scripts on page. ..." />
+            <marker date="1504798630000" expanded="true" signature="720:1555" ph="..." />
+            <marker date="1504798630000" expanded="true" signature="734:1189" ph="..." />
+            <marker date="1504798630000" expanded="true" signature="1235:1553" ph="..." />
+            <marker date="1504798630000" expanded="true" signature="1340:1438" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="13" column="45" lean-forward="false" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="45" />
+          <folding>
+            <marker date="1503262349000" expanded="true" signature="5:20" ph="..." />
+            <marker date="1503262349000" expanded="true" signature="61:770" ph="..." />
+            <marker date="1503262349000" expanded="true" signature="93:759" ph="..." />
+            <marker date="1503262349000" expanded="true" signature="123:743" ph="..." />
+            <marker date="1503262349000" expanded="true" signature="163:593" ph="..." />
+            <marker date="1503262349000" expanded="true" signature="175:569" ph="..." />
+            <marker date="1503262349000" expanded="true" signature="205:554" ph="..." />
+            <marker date="1503262349000" expanded="true" signature="434:519" ph="..." />
+            <marker date="1503262349000" expanded="true" signature="615:722" ph="..." />
+            <marker date="1503262349000" expanded="true" signature="663:697" ph="..." />
+            <marker date="1503262349000" expanded="true" signature="781:844" ph="..." />
+            <marker date="1503262349000" expanded="true" signature="853:868" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/template-parts/header/slider-main.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="21" column="6" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="6" />
+        <state relative-caret-position="26">
+          <caret line="1" column="59" lean-forward="false" selection-start-line="1" selection-start-column="59" selection-end-line="1" selection-end-column="59" />
           <folding />
         </state>
       </provider>

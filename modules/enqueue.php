@@ -26,7 +26,7 @@ function trendair_enqueue_styles() {
 function trendair_enqueue_scripts() {
 	$scripts = [
 //		"trendair_popperjs" => [NODE_HOME . "/popper.js/dist/popper.min.js", [] , true],
-		"trendair_tether" => [ NODE_HOME . "/tether/dist/js/tether.min.js", ['jquery'], true],
+//		"trendair_tether" => [ NODE_HOME . "/tether/dist/js/tether.min.js", ['jquery'], true],
 		"trendair_bootstrap" => [ NODE_HOME . "/bootstrap/dist/js/bootstrap.min.js", ['jquery'], true],
 		"trendair_holder" => [ NODE_HOME . "/holderjs/holder.min.js", [], true],
 		"trendair_app" => [ get_template_directory_uri() . "/public/js/app.js", ['trendair_bootstrap'], true]
