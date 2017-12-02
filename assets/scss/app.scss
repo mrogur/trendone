@@ -1,9 +1,4 @@
-$footerHeight: 80px;
-$mainGrey: #f7f7f7;
-$borderGrey: #dfdfdf;
-$heroColor: $mainGrey;
-$bannerGreen: #063002;
-
+@import "variables";
 html {
   position: relative;
   min-height: 100%;
@@ -24,6 +19,10 @@ body {
     width: 300px;
     height: auto;
   }
+}
+
+.entry-header a {
+  color: $linkGreen !important;
 }
 
 .trendone-cards {
@@ -115,6 +114,15 @@ a.read-more-link:before {
 
 a.read-more-link:after {
   content: ")";
+}
+
+.search-result {
+  a {
+    color: $linkGreen;
+  }
+  padding-bottom: 4rem;
+  border-bottom: 1px solid $borderGrey;
+
 }
 
 

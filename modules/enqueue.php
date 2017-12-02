@@ -8,7 +8,7 @@ define("NODE_HOME", get_template_directory_uri() . "/node_modules");
 function trendair_enqueue_styles() {
 	$styles = [
 		"trendair_bootstrap" => NODE_HOME . "/bootstrap/dist/css/bootstrap.min.css",
-        "trendair_tether" => NODE_HOME . "/tether/dist/css/tether.min.css",
+//        "trendair_tether" => NODE_HOME . "/tether/dist/css/tether.min.css",
 		"trendair_font-awesome" => NODE_HOME . "/font-awesome/css/font-awesome.min.css",
         "trendair_trendone" => get_template_directory_uri() . '/public/css/app.css'
 	];

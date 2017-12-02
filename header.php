@@ -32,9 +32,9 @@
 		] ); ?>
 	    <?php $unique_id = esc_attr( uniqid( 'search-form-' ) ); ?>
 
-        <form class="form-inline ml-sm-5 my-2 my-lg-0">
+        <form  action="<?php echo home_url(); ?>" method="get"  class="form-inline ml-sm-5 my-2 my-lg-0">
             <input class="form-control mr-sm-2" id="<?php echo $unique_id?>" type="search"
-                   placeholder="Wyszukiwana fraza.."
+                   placeholder="Wyszukaj..."
                    value="<?php echo get_search_query(); ?>" name="s">
             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Szukaj</button>
         </form>
