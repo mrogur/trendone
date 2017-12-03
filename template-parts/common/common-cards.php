@@ -18,7 +18,7 @@
 							if ( ! empty( $button_url ) && ! empty( $button_text ) ) :
 								?>
                                 <a href="<?php echo $button_url; ?>"
-                                   class="btn"><?php echo $button_text; ?></a>
+                                   class="btn btn-outline-success"><?php echo $button_text; ?></a>
 							<?php endif; ?>
                         </div>
 

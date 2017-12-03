@@ -47,7 +47,7 @@ const config = {
     plugins: [
         new ExtractTextPlugin('/css/[name].css'),
         new BrowserSyncPlugin({
-            proxy: 'wpress.dev',
+            proxy: 'musial-kancelaria.dev',
             port: 3000,
             files: [
                 '**/*.php'
