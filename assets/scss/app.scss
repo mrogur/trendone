@@ -1,4 +1,10 @@
-@import "variables";
+$footerHeight: 80px;
+$mainGrey: #f7f7f7;
+$borderGrey: #dfdfdf;
+$heroColor: $mainGrey;
+$bannerGreen: #063002;
+$linkGreen: #097a02;
+
 html {
   position: relative;
   min-height: 100%;
