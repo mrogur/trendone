@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$USER_HOME$/IdeaProjects/strzal_pl_portal/strzal_pl_portal.iml" filepath="$USER_HOME$/IdeaProjects/strzal_pl_portal/strzal_pl_portal.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/trendone.iml" filepath="$PROJECT_DIR$/.idea/trendone.iml" />
     </modules>
   </component>
