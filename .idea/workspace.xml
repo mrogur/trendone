@@ -2,15 +2,51 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e502621-2b7f-41b8-84fc-0f27fb542280" name="Default" comment="Fixed margins">
-      <change beforePath="$PROJECT_DIR$/../../../../.env" afterPath="$PROJECT_DIR$/../../../../.env" />
-      <change beforePath="$PROJECT_DIR$/../../../../docker-compose.yml" afterPath="$PROJECT_DIR$/../../../../docker-compose.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/calendar-event/languages/lang.pot" afterPath="$PROJECT_DIR$/../../plugins/calendar-event/languages/lang.pot" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/licznik-fixer/licznik-fixer.php" afterPath="$PROJECT_DIR$/../../plugins/licznik-fixer/licznik-fixer.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/media/less/backgroundanimation.n2less" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/media/less/backgroundanimation.n2less" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/media/less/clear.n2less" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/media/less/clear.n2less" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/media/less/spinner.n2less" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/media/less/spinner.n2less" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/media/plugins/widgetarrow/image/image/style.n2less" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/media/plugins/widgetarrow/image/image/style.n2less" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/media/plugins/widgetautoplay/image/image/style.n2less" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/media/plugins/widgetautoplay/image/image/style.n2less" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/media/plugins/widgetbar/horizontal/horizontal/style.n2less" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/media/plugins/widgetbar/horizontal/horizontal/style.n2less" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/media/plugins/widgetbullet/transition/transition/style.n2less" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/media/plugins/widgetbullet/transition/transition/style.n2less" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/media/plugins/widgetshadow/shadow/shadow/style.n2less" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/media/plugins/widgetshadow/shadow/shadow/style.n2less" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/media/plugins/widgetthumbnail/default/default/style.n2less" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/media/plugins/widgetthumbnail/default/default/style.n2less" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/plugins/item/button/button/button.n2less" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/plugins/item/button/button/button.n2less" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/plugins/nextendfontservices/google/families.csv" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/plugins/nextendfontservices/google/families.csv" />
+      <change beforePath="$PROJECT_DIR$/../gazeti/functions/wpzoom/assets/css/dashboard.css" afterPath="$PROJECT_DIR$/../gazeti/functions/wpzoom/assets/css/dashboard.css" />
+      <change beforePath="$PROJECT_DIR$/../gazeti/functions/wpzoom/assets/js/shortcode-generator/editor-plugin.3.8.js" afterPath="$PROJECT_DIR$/../gazeti/functions/wpzoom/assets/js/shortcode-generator/editor-plugin.3.8.js" />
+      <change beforePath="$PROJECT_DIR$/../gazeti/functions/wpzoom/assets/js/shortcode-tabs.js" afterPath="$PROJECT_DIR$/../gazeti/functions/wpzoom/assets/js/shortcode-tabs.js" />
+      <change beforePath="$PROJECT_DIR$/../gazeti/functions/wpzoom/assets/options.css" afterPath="$PROJECT_DIR$/../gazeti/functions/wpzoom/assets/options.css" />
+      <change beforePath="$PROJECT_DIR$/../gazeti/functions/wpzoom/changelog.txt" afterPath="$PROJECT_DIR$/../gazeti/functions/wpzoom/changelog.txt" />
+      <change beforePath="$PROJECT_DIR$/../gazeti/functions/wpzoom/components/admin/admin.php" afterPath="$PROJECT_DIR$/../gazeti/functions/wpzoom/components/admin/admin.php" />
+      <change beforePath="$PROJECT_DIR$/../gazeti/functions/wpzoom/components/admin/settings-page.php" afterPath="$PROJECT_DIR$/../gazeti/functions/wpzoom/components/admin/settings-page.php" />
+      <change beforePath="$PROJECT_DIR$/../gazeti/functions/wpzoom/components/customizer/assets/js/customizer-preview.js" afterPath="$PROJECT_DIR$/../gazeti/functions/wpzoom/components/customizer/assets/js/customizer-preview.js" />
+      <change beforePath="$PROJECT_DIR$/../gazeti/functions/wpzoom/components/customizer/helpers/helpers.php" afterPath="$PROJECT_DIR$/../gazeti/functions/wpzoom/components/customizer/helpers/helpers.php" />
+      <change beforePath="$PROJECT_DIR$/../gazeti/functions/wpzoom/components/customizer/wpzoom-customizer.php" afterPath="$PROJECT_DIR$/../gazeti/functions/wpzoom/components/customizer/wpzoom-customizer.php" />
+      <change beforePath="$PROJECT_DIR$/../gazeti/functions/wpzoom/components/dashboard/dashboard.php" afterPath="$PROJECT_DIR$/../gazeti/functions/wpzoom/components/dashboard/dashboard.php" />
+      <change beforePath="$PROJECT_DIR$/../gazeti/functions/wpzoom/components/demo-importer/assets/js/general.js" afterPath="$PROJECT_DIR$/../gazeti/functions/wpzoom/components/demo-importer/assets/js/general.js" />
+      <change beforePath="$PROJECT_DIR$/../gazeti/functions/wpzoom/components/demo-importer/demo-importer.php" afterPath="$PROJECT_DIR$/../gazeti/functions/wpzoom/components/demo-importer/demo-importer.php" />
+      <change beforePath="$PROJECT_DIR$/../gazeti/functions/wpzoom/components/option.php" afterPath="$PROJECT_DIR$/../gazeti/functions/wpzoom/components/option.php" />
+      <change beforePath="$PROJECT_DIR$/../gazeti/functions/wpzoom/components/portfolio/options.php" afterPath="$PROJECT_DIR$/../gazeti/functions/wpzoom/components/portfolio/options.php" />
+      <change beforePath="$PROJECT_DIR$/../gazeti/functions/wpzoom/components/regenerate-thumbnails/assets/js/general.js" afterPath="$PROJECT_DIR$/../gazeti/functions/wpzoom/components/regenerate-thumbnails/assets/js/general.js" />
+      <change beforePath="$PROJECT_DIR$/../gazeti/functions/wpzoom/components/regenerate-thumbnails/wpzoom-regenerate-thumbnails.php" afterPath="$PROJECT_DIR$/../gazeti/functions/wpzoom/components/regenerate-thumbnails/wpzoom-regenerate-thumbnails.php" />
+      <change beforePath="$PROJECT_DIR$/../gazeti/functions/wpzoom/components/theme-updater/theme-updater-admin.php" afterPath="$PROJECT_DIR$/../gazeti/functions/wpzoom/components/theme-updater/theme-updater-admin.php" />
+      <change beforePath="$PROJECT_DIR$/../gazeti/functions/wpzoom/components/theme/ui.php" afterPath="$PROJECT_DIR$/../gazeti/functions/wpzoom/components/theme/ui.php" />
+      <change beforePath="$PROJECT_DIR$/../gazeti/functions/wpzoom/components/updater/theme-updater.php" afterPath="$PROJECT_DIR$/../gazeti/functions/wpzoom/components/updater/theme-updater.php" />
+      <change beforePath="$PROJECT_DIR$/../gazeti/functions/wpzoom/components/video-thumb.php" afterPath="$PROJECT_DIR$/../gazeti/functions/wpzoom/components/video-thumb.php" />
+      <change beforePath="$PROJECT_DIR$/../gazeti/functions/wpzoom/functions.php" afterPath="$PROJECT_DIR$/../gazeti/functions/wpzoom/functions.php" />
+      <change beforePath="$PROJECT_DIR$/../gazeti/functions/wpzoom/init.php" afterPath="$PROJECT_DIR$/../gazeti/functions/wpzoom/init.php" />
+      <change beforePath="$PROJECT_DIR$/../gazeti/functions/wpzoom/pages/admin.php" afterPath="$PROJECT_DIR$/../gazeti/functions/wpzoom/pages/admin.php" />
+      <change beforePath="$PROJECT_DIR$/../gazeti/functions/wpzoom/pages/news.php" afterPath="$PROJECT_DIR$/../gazeti/functions/wpzoom/pages/news.php" />
+      <change beforePath="$PROJECT_DIR$/../gazeti/functions/wpzoom/pages/themes.php" afterPath="$PROJECT_DIR$/../gazeti/functions/wpzoom/pages/themes.php" />
+      <change beforePath="$PROJECT_DIR$/../gazeti/functions/wpzoom/pages/update.php" afterPath="$PROJECT_DIR$/../gazeti/functions/wpzoom/pages/update.php" />
+      <change beforePath="$PROJECT_DIR$/../gazeti/functions/wpzoom/pages/welcome.php" afterPath="$PROJECT_DIR$/../gazeti/functions/wpzoom/pages/welcome.php" />
+      <change beforePath="$PROJECT_DIR$/../gazeti/functions/wpzoom/wpzoom.php" afterPath="$PROJECT_DIR$/../gazeti/functions/wpzoom/wpzoom.php" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/app.scss" afterPath="$PROJECT_DIR$/assets/scss/app.scss" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/contact-form.scss" afterPath="$PROJECT_DIR$/assets/scss/contact-form.scss" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/media.scss" afterPath="$PROJECT_DIR$/assets/scss/media.scss" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/nav.scss" afterPath="$PROJECT_DIR$/assets/scss/nav.scss" />
-      <change beforePath="$PROJECT_DIR$/template-parts/common/common-cards.php" afterPath="$PROJECT_DIR$/template-parts/common/common-cards.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -63,11 +99,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="nav.scss" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/assets/scss/nav.scss">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../../../index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="621">
-              <caret line="58" column="14" lean-forward="false" selection-start-line="58" selection-start-column="14" selection-end-line="58" selection-end-column="14" />
+            <state relative-caret-position="264">
+              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -100,10 +136,10 @@
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="SYNC" />
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="jmusial" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="PUSH_TAGS">
@@ -152,7 +188,6 @@
         <option value="$PROJECT_DIR$/template-parts/header/slider-main.php" />
         <option value="$PROJECT_DIR$/../../plugins/trendone-maps/trendone-maps.php" />
         <option value="$PROJECT_DIR$/template-parts/content/content-page.php" />
-        <option value="$PROJECT_DIR$/../../../index.php" />
         <option value="$PROJECT_DIR$/trendair/dist/index.html" />
         <option value="$PROJECT_DIR$/../../plugins/trendone-maps/languages/trendone-maps-pl_PL.po" />
         <option value="$PROJECT_DIR$/template-parts/content/content-contact.php" />
@@ -169,6 +204,7 @@
         <option value="$PROJECT_DIR$/modules/enqueue.php" />
         <option value="$PROJECT_DIR$/assets/scss/media.scss" />
         <option value="$PROJECT_DIR$/assets/scss/contact-form.scss" />
+        <option value="$PROJECT_DIR$/../../../index.php" />
       </list>
     </option>
   </component>
@@ -187,23 +223,22 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="NodeModulesDirectoryManager">
-    <handled-path value="$PROJECT_DIR$/node_modules" />
-  </component>
   <component name="PhpDebugGeneral" notify_if_session_was_finished_without_being_paused="false" />
   <component name="PhpServers">
     <servers>
-      <server host="wpress.dev" id="3e33ed8d-cf27-4eea-a473-2f96e97dca1d" name="wpress.dev" use_path_mappings="true">
+      <server host="strzal.test" id="e53e375e-4dfd-4f15-ae6d-1fa098508e33" name="strzal.test">
         <path_mappings>
-          <mapping local-root="$PROJECT_DIR$/../../.." remote-root="/var/www/html" />
+          <mapping local-root="$PROJECT_DIR$/../../.." remote-root="/" />
         </path_mappings>
       </server>
     </servers>
   </component>
+  <component name="PhpWebServerValidation" path_to_validation_script="$PROJECT_DIR$/../../../" selected_validation_type="LOCAL" web_path_to_validation_script="http://strzal.test:80" />
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="PhpXdebugProxy" ide_key="xdebug" host="localhost" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="913" />
-    <option name="y" value="182" />
+    <option name="x" value="1394" />
+    <option name="y" value="632" />
     <option name="width" value="2245" />
     <option name="height" value="1329" />
   </component>
@@ -302,86 +337,44 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="trendone" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wordpress" type="462c0819:PsiDirectoryNode" />
+              <item name="strzal_pl" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="trendone" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wordpress" type="462c0819:PsiDirectoryNode" />
+              <item name="strzal_pl" type="462c0819:PsiDirectoryNode" />
               <item name="wp-content" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="trendone" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wordpress" type="462c0819:PsiDirectoryNode" />
-              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="trendone" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wordpress" type="462c0819:PsiDirectoryNode" />
+              <item name="strzal_pl" type="462c0819:PsiDirectoryNode" />
               <item name="wp-content" type="462c0819:PsiDirectoryNode" />
               <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="trendone" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="trendone" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wordpress" type="462c0819:PsiDirectoryNode" />
+              <item name="strzal_pl" type="462c0819:PsiDirectoryNode" />
               <item name="wp-content" type="462c0819:PsiDirectoryNode" />
               <item name="themes" type="462c0819:PsiDirectoryNode" />
               <item name="trendone" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="trendone" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wordpress" type="462c0819:PsiDirectoryNode" />
-              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="trendone" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="scss" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="trendone" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wordpress" type="462c0819:PsiDirectoryNode" />
-              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="trendone" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="trendone" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wordpress" type="462c0819:PsiDirectoryNode" />
-              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="trendone" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="trendone" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wordpress" type="462c0819:PsiDirectoryNode" />
-              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="trendone" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
       <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
-    <property name="settings.editor.selected.configurable" value="com.chrisrm.idea.config" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="javascript.nodejs.core.library.configured.version" value="8.2.1" />
@@ -424,7 +417,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="PHP Remote Debug.wpress.dev">
+  <component name="RunManager" selected="PHP Web Page.strzal.test">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -474,7 +467,7 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="wpress.dev" type="PhpRemoteDebugRunConfigurationType" factoryName="PHP Remote Debug" server_name="wpress.dev" session_id="xdebug" />
+    <configuration name="strzal.test" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" server_name="strzal.test" />
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
@@ -907,7 +900,7 @@
       <envs />
     </configuration>
     <list size="3">
-      <item index="0" class="java.lang.String" itemvalue="PHP Remote Debug.wpress.dev" />
+      <item index="0" class="java.lang.String" itemvalue="PHP Web Page.strzal.test" />
       <item index="1" class="java.lang.String" itemvalue="npm.watch" />
       <item index="2" class="java.lang.String" itemvalue="npm.build" />
     </list>
@@ -1001,6 +994,8 @@
       <workItem from="1512211664423" duration="4797000" />
       <workItem from="1512239796266" duration="247000" />
       <workItem from="1512240111006" duration="259000" />
+      <workItem from="1515314845507" duration="2086000" />
+      <workItem from="1515317090899" duration="269000" />
     </task>
     <task id="LOCAL-00001" summary="Improved menu walker">
       <created>1501948241140</created>
@@ -1118,10 +1113,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="192239000" />
+    <option name="totallyTimeSpent" value="194594000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="913" y="182" width="2245" height="1329" extended-state="0" />
+    <frame x="1394" y="632" width="2245" height="1329" extended-state="0" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -1136,13 +1131,13 @@
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38220608" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14253291" sideWeight="0.7531915" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14209354" sideWeight="0.7531915" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44107142" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24960506" sideWeight="0.49709302" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44172934" sideWeight="0.49574015" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44131455" sideWeight="0.49574015" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25773746" sideWeight="0.54864436" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1218,6 +1213,9 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/../../../.." />
+    </ignored-roots>
     <MESSAGE value="Improved menu walker" />
     <MESSAGE value="Working config" />
     <MESSAGE value="Working postcss autoprefixer" />
@@ -1232,7 +1230,9 @@
   </component>
   <component name="WindowStateProjectService">
     <state width="1142" height="1006" key="Git.Branch.Popup" />
+    <state width="1142" height="1006" key="Git.Branch.Popup/3840.2160" />
     <state width="1142" height="1006" key="Git.Branch.Popup/6720.3780" />
+    <state width="1142" height="1006" key="Git.Branch.Popup@3840.2160" />
     <state width="1142" height="1006" key="Git.Branch.Popup@6720.3780@192dpi" />
   </component>
   <component name="WordPressConfiguration" enabled="true">
@@ -1251,16 +1251,11 @@
           <line>28</line>
           <option name="timeStamp" value="40" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/../../../index.php</url>
-          <line>16</line>
-          <option name="timeStamp" value="57" />
-        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="58" />
+      <option name="time" value="60" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1280,20 +1275,8 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../../../.maintenance" />
-    <entry file="file://$PROJECT_DIR$/../../plugins/trendone-maps/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/popper.js/dist/popper.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="3" column="17544" lean-forward="true" selection-start-line="3" selection-start-column="17544" selection-end-line="3" selection-end-column="17544" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../../plugins/trendone-maps/.gitignore" />
+    <entry file="file://$PROJECT_DIR$/node_modules/popper.js/dist/popper.min.js" />
     <entry file="file://$PROJECT_DIR$/lib/BootstrapNavMenuWalker.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="535">
@@ -1308,20 +1291,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/font-awesome/css/font-awesome.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/font-awesome/css/font-awesome.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/font-awesome/css/font-awesome.css" />
+    <entry file="file://$PROJECT_DIR$/node_modules/font-awesome/css/font-awesome.min.css" />
     <entry file="file://$PROJECT_DIR$/template-parts/common/common-widgets.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1343,35 +1314,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../plugins/trendone-maps/trendone-widget.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="4" column="27" lean-forward="true" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../plugins/trendone-maps/trendone-settings-form.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2296">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../plugins/trendone-maps/class-trendone-maps.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2912">
-          <caret line="112" column="5" lean-forward="true" selection-start-line="112" selection-start-column="5" selection-end-line="112" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../plugins/trendone-maps/trendone-maps.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="76" column="34" lean-forward="false" selection-start-line="76" selection-start-column="34" selection-end-line="76" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../../plugins/trendone-maps/trendone-widget.php" />
+    <entry file="file://$PROJECT_DIR$/../../plugins/trendone-maps/trendone-settings-form.php" />
+    <entry file="file://$PROJECT_DIR$/../../plugins/trendone-maps/class-trendone-maps.php" />
+    <entry file="file://$PROJECT_DIR$/../../plugins/trendone-maps/trendone-maps.php" />
     <entry file="file://$PROJECT_DIR$/../twentyfifteen/content-search.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1400,13 +1346,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../plugins/trendone-maps/languages/trendone-maps-pl_PL.po">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1326">
-          <caret line="51" column="40" lean-forward="false" selection-start-line="51" selection-start-column="40" selection-end-line="51" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../../plugins/trendone-maps/languages/trendone-maps-pl_PL.po" />
     <entry file="file://$PROJECT_DIR$/../../../wp-includes/functions.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="24804">
@@ -1425,14 +1365,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17160">
           <caret line="668" column="0" lean-forward="false" selection-start-line="668" selection-start-column="0" selection-end-line="668" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1465,13 +1397,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../twentyseventeen/template-parts/post/content-gallery.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../twentyseventeen/template-parts/post/content-gallery.php" />
     <entry file="file://$PROJECT_DIR$/page.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="559">
@@ -1543,21 +1469,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/app.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="590">
-          <caret line="148" column="6" lean-forward="false" selection-start-line="148" selection-start-column="6" selection-end-line="148" selection-end-column="6" />
-          <folding>
-            <marker date="1512228814444" expanded="true" signature="3449:3463" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/app.css" />
     <entry file="file://$PROJECT_DIR$/modules/enqueue.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
           <caret line="27" column="4" lean-forward="false" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1565,9 +1481,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
           <caret line="9" column="1" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="12" selection-end-column="0" />
-          <folding>
-            <marker date="1509912132000" expanded="true" signature="155:159" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1583,7 +1496,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
           <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1591,9 +1503,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="529">
           <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding>
-            <marker date="1509905981000" expanded="true" signature="128:144" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1601,7 +1510,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="18" lean-forward="false" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1609,7 +1517,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1617,14 +1524,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="916">
           <caret line="47" column="5" lean-forward="false" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/scss/nav.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
+        <state relative-caret-position="1392">
           <caret line="58" column="14" lean-forward="false" selection-start-line="58" selection-start-column="14" selection-end-line="58" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding />
         </state>
       </provider>
