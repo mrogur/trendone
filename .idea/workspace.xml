@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="4e502621-2b7f-41b8-84fc-0f27fb542280" name="Default" comment="Fixed margins">
       <change beforePath="" afterPath="$USER_HOME$/IdeaProjects/strzal_pl_portal/strzal_pl_portal.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assets/scss/slider-main.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/font-awesome.config.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/template-parts/frontpage/slider-ads.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/template-parts/frontpage/slider-main.php" />
       <change beforePath="$USER_HOME$/IdeaProjects/strzal_pl_portal/.idea/workspace.xml" afterPath="$USER_HOME$/IdeaProjects/strzal_pl_portal/.idea/workspace.xml" />
       <change beforePath="$USER_HOME$/IdeaProjects/strzal_pl_portal/index.html" afterPath="$USER_HOME$/IdeaProjects/strzal_pl_portal/index.html" />
       <change beforePath="$PROJECT_DIR$/../../plugins/calendar-event/languages/lang.pot" afterPath="$PROJECT_DIR$/../../plugins/calendar-event/languages/lang.pot" />
@@ -52,23 +48,7 @@
       <change beforePath="$PROJECT_DIR$/../gazeti/functions/wpzoom/pages/welcome.php" afterPath="$PROJECT_DIR$/../gazeti/functions/wpzoom/pages/welcome.php" />
       <change beforePath="$PROJECT_DIR$/../gazeti/functions/wpzoom/wpzoom.php" afterPath="$PROJECT_DIR$/../gazeti/functions/wpzoom/wpzoom.php" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/assets/js/app.js" afterPath="$PROJECT_DIR$/assets/js/app.js" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/app.scss" afterPath="$PROJECT_DIR$/assets/scss/app.scss" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/main.scss" afterPath="$PROJECT_DIR$/assets/scss/main.scss" />
-      <change beforePath="$PROJECT_DIR$/footer.php" afterPath="$PROJECT_DIR$/footer.php" />
-      <change beforePath="$PROJECT_DIR$/front-page.php" afterPath="$PROJECT_DIR$/front-page.php" />
-      <change beforePath="$PROJECT_DIR$/header.php" afterPath="$PROJECT_DIR$/header.php" />
-      <change beforePath="$PROJECT_DIR$/modules/enqueue.php" afterPath="$PROJECT_DIR$/modules/enqueue.php" />
-      <change beforePath="$PROJECT_DIR$/modules/metaboxes/button_metabox.php" afterPath="$PROJECT_DIR$/modules/metaboxes/button_metabox.php" />
-      <change beforePath="$PROJECT_DIR$/modules/post_types/trendone_slider.php" afterPath="$PROJECT_DIR$/modules/post_types/trendone_slider.php" />
-      <change beforePath="$PROJECT_DIR$/template-parts/header/slider-main.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/trendair/dist/css/less/nav.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/trendair/dist/css/nav.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/trendair/dist/css/nav.min.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/trendair/dist/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/trendair/dist/js/app.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/trendair/dist/navbar.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/trendair/dist/navbar.min.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/template-parts/frontpage/slider-ads.php" afterPath="$PROJECT_DIR$/template-parts/frontpage/slider-ads.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -100,24 +80,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="media.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../../../wp-includes/media.php">
+      <file leaf-file-name="slider-ads.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/template-parts/frontpage/slider-ads.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="25" column="3" lean-forward="true" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
-              <folding>
-                <marker date="1513181792822" expanded="true" signature="64474:64832" ph="..." />
-                <marker date="1513181792822" expanded="true" signature="64492:64516" ph="{...}" />
-                <marker date="1513181792822" expanded="true" signature="64547:64646" ph="{...}" />
-                <marker date="1513181792822" expanded="true" signature="64667:64704" ph="{...}" />
-                <marker date="1513181792822" expanded="true" signature="64738:64764" ph="{...}" />
-                <marker date="1513181792822" expanded="true" signature="66657:66668" ph="..." />
-                <marker date="1513181792822" expanded="false" signature="66770:66781" ph="..." />
-                <marker date="1513181792822" expanded="true" signature="118055:118166" ph="SELECT ID FR... wp_posts" />
-                <marker date="1513181792822" expanded="true" signature="119094:119205" ph="SELECT ID FR... wp_posts" />
-                <marker date="1513181792822" expanded="true" signature="119980:120122" ph="SELECT DISTI... " />
-                <marker date="1513181792822" expanded="true" signature="137470:137562" ph="SELECT post_... wp_postmeta" />
-              </folding>
+            <state relative-caret-position="696">
+              <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -150,7 +118,7 @@
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="SYNC" />
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="master" />
@@ -217,8 +185,8 @@
         <option value="$PROJECT_DIR$/front-page.php" />
         <option value="$PROJECT_DIR$/template-parts/frontpage/slider-main.php" />
         <option value="$PROJECT_DIR$/modules/post_types/trendone_slider.php" />
-        <option value="$PROJECT_DIR$/template-parts/frontpage/slider-ads.php" />
         <option value="$PROJECT_DIR$/assets/scss/slider-main.scss" />
+        <option value="$PROJECT_DIR$/template-parts/frontpage/slider-ads.php" />
       </list>
     </option>
   </component>
@@ -377,6 +345,23 @@
               <item name="wp-content" type="462c0819:PsiDirectoryNode" />
               <item name="themes" type="462c0819:PsiDirectoryNode" />
               <item name="trendone" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="trendone" type="b2602c69:ProjectViewProjectNode" />
+              <item name="strzal_pl" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="trendone" type="462c0819:PsiDirectoryNode" />
+              <item name="template-parts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="trendone" type="b2602c69:ProjectViewProjectNode" />
+              <item name="strzal_pl" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="trendone" type="462c0819:PsiDirectoryNode" />
+              <item name="template-parts" type="462c0819:PsiDirectoryNode" />
+              <item name="frontpage" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="trendone" type="b2602c69:ProjectViewProjectNode" />
@@ -1059,7 +1044,7 @@
       <workItem from="1512239796266" duration="247000" />
       <workItem from="1512240111006" duration="259000" />
       <workItem from="1515314845507" duration="2086000" />
-      <workItem from="1515317090899" duration="37256000" />
+      <workItem from="1515317090899" duration="37371000" />
     </task>
     <task id="LOCAL-00001" summary="Improved menu walker">
       <created>1501948241140</created>
@@ -1180,11 +1165,18 @@
       <option name="project" value="LOCAL" />
       <updated>1515324151776</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Created sliders">
+      <created>1515360910788</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1515360910789</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="231581000" />
+    <option name="totallyTimeSpent" value="231696000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1189" y="282" width="2245" height="1642" extended-state="0" />
@@ -1202,7 +1194,7 @@
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38220608" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25612473" sideWeight="0.7498429" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25612473" sideWeight="0.7498429" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44107142" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942098" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1297,7 +1289,8 @@
     <MESSAGE value="Moved hooks to post type files" />
     <MESSAGE value="Added custom fields to cards" />
     <MESSAGE value="Fixed margins" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed margins" />
+    <MESSAGE value="Created sliders" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created sliders" />
   </component>
   <component name="WindowStateProjectService">
     <state width="1142" height="1006" key="Git.Branch.Popup" />
@@ -1821,14 +1814,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/template-parts/frontpage/slider-ads.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="13" column="43" lean-forward="true" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../../wp-includes/media.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
@@ -1846,6 +1831,14 @@
             <marker date="1513181792822" expanded="true" signature="119980:120122" ph="SELECT DISTI... " />
             <marker date="1513181792822" expanded="true" signature="137470:137562" ph="SELECT post_... wp_postmeta" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template-parts/frontpage/slider-ads.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="696">
+          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
