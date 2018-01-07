@@ -35,7 +35,8 @@ function custom_bootstrap_slider() {
 		'has_archive'        => true,
 		'hierarchical'       => true,
 		'menu_position'      => null,
-		'supports'           => array( 'title', 'editor', 'thumbnail' )
+        'taxonomies' => array('slide-category', 'slider-name'),
+		'supports'   => array( 'title', 'editor', 'thumbnail' )
 	);
 
 	register_post_type( 'slider', $args );
@@ -43,6 +44,35 @@ function custom_bootstrap_slider() {
 
 }
 
+function trs_register_taxonomies() {
+
+    register_taxonomy(
+        'slider-name',
+        'slider',
+        array(
+            'label' => __( 'Slider' ),
+            'rewrite' => array( 'slug' => 'slider-name' ),
+            'hierarchical' => true,
+        )
+    );
+    register_taxonomy(
+        'slide-category',
+        'slider',
+        array(
+            'label' => __( 'Category' ),
+            'rewrite' => array( 'slug' => 'slide-category' ),
+            'hierarchical' => true,
+        )
+    );
+}
+
+function trs_image_types() {
+    add_image_size('trs_image_newsfeed', 840, 450, true );
+    add_image_size('trs_image_ad', 840, 200, true );
+}
+
+add_action('init', 'trs_image_types');
+add_action( 'init', 'trs_register_taxonomies');
 add_action( 'init', 'custom_bootstrap_slider' );
 
 

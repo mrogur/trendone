@@ -25,11 +25,11 @@ function slider_custom_box_html( $post ) {
 	<div class="custom-button-metabox">
 		<div class="custom-button-metabox-field-wrapper">
 			<label for="tro_button_url">Slider button URL</label>
-			<input type="text" name="tro_button_url" value="<?php echo $tro_button_url ?>">
+			<input type="url" name="tro_button_url" id="tro_button_url" value="<?php echo $tro_button_url ?>">
 		</div>
 		<div class="custom-button-metabox-field-wrapper">
 			<label for="tro_button_text">Slider button Text</label>
-			<input type="text" name="tro_button_text" value="<?php echo $tro_button_text ?>">
+			<input type="text" name="tro_button_text" id="tro_button_text" value="<?php echo $tro_button_text ?>">
 		</div>
 	</div>
 	<?php
