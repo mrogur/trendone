@@ -55,7 +55,7 @@
                                 <?php echo $term->name ?>
                             </span>
                                 <span class="small float-right">
-                                <?php echo get_the_date("Y/m/d") ?>
+                                <?php echo get_the_date("Y/m/d", $slide->ID) ?>
                             </span>
                             </p>
                         </div>
