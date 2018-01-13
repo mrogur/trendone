@@ -5,45 +5,47 @@ define("NODE_HOME", get_template_directory_uri() . "/node_modules");
 /**
  * Function enqueue styles on page.
  */
-function trendair_enqueue_styles() {
-	$styles = [
-		"trendair_bootstrap" => NODE_HOME . "/bootstrap/dist/css/bootstrap.min.css",
-//        "trendair_tether" => NODE_HOME . "/tether/dist/css/tether.min.css",
-//		"trendair_font-awesome" => NODE_HOME . "/font-awesome/css/font-awesome.min.css",
-        "trendair_trendone" => get_template_directory_uri() . '/dist/css/app.css'
-	];
-
-	foreach ( $styles as $style_name => $style_path) {
-		wp_register_style($style_name, $style_path);
-		wp_enqueue_style($style_name);
-	}
-
+function trendone_enqueue_styles()
+{
+    wp_register_style("trendone_bootstrap", NODE_HOME . "/bootstrap/dist/css/bootstrap.min.css");
+    wp_register_style("trendone_app", get_template_directory_uri() . '/dist/css/app.css');
+    wp_enqueue_style("trendone_bootstrap");
+    wp_enqueue_style("trendone_app");
 }
 
 /**
  * Function enqueues scripts on page.
  */
-function trendair_enqueue_scripts() {
-	$scripts = [
-		"trendair_popperjs" => [NODE_HOME . "/popper.js/dist/umd/popper.min.js", [] , true],
-		"trendair_bootstrap" => [ NODE_HOME . "/bootstrap/dist/js/bootstrap.min.js", ['jquery', 'trendair_popperjs'], true],
-		"trendair_vendor" => [ get_template_directory_uri() . "/dist/js/vendor.js", ['trendair_bootstrap'], true],
-		"trendair_app" => [ get_template_directory_uri() . "/dist/js/app.js", ['trendair_bootstrap'], true]
-	];
+function trendone_enqueue_scripts()
+{
+    $scripts = [
+        "trendone_popperjs" => [NODE_HOME . "/popper.js/dist/umd/popper.min.js", [], true],
+        "trendone_bootstrap" => [NODE_HOME . "/bootstrap/dist/js/bootstrap.min.js", ['jquery', 'trendone_popperjs'], true],
+        "trendone_vendor" => [get_template_directory_uri() . "/dist/js/vendor.js", ['trendone_bootstrap'], true],
+        "trendone_app" => [get_template_directory_uri() . "/dist/js/app.js", ['trendone_bootstrap'], true]
+    ];
 
-	foreach ( $scripts as $key => $script ) {
+    wp_register_script("trendone_popperjs",
+        NODE_HOME . "/popper.js/dist/umd/popper.min.js", [], false, true);
+    wp_register_script("trendone_bootstrap",
+        NODE_HOME . "/bootstrap/dist/js/bootstrap.min.js", [
+            'jquery', 'trendone_popperjs'
+        ], false, true);
+    wp_register_script("trendone_vendor",
+        get_template_directory_uri() . "/dist/js/vendor.js", [
+            'trendone_bootstrap'
+        ], false, true);
+    wp_register_script("trendone_app",
+        get_template_directory_uri() . "/dist/js/app.js", [
+            'trendone_bootstrap'
+        ], false, true);
 
-		$script_to_load = $script;
-		$load_in_footer = false;
-		$dependents = [];
+    wp_enqueue_script("trendone_popperjs");
+    wp_enqueue_script("trendone_bootstrap");
+    wp_enqueue_script("trendone_vendor");
+    wp_enqueue_script("trendone_app");
 
-		if (is_array($script)) {
-			$script_to_load = $script[0];
-			$dependents = $script[1];
-			$load_in_footer = $script[2];
-		}
-
-		wp_register_script( $key, $script_to_load, $dependents, false, $load_in_footer );
-		wp_enqueue_script($key);
-	}
 }
+
+add_action('wp_enqueue_scripts', 'trendone_enqueue_styles');
+add_action('wp_enqueue_scripts', 'trendone_enqueue_scripts');

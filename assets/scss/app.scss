@@ -10,13 +10,7 @@ body {
   background-color: red;
 }
 
-.bgDark {
-  background-color: $bgDark;
-}
 
-.bgGreyLight {
-  background-color: #b4b4b4;
-}
 
 .navbar-dark {
   .navbar-nav {
@@ -40,18 +34,7 @@ body {
   white-space: nowrap;
 }
 
-.clYellow {
-  color: $clYellow;
-}
 
-.fwBold {
-  font-weight: bold;
-
-}
-
-.bgYellow {
-  background-color: $clYellow !important;
-}
 
 .to-logo {
   img {
@@ -74,7 +57,7 @@ body {
     border: none;
   }
   a {
-    color: $bgDark;
+    color: $clDark;
   }
 }
 

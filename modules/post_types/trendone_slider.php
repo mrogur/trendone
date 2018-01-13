@@ -67,8 +67,7 @@ function trs_register_taxonomies() {
 }
 
 function trs_image_types() {
-    add_image_size('trs_image_newsfeed', 840, 450, true );
-    add_image_size('trs_image_ad', 840, 200, true );
+
 }
 
 add_action('init', 'trs_image_types');

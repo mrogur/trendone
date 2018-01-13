@@ -5,7 +5,9 @@ define( "ROOT_DIR", get_template_directory() );
 
 
 include( get_template_directory() . "/modules/enqueue.php" );
-include( get_template_directory() . "/modules/common.php" );
+include( get_template_directory() . "/modules/menus.php" );
+include( get_template_directory() . "/modules/image-sizes.php" );
+include( get_template_directory() . "/modules/tgm-required-plugins.php" );
 include( get_template_directory() . "/lib/BootstrapNavMenuWalker.php" );
 include( get_template_directory() . "/modules/metaboxes/button_metabox.php" );
 include( get_template_directory() . "/modules/post_types/trendone_slider.php" );
@@ -14,8 +16,7 @@ include( get_template_directory() . "/modules/post_types/trendone_cards.php" );
 include( get_template_directory() . "/modules/customizer/hero_section.php" );
 
 //Hooks
-add_action( 'wp_enqueue_scripts', 'trendair_enqueue_styles' );
-add_action( 'wp_enqueue_scripts', 'trendair_enqueue_scripts' );
+
 
 /**
  * Template setup
@@ -109,3 +110,9 @@ function the_excerpt_more_link( $excerpt ){
 	return $excerpt;
 }
 add_filter( 'the_excerpt', 'the_excerpt_more_link', 21 );
+
+function trendone_get_image_thumb($thumbnailDimension, $postId=null) {
+    $attachment_id = get_post_thumbnail_id($postId);
+
+    return wp_get_attachment_image_src($attachment_id, $thumbnailDimension, null);
+}

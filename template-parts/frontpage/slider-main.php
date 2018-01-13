@@ -11,7 +11,7 @@
                     <?php $count = 0; ?>
                     <?php foreach ($slider as $slide):
                         $attachment_id = get_post_thumbnail_id($slide->ID);
-                        $size = 'trs_image_newsfeed';
+                        $size = 'trendone_image_newsfeed';
                         $image = wp_get_attachment_image_src($attachment_id, $size, null);
                         if (!$image) {
                             continue;

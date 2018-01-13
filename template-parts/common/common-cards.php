@@ -1,31 +1,40 @@
 <!-- CARDBOX -->
-<section class="bgYellow trendone-cards trendone-page-section">
-	<?php $featuredPosts = get_posts( [ 'post_type' => 'post', 'posts_per_page' => 6 ] ) ?>
-    <div class="container trendone-cards">
+<section class="bgYellow ">
+    <?php $featuredPosts = get_posts(['post_type' => 'post', 'posts_per_page' => 6]) ?>
+    <div class="container pt-3">
         <div class="row">
-			<?php foreach ($featuredPosts as $post ): ?>
-                <div class="col-lg-4 col-md-12 card-group">
-                    <div class="card text-center mb-4">
-                        <img class="card-img img-fluid mx-auto mt-4 w-50" src="<?php echo wp_get_attachment_url( get_post_thumbnail_id( $post->ID ) ) ?>" alt="Service">
-                        <div class="card-body">
-                            <h4 class="card-title"><?php echo $post->post_title ?></h4>
-                            <p class="card-text"><?php echo $post->post_excerpt ?></p>
-                        </div>
-                        <div class="card-footer">
-							<?php
-							$button_url  = get_post_meta( $post->ID, "tro_button_url", true );
-							$button_text = get_post_meta( $post->ID, "tro_button_text", true );
-							if ( ! empty( $button_url ) && ! empty( $button_text ) ) :
-								?>
-                                <a href="<?php echo $button_url; ?>"
-                                   class="btn btn-outline-success"><?php echo $button_text; ?></a>
-							<?php endif; ?>
-                        </div>
+            <div class="col pl-0 pr-0">
+                <div class="row">
+                    <?php foreach ($featuredPosts
+                                   as $post): ?>
+                        <div class="col-md-4 card-group">
 
-                    </div>
+                            <div class="card mb-4 bgGreyMiddle text-light">
+                                <div class="card-header py-1 font-italic">POLITYKA</div>
+                                <div class="cardPresentation"
+                                     style=" height: 12rem !important;">
+                                    <?php
+                                    $image = trendone_get_image_thumb("img_cards_main_page");
+                                    if (null != $image):
+                                        list($src, $width, $height) = $image;
+                                        ?>
+                                        <img class="card-img img-fluid mx-auto"
+                                             src="<?php echo $src ?>">
+                                    <?php endif; ?></div>
+                                <div class="card-body mt-7 pl-0 h-50" style="background-color: rgba(0,0,0,0.5)">
+                                    <h6 class="card-title
+                                    p-2 py-3"><?php echo $post->post_title ?></h6>
+                                </div>
+                                <div class="card-footer text-right py-1">
+                                    <a href="<?php echo get_permalink($post->ID) ?>" class="clYellow">Czytaj więcej</a>
+                                </div>
+                            </div>
+                        </div>
+                    <?php endforeach; ?>
                 </div>
-			<?php endforeach; ?>
+            </div><!--end first column -->
         </div>
     </div>
+
 
 </section>

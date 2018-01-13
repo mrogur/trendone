@@ -1,3 +1,30 @@
-$bgDark: #0a0a0a;
+$clDark: #0a0a0a;
 $clYellow: #ffa200;
 $clGrey: #b3b3b3;
+$clGreyMiddle: #454545;
+
+
+.clYellow {
+  color: $clYellow;
+}
+
+.fwBold {
+  font-weight: bold;
+
+}
+
+.bgYellow {
+  background-color: $clYellow !important;
+}
+
+.bgDark {
+  background-color: $clDark;
+}
+
+.bgGreyLight {
+  background-color: #b4b4b4;
+}
+
+.bgGreyMiddle {
+  background-color: $clGreyMiddle;
+}
