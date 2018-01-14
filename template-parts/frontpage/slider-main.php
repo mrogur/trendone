@@ -38,7 +38,7 @@
 
             <div  class="col-md-12 col-lg-3 pl-lg-0">
                 <?php
-                    $count = 0;
+                $count = 0;
                     foreach ($slider as $slide):
                     $terms = wp_get_post_terms($slide->ID, 'slide-category');
                     $term = '';

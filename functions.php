@@ -9,11 +9,11 @@ include( get_template_directory() . "/modules/menus.php" );
 include( get_template_directory() . "/modules/image-sizes.php" );
 include( get_template_directory() . "/modules/tgm-required-plugins.php" );
 include( get_template_directory() . "/lib/BootstrapNavMenuWalker.php" );
-include( get_template_directory() . "/modules/metaboxes/button_metabox.php" );
-include( get_template_directory() . "/modules/post_types/trendone_slider.php" );
-include( get_template_directory() . "/modules/post_types/trendone_cards.php" );
+include(get_template_directory() . "/modules/metaboxes/button-metabox.php");
+include(get_template_directory() . "/modules/custom-post-types/trendone-slider.php");
+include(get_template_directory() . "/modules/custom-post-types/trendone-cards.php");
 
-include( get_template_directory() . "/modules/customizer/hero_section.php" );
+include(get_template_directory() . "/modules/customizer/hero-section.php");
 
 //Hooks
 

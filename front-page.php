@@ -15,7 +15,6 @@
     <?php endif; ?>
 
     <?php get_template_part('template-parts/common/common', 'cards'); ?>
-    <?php get_template_part('template-parts/frontpage/front', 'content'); ?>
     <?php get_template_part('template-parts/common/common', 'widgets'); ?>
 
 </div>
