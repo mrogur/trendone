@@ -20,6 +20,10 @@ body {
   }
 }
 
+section {
+  margin: 0 !important;
+}
+
 .fntSmall {
   font-size: 0.7em;
 }
@@ -67,4 +71,41 @@ body {
 
 .carousel-item {
   background-color: black;
+}
+
+.scSlider2 {
+  height: 240px;
+}
+
+.trendone-page-widgets {
+  .container {
+    border: 1px solid $clGrey_c9;
+    border-radius: .25rem;
+    padding-top: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+.trendone-blog-posts {
+  .container {
+    min-width: 80%;
+    max-width: 80%;
+  }
+  margin-top: 1rem;
+  article {
+    h3 {
+
+    }
+    box-shadow: #3A3A3A;
+    border-bottom: 1px solid #e2e2e2;
+    padding: 1.8em;
+    margin-bottom: 1em;
+  }
+}
+
+.trendone-content {
+  margin-top: 0 !important;
+  padding-top: 2rem;
+  background-color: white;
+
 }

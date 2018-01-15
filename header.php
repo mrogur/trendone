@@ -9,18 +9,18 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>geege</title>
+    <title>Strzal.pl - prototyp</title>
 
     <?php wp_head(); ?>
 </head>
-<body>
-<nav class="navbar navbar-expand-lg navbar-dark bgDark mb-2">
+<body class="p-0">
+<nav class="navbar navbar-expand-lg navbar-dark bgDark">
     <div class="container"><!--start main row-->
         <!--start main container-->
         <!--first column-->
         <div class="col-sm-12 col-lg-4"><!--start logo column-->
             <div class="to-quote clYellow">
-                MILITARNY PORTAL INFORMACYJNY
+                PRO LIBERATE
             </div>
             <div class="to-logo justify-content-between"><!--start logo-->
                 <a class="navbar-brand" href="<?php echo esc_url(home_url('/')); ?>"><?php setup_custom_logo() ?></a>

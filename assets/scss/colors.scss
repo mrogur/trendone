@@ -3,6 +3,9 @@ $clYellow: #ffa200;
 $clGrey: #b3b3b3;
 $clGreyMiddle: #454545;
 
+$clGrey_c9: #c9c9c9;
+$clGrey_5e: #5e5b5b;
+$clGrey_96: #969696;
 
 .clYellow {
   color: $clYellow;
@@ -28,3 +31,16 @@ $clGreyMiddle: #454545;
 .bgGreyMiddle {
   background-color: $clGreyMiddle;
 }
+
+.bgGreyC9 {
+  background-color: $clGrey_c9;
+}
+
+.bgGrey5e {
+  background-color: $clGrey_5e;
+}
+
+.bgGrey96 {
+  background-color: $clGrey_96;
+}
+

@@ -6,10 +6,10 @@ function trendone_print_ad_slider($trendoneSliderData) {
     /* @var $trs TrendoneSliderData */
     $trs = $trendoneSliderData; ?>
 
-<div class="container p-0 my-3">
+<div class="container p-0">
     <div id="<?php echo $trs->cssId ?>" class="carousel slide carousel-fade col-12 p-0
         <?php echo $trs->cssClasses ?>
-        " data-ride="carousel">
+        " data-ride="carousel" data-interval="<?php echo $trs->slideDuration ?>">
         <div class="carousel-inner" role="listbox">
             <?php $posts = get_posts(['post_type' => 'slider',
                 'posts_per_page' => $trs->slidesNumber,

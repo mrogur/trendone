@@ -1,0 +1,20 @@
+.trendone-footer {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  img {
+    max-width: 200px;
+  }
+  li {
+    list-style: none;
+  }
+  .footer-column-right {
+    a {
+      color: $clYellow;
+    }
+  }
+  .footer-column-left {
+    a {
+      color: grey;
+    }
+  }
+}

@@ -1,4 +1,4 @@
-    <div class="container bg-secondary py-2 py-lg-0">
+<div class="container bg-secondary py-2 py-lg-0 mb-3 mt-3">
         <div class="row">
             <div id="sliderNews" class="carousel slide col-md-12 col-lg-9 pl-lg-0" data-ride="carousel" data-interval="20000">
                 <div class="carousel-inner" role="listbox">

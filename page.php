@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-    <div class="trendone-content mt-4">
+    <div class="trendone-content">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">

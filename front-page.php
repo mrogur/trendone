@@ -3,19 +3,12 @@
     <?php get_template_part('template-parts/frontpage/slider', 'main'); ?>
     <?php get_template_part('template-parts/frontpage/slider', 'ads'); ?>
 </section>
-<div class="trendone-content">
-    <!-- HERO -->
-    <?php if (null != get_theme_mod('hero_title_setting') && get_theme_mod('hero_title_setting') != ''): ?>
-        <div class="jumbotron jumbotron-fluid trendone-hero mt-4">
-            <div class="container">
-                <h1 class="display-3"><?php echo get_theme_mod('hero_title_setting'); ?></h1>
-                <p class="lead"><?php echo get_theme_mod('hero_content_setting'); ?></p>
-            </div>
-        </div>
-    <?php endif; ?>
 
-    <?php get_template_part('template-parts/common/common', 'cards'); ?>
-    <?php get_template_part('template-parts/common/common', 'widgets'); ?>
+<?php get_template_part('template-parts/common/common', 'cards'); ?>
+<section class="bgGreyC9">
+    <?php get_template_part('template-parts/frontpage/slider', 'ads-scnd'); ?>
+</section>
+<?php get_template_part('template-parts/common/common', 'cards-scnd'); ?>
+<?php get_template_part('template-parts/common/common', 'widgets'); ?>
 
-</div>
 <?php get_footer(); ?>
