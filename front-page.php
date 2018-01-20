@@ -15,9 +15,9 @@
 
 <!--First NewsBox-->
 <section class="bgYellow ">
-    <?php
-    trendone_print_card_section('box_up');
-    ?>
+    <div class="container py-3">
+        <?php echo do_shortcode('[trendone-featbox terms="box_up" image_profile="img_cards_main_page"]'); ?>
+    </div>
 </section>
 
 <section class="bgGreyC9">

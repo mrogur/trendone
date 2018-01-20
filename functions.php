@@ -16,6 +16,7 @@ include(get_template_directory() . "/modules/custom-post-types/trendone-cards.ph
 include(get_template_directory() . "/modules/customizer/hero-section.php");
 require_once (get_template_directory() . "/modules/cards/class-trendone-card-data.php");
 include(get_template_directory() . "/modules/cards/trendone-cards.php");
+include(get_template_directory() . "/modules/cards/trendone-cards-shortcode.php");
 include(get_template_directory() . "/modules/taxonomies/featboxes.php");
 include(get_template_directory() . "/modules/sliders/ads-slider-shortcode.php");
 

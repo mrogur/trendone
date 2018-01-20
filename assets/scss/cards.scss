@@ -1,14 +1,24 @@
 .trendone-cards {
   .cardPresentation {
+  }
 
-  }
-  .card-footer {
-    background-color: #fff;
-    border-top: none;
-  }
-  padding-bottom: 2rem;
+
+
 }
+.card {
+  border: none !important;
+  height: 26rem;
 
-.trendone-page-section {
-  padding-bottom: 2em;
+}
+.card-body {
+  border: none !important;
+
+  img {
+    max-height: 22rem;
+  }
+
+}
+.card-footer {
+  background-color: transparent;
+  border-top: none !important;
 }

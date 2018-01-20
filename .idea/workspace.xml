@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4e502621-2b7f-41b8-84fc-0f27fb542280" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/modules/cards/trendone-cards-shortcode.php" />
       <change beforePath="$PROJECT_DIR$/../../../license.txt" afterPath="$PROJECT_DIR$/../../../license.txt" />
       <change beforePath="$PROJECT_DIR$/../../../wp-config-sample.php" afterPath="$PROJECT_DIR$/../../../wp-config-sample.php" />
       <change beforePath="$PROJECT_DIR$/../../plugins/calendar-event/languages/lang.pot" afterPath="$PROJECT_DIR$/../../plugins/calendar-event/languages/lang.pot" />
@@ -20,17 +21,10 @@
       <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/plugins/item/button/button/button.n2less" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/plugins/item/button/button/button.n2less" />
       <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/plugins/nextendfontservices/google/families.csv" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/plugins/nextendfontservices/google/families.csv" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/archive.php" afterPath="$PROJECT_DIR$/archive.php" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/app.scss" afterPath="$PROJECT_DIR$/assets/scss/app.scss" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/cards.scss" afterPath="$PROJECT_DIR$/assets/scss/cards.scss" />
       <change beforePath="$PROJECT_DIR$/front-page.php" afterPath="$PROJECT_DIR$/front-page.php" />
       <change beforePath="$PROJECT_DIR$/functions.php" afterPath="$PROJECT_DIR$/functions.php" />
       <change beforePath="$PROJECT_DIR$/modules/image-sizes.php" afterPath="$PROJECT_DIR$/modules/image-sizes.php" />
-      <change beforePath="$PROJECT_DIR$/modules/sliders/ads-slider-shortcode.php" afterPath="$PROJECT_DIR$/modules/sliders/ads-slider-shortcode.php" />
-      <change beforePath="$PROJECT_DIR$/modules/trendone-register.php" afterPath="$PROJECT_DIR$/modules/trendone-register-terms.php" />
-      <change beforePath="$PROJECT_DIR$/page-kontakt.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/template-parts/content/content-post.php" afterPath="$PROJECT_DIR$/template-parts/content/content-post.php" />
-      <change beforePath="$PROJECT_DIR$/template-parts/frontpage/slider-ads.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/template-parts/frontpage/slider-main.php" afterPath="$PROJECT_DIR$/template-parts/frontpage/slider-main.php" />
       <change beforePath="$PROJECT_DIR$/../../../wp-trackback.php" afterPath="$PROJECT_DIR$/../../../wp-trackback.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -57,11 +51,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="slider-main.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/template-parts/frontpage/slider-main.php">
+      <file leaf-file-name="trendone-cards-shortcode.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/modules/cards/trendone-cards-shortcode.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="853">
+              <caret line="38" column="40" lean-forward="false" selection-start-line="38" selection-start-column="40" selection-end-line="38" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -92,9 +86,9 @@
       <find>trendone_image_adbox_3</find>
       <find>trendone_image_adbox_4</find>
       <find>postsPerPage</find>
-      <find>imageProfile</find>
       <find>image_size</find>
       <find>trendone-blog</find>
+      <find>imageProfile</find>
     </findStrings>
     <replaceStrings>
       <replace>Card</replace>
@@ -134,7 +128,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/assets/scss/nav.scss" />
         <option value="$PROJECT_DIR$/assets/scss/contact-form.scss" />
         <option value="$PROJECT_DIR$/../../../index.php" />
         <option value="$PROJECT_DIR$/package.json" />
@@ -148,7 +141,6 @@
         <option value="$PROJECT_DIR$/template-parts/frontpage/front-cards.php" />
         <option value="$PROJECT_DIR$/assets/scss/oldOne/app.scss" />
         <option value="$USER_HOME$/IdeaProjects/strzal_pl_portal/index.html" />
-        <option value="$PROJECT_DIR$/assets/scss/cards.scss" />
         <option value="$PROJECT_DIR$/modules/post_types/trendone_slider.php" />
         <option value="$PROJECT_DIR$/modules/common.php" />
         <option value="$PROJECT_DIR$/lib/TGM-Plugin-Activation-2.6.1/example.php" />
@@ -177,14 +169,16 @@
         <option value="$PROJECT_DIR$/modules/taxonomies/featboxes.php" />
         <option value="$PROJECT_DIR$/modules/trendone-register.php" />
         <option value="$PROJECT_DIR$/../../../wp-config.php" />
-        <option value="$PROJECT_DIR$/functions.php" />
         <option value="$PROJECT_DIR$/modules/sliders/ads-slider-shortcode.php" />
-        <option value="$PROJECT_DIR$/front-page.php" />
         <option value="$PROJECT_DIR$/template-parts/frontpage/slider-main.php" />
-        <option value="$PROJECT_DIR$/modules/image-sizes.php" />
         <option value="$PROJECT_DIR$/archive.php" />
         <option value="$PROJECT_DIR$/template-parts/content/content-post.php" />
         <option value="$PROJECT_DIR$/assets/scss/app.scss" />
+        <option value="$PROJECT_DIR$/functions.php" />
+        <option value="$PROJECT_DIR$/front-page.php" />
+        <option value="$PROJECT_DIR$/assets/scss/cards.scss" />
+        <option value="$PROJECT_DIR$/modules/image-sizes.php" />
+        <option value="$PROJECT_DIR$/modules/cards/trendone-cards-shortcode.php" />
       </list>
     </option>
   </component>
@@ -232,10 +226,11 @@
   <component name="PhpWebServerValidation" path_to_validation_script="$PROJECT_DIR$/../../../" selected_validation_type="LOCAL" web_path_to_validation_script="http://strzal.test:80" />
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="PhpXdebugProxy" ide_key="xdebug" host="localhost" />
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
-    <option name="x" value="1922" />
-    <option name="width" value="1918" />
-    <option name="height" value="2160" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="2085" />
+    <option name="y" value="248" />
+    <option name="width" value="1680" />
+    <option name="height" value="1868" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -399,6 +394,16 @@
               <item name="themes" type="cbb8eebc:String" user="themes" />
               <item name="trendone" type="cbb8eebc:String" user="trendone" />
               <item name="modules" type="cbb8eebc:String" user="modules" />
+              <item name="cards" type="cbb8eebc:String" user="cards" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="trendone" type="cbb8eebc:String" user="trendone" />
+              <item name="$PROJECT_DIR$/../../.." type="cbb8eebc:String" user="$PROJECT_DIR$/../../.." />
+              <item name="wp-content" type="cbb8eebc:String" user="wp-content" />
+              <item name="themes" type="cbb8eebc:String" user="themes" />
+              <item name="trendone" type="cbb8eebc:String" user="trendone" />
+              <item name="modules" type="cbb8eebc:String" user="modules" />
               <item name="customizer" type="cbb8eebc:String" user="customizer" />
             </path>
             <path>
@@ -439,12 +444,6 @@
               <item name="trendone" type="cbb8eebc:String" user="trendone" />
               <item name="template-parts" type="cbb8eebc:String" user="template-parts" />
               <item name="frontpage" type="cbb8eebc:String" user="frontpage" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="trendone" type="cbb8eebc:String" user="trendone" />
-              <item name="$PROJECT_DIR$/../../.." type="cbb8eebc:String" user="$PROJECT_DIR$/../../.." />
-              <item name="wp-includes" type="cbb8eebc:String" user="wp-includes" />
             </path>
             <path>
               <item name="Root" type="cbb8eebc:String" user="Root" />
@@ -587,10 +586,10 @@
       <recent name="$PROJECT_DIR$/modules/metaboxes" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/modules/cards" />
       <recent name="$PROJECT_DIR$/modules/sliders" />
       <recent name="$PROJECT_DIR$/template-parts/frontpage" />
       <recent name="$PROJECT_DIR$/template-parts/common" />
-      <recent name="$PROJECT_DIR$/modules/cards" />
       <recent name="$PROJECT_DIR$/template-parts/header" />
     </key>
   </component>
@@ -1213,7 +1212,7 @@
       <workItem from="1516292718478" duration="222000" />
       <workItem from="1516293471531" duration="1279000" />
       <workItem from="1516299778967" duration="1868000" />
-      <workItem from="1516394535102" duration="17365000" />
+      <workItem from="1516394535102" duration="24430000" />
     </task>
     <task id="LOCAL-00001" summary="Improved menu walker">
       <created>1501948241140</created>
@@ -1404,11 +1403,18 @@
       <option name="project" value="LOCAL" />
       <updated>1516444796239</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="added styles to archives page">
+      <created>1516459060969</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1516459060970</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="306808000" />
+    <option name="totallyTimeSpent" value="313873000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1420,7 +1426,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1741" y="0" width="2099" height="2160" extended-state="6" />
+    <frame x="2085" y="248" width="1680" height="1868" extended-state="0" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32986766" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -1429,13 +1435,13 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850778" sideWeight="0.5151042" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32768634" sideWeight="0.48775056" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21990521" sideWeight="0.48489583" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2583519" sideWeight="0.48489583" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20119956" sideWeight="0.36882865" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14198218" sideWeight="0.4841871" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38220608" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15197714" sideWeight="0.6287512" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18988095" sideWeight="0.6287512" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Tail" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44107142" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1579,7 +1585,8 @@
     <MESSAGE value="before upgrade to bootstrap4 final" />
     <MESSAGE value="upgraded to bootstrap 4.0.0 final&#10;added custom action to featbox" />
     <MESSAGE value="start refactoring to add shortcode for TrendoneAds Slider" />
-    <option name="LAST_COMMIT_MESSAGE" value="start refactoring to add shortcode for TrendoneAds Slider" />
+    <MESSAGE value="added styles to archives page" />
+    <option name="LAST_COMMIT_MESSAGE" value="added styles to archives page" />
   </component>
   <component name="WindowStateProjectService">
     <state width="1142" height="1006" key="Git.Branch.Popup" />
@@ -1618,31 +1625,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../../../wp-includes/class-wp-term-query.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/metaboxes/button-metabox.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="11" column="35" lean-forward="false" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../../wp-includes/general-template.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="619">
           <caret line="154" column="0" lean-forward="false" selection-start-line="154" selection-start-column="0" selection-end-line="154" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/scss/colors.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1118">
-          <caret line="43" column="31" lean-forward="false" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -1660,24 +1646,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/scss/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="4" column="14" lean-forward="true" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/modules/sliders/trendone-slider-data.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="182">
           <caret line="7" column="32" lean-forward="false" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/scss/_footer.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -1720,25 +1692,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
           <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/cards/class-trendone-card-data.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="7" column="10" lean-forward="false" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/cards/trendone-cards.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="13" column="35" lean-forward="true" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
-          <folding>
-            <element signature="e#1366#1371#0#PHP" expanded="false" />
-            <element signature="e#1650#1655#0#PHP" expanded="false" />
-            <element signature="e#1833#1838#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1820,22 +1773,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/sliders/ads-slider.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/sliders/ads-slider-shortcode.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/modules/trendone-register-terms.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="572">
@@ -1853,14 +1790,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/template-parts/frontpage/slider-ads.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front-page.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1901,22 +1830,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/footer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1972,26 +1885,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/image-sizes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="7" column="36" lean-forward="true" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/archive.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/scss/app.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1416">
-          <caret line="96" column="20" lean-forward="false" selection-start-line="96" selection-start-column="20" selection-end-line="96" selection-end-column="20" />
           <folding />
         </state>
       </provider>
@@ -2008,6 +1905,122 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/sliders/ads-slider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/sliders/ads-slider-shortcode.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="24" column="15" lean-forward="true" selection-start-line="6" selection-start-column="2" selection-end-line="24" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="18" column="75" lean-forward="false" selection-start-line="18" selection-start-column="75" selection-end-line="18" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/cards/class-trendone-card-data.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/cards/trendone-cards.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#1366#1371#0#PHP" expanded="false" />
+            <element signature="e#1650#1655#0#PHP" expanded="false" />
+            <element signature="e#1833#1838#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/scss/app.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/scss/colors.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/scss/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/scss/_footer.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="18" column="100" lean-forward="false" selection-start-line="18" selection-start-column="100" selection-end-line="18" selection-end-column="100" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/scss/cards.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="16" column="18" lean-forward="false" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/image-sizes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="11" column="47" lean-forward="false" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/cards/trendone-cards-shortcode.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="853">
+          <caret line="38" column="40" lean-forward="false" selection-start-line="38" selection-start-column="40" selection-end-line="38" selection-end-column="40" />
           <folding />
         </state>
       </provider>
