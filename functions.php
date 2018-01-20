@@ -19,6 +19,9 @@ include(get_template_directory() . "/modules/cards/trendone-cards.php");
 include(get_template_directory() . "/modules/taxonomies/featboxes.php");
 
 
+include(get_template_directory() . "/modules/trendone-register.php");
+
+
 //Hooks
 /**
  * @param $featboxTerm - term of featbox taxonomy
@@ -28,6 +31,11 @@ function trendone_print_card_section($featboxTerm) {
     $cardDataCards1->postType = 'post';
     $cardDataCards1->terms = $featboxTerm;
     trendone_print_cards($cardDataCards1);
+}
+
+function trendone_print_ads_slider($imageProfile, $customClasses = [])
+{
+
 }
 
 /**
@@ -130,23 +138,4 @@ function trendone_get_image_thumb($thumbnailDimension, $postId=null) {
 }
 
 
-/**
- * Register terms for FeatBox
- */
-
-function featbox_register_terms()
-{
-    if (wp_count_terms("featbox") > 0) {
-        return;
-    }
-
-    wp_insert_term(_('First Featured Box'), 'featbox', [
-        'slug' => 'box_down'
-    ]);
-    wp_insert_term(_('Second Featured Box'), 'featbox', [
-        'slug' => 'box_up'
-    ]);
-}
-
-add_action('featbox_register_terms', 'featbox_register_terms');
 
