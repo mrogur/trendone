@@ -6,7 +6,7 @@
 add_shortcode('trendone-slider', function ($params = []) {
     /**
      * @var $posts_per_page number
-     * @var $cssId string
+     * @var $css_id string
      * @var $css_classes string
      * @var $duration number
      * @var $terms string
@@ -14,8 +14,10 @@ add_shortcode('trendone-slider', function ($params = []) {
      * @var $random bool
      *  * */
     extract(shortcode_atts([
+
         'posts_per_page' => 5,
         'duration' => 3000,
+        'css_id' => '',
         'css_classes' => '',
         'terms' => '',
         'image_profile' => '',
@@ -25,7 +27,7 @@ add_shortcode('trendone-slider', function ($params = []) {
     ob_start();
     ?>
 
-    <div id="<?php echo $cssId ?>" class="carousel slide carousel-fade
+    <div id="<?php echo $css_id ?>" class="carousel slide carousel-fade
         <?php echo $css_classes ?>
         " data-ride="carousel" data-interval="<?php echo $duration ?>">
         <div class="carousel-inner" role="listbox">

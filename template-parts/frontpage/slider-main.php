@@ -54,7 +54,13 @@
                             <h5 class="font-weight-bold"><?php echo $slide->post_title ?></h5>
                             <p class="py-0">
                             <span class="small">
-                                <?php echo $term->name ?>
+                                <?php
+
+                                    echo null!=$term && ""!=$term ? $term->name : '';
+
+
+
+                                ?>
                             </span>
                                 <span class="small float-right">
                                 <?php echo get_the_date("Y/m/d", $slide->ID) ?>
