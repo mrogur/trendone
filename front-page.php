@@ -15,7 +15,7 @@
 
 <!--First NewsBox-->
 <section class="bgYellow trendone-cards">
-    <div class="container py-3">
+    <div class="container pt-3">
         <?php echo do_shortcode('[trendone-featbox terms="box_up" image_profile="img_cards_main_page"]'); ?>
     </div>
 </section>
@@ -31,7 +31,7 @@
 
 
 <section class="bgGreyLight trendone-cards">
-    <div class="container py-3">
+    <div class="container pt-3">
         <?php echo do_shortcode('[trendone-featbox terms="box_down" image_profile="img_cards_main_page"]'); ?>
     </div>
 </section>

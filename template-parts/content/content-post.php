@@ -9,7 +9,7 @@
 ?>
 
 
-<div class="row mb-5">
+<div class="row">
     <div class="col-sm-4">
         <div class="d-flex h-100 align-items-center">
             <?php echo get_the_post_thumbnail(null, 'trendone_archive', ['class' => 'justify-content-center align-self-center mx-auto']); ?>
@@ -41,6 +41,6 @@
                 '</span></footer><!-- .entry-footer -->'
             );
             ?>
+        </article><!-- #post-## -->
     </div>
-    </article><!-- #post-## -->
 </div>

@@ -4,16 +4,16 @@
 define( "ROOT_DIR", get_template_directory() );
 
 
-include( get_template_directory() . "/modules/enqueue.php" );
-include( get_template_directory() . "/modules/menus.php" );
-include( get_template_directory() . "/modules/image-sizes.php" );
+include( get_template_directory() . "/modules/trendone-enqueue.php" );
+include( get_template_directory() . "/modules/trendone-menus.php" );
+include( get_template_directory() . "/modules/trendone-image-sizes.php" );
 include( get_template_directory() . "/modules/tgm-required-plugins.php" );
 include( get_template_directory() . "/lib/BootstrapNavMenuWalker.php" );
-include(get_template_directory() . "/modules/metaboxes/button-metabox.php");
+include(get_template_directory() . "/modules/metaboxes/trendone-additional-url-metabox.php");
 include(get_template_directory() . "/modules/custom-post-types/trendone-slider.php");
-include(get_template_directory() . "/modules/taxonomies/featboxes.php");
+include(get_template_directory() . "/modules/taxonomies/trendone-featboxes.php");
 include(get_template_directory() . "/modules/cards/trendone-cards-shortcode.php");
-include(get_template_directory() . "/modules/sliders/ads-slider-shortcode.php");
+include(get_template_directory() . "/modules/sliders/trendone-ads-slider-shortcode.php");
 
 
 include(get_template_directory() . "/modules/trendone-register-terms.php");
@@ -123,7 +123,7 @@ add_filter('excerpt_more', 'new_excerpt_more', 21 );
 
 function the_excerpt_more_link( $excerpt ){
 	$post = get_post();
-	$excerpt .= '<a href="'. get_permalink($post->ID) . '">czytaj dalej</a>';
+	$excerpt .= '<a href="'. get_permalink($post->ID) . '" class="read-more-link">czytaj dalej</a>';
 	return $excerpt;
 }
 add_filter( 'the_excerpt', 'the_excerpt_more_link', 21 );
