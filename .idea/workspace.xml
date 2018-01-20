@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4e502621-2b7f-41b8-84fc-0f27fb542280" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../license.txt" afterPath="$PROJECT_DIR$/../../../license.txt" />
+      <change beforePath="$PROJECT_DIR$/../../../wp-config-sample.php" afterPath="$PROJECT_DIR$/../../../wp-config-sample.php" />
       <change beforePath="$PROJECT_DIR$/../../plugins/calendar-event/languages/lang.pot" afterPath="$PROJECT_DIR$/../../plugins/calendar-event/languages/lang.pot" />
       <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/media/less/backgroundanimation.n2less" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/media/less/backgroundanimation.n2less" />
       <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/media/less/clear.n2less" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/media/less/clear.n2less" />
@@ -17,7 +19,13 @@
       <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/media/plugins/widgetthumbnail/default/default/style.n2less" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/media/plugins/widgetthumbnail/default/default/style.n2less" />
       <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/plugins/item/button/button/button.n2less" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/plugins/item/button/button/button.n2less" />
       <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/plugins/nextendfontservices/google/families.csv" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/plugins/nextendfontservices/google/families.csv" />
+      <change beforePath="$PROJECT_DIR$" afterPath="$PROJECT_DIR$" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/functions.php" afterPath="$PROJECT_DIR$/functions.php" />
+      <change beforePath="$PROJECT_DIR$/modules/taxonomies/featboxes.php" afterPath="$PROJECT_DIR$/modules/taxonomies/featboxes.php" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
+      <change beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change beforePath="$PROJECT_DIR$/../../../wp-trackback.php" afterPath="$PROJECT_DIR$/../../../wp-trackback.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -43,11 +51,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="webpack.config.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/webpack.config.js">
+      <file leaf-file-name="front-page.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/front-page.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="364">
+              <caret line="14" column="65" lean-forward="false" selection-start-line="14" selection-start-column="65" selection-end-line="14" selection-end-column="65" />
               <folding />
             </state>
           </provider>
@@ -155,12 +163,12 @@
         <option value="$PROJECT_DIR$/assets/scss/app.scss" />
         <option value="$PROJECT_DIR$/modules/image-sizes.php" />
         <option value="$PROJECT_DIR$/modules/taxonomies/newsboxes.php" />
-        <option value="$PROJECT_DIR$/modules/taxonomies/featboxes.php" />
         <option value="$PROJECT_DIR$/modules/cards/trendone-cards.php" />
         <option value="$PROJECT_DIR$/modules/cards/class-trendone-card-data.php" />
         <option value="$PROJECT_DIR$/front-page.php" />
-        <option value="$PROJECT_DIR$/functions.php" />
         <option value="$PROJECT_DIR$/webpack.config.js" />
+        <option value="$PROJECT_DIR$/modules/taxonomies/featboxes.php" />
+        <option value="$PROJECT_DIR$/functions.php" />
       </list>
     </option>
   </component>
@@ -179,6 +187,17 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="JsbtTreeLayoutManager">
+    <layout place="tools.popupnpm">
+      <scroll-view-position x="2" y="0" />
+      <selected-paths>
+        <path>
+          <id value="$PROJECT_DIR$/package.json" />
+          <id value="watch" />
+        </path>
+      </selected-paths>
+    </layout>
   </component>
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$USER_HOME$/IdeaProjects/strzal_pl_portal/node_modules" />
@@ -328,6 +347,35 @@
               <item name="wp-content" type="cbb8eebc:String" user="wp-content" />
               <item name="themes" type="cbb8eebc:String" user="themes" />
               <item name="trendone" type="cbb8eebc:String" user="trendone" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="trendone" type="cbb8eebc:String" user="trendone" />
+              <item name="$PROJECT_DIR$/../../.." type="cbb8eebc:String" user="$PROJECT_DIR$/../../.." />
+              <item name="wp-content" type="cbb8eebc:String" user="wp-content" />
+              <item name="themes" type="cbb8eebc:String" user="themes" />
+              <item name="trendone" type="cbb8eebc:String" user="trendone" />
+              <item name="modules" type="cbb8eebc:String" user="modules" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="trendone" type="cbb8eebc:String" user="trendone" />
+              <item name="$PROJECT_DIR$/../../.." type="cbb8eebc:String" user="$PROJECT_DIR$/../../.." />
+              <item name="wp-content" type="cbb8eebc:String" user="wp-content" />
+              <item name="themes" type="cbb8eebc:String" user="themes" />
+              <item name="trendone" type="cbb8eebc:String" user="trendone" />
+              <item name="modules" type="cbb8eebc:String" user="modules" />
+              <item name="taxonomies" type="cbb8eebc:String" user="taxonomies" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="trendone" type="cbb8eebc:String" user="trendone" />
+              <item name="$PROJECT_DIR$/../../.." type="cbb8eebc:String" user="$PROJECT_DIR$/../../.." />
+              <item name="wp-includes" type="cbb8eebc:String" user="wp-includes" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="node_modules/browser-sync" type="cbb8eebc:String" user="node_modules/browser-sync" />
             </path>
           </expand>
           <select />
@@ -1092,7 +1140,7 @@
       <workItem from="1516292718478" duration="222000" />
       <workItem from="1516293471531" duration="1279000" />
       <workItem from="1516299778967" duration="1868000" />
-      <workItem from="1516394535102" duration="1416000" />
+      <workItem from="1516394535102" duration="4692000" />
     </task>
     <task id="LOCAL-00001" summary="Improved menu walker">
       <created>1501948241140</created>
@@ -1262,11 +1310,18 @@
       <option name="project" value="LOCAL" />
       <updated>1516436231558</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="before upgrade to bootstrap4 final">
+      <created>1516436278544</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1516436278544</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="290859000" />
+    <option name="totallyTimeSpent" value="294135000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1287,9 +1342,9 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850778" sideWeight="0.5151042" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32768634" sideWeight="0.48775056" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25847048" sideWeight="0.48489583" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2583519" sideWeight="0.48489583" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20119956" sideWeight="0.36882865" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14213198" sideWeight="0.4841871" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14198218" sideWeight="0.4841871" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38220608" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1302,7 +1357,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19020618" sideWeight="0.37124878" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44046468" sideWeight="0.49574015" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.44042316" sideWeight="0.49574015" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1434,7 +1489,8 @@
     <MESSAGE value="Rename files and classes to meet convention" />
     <MESSAGE value="Prototype for general preview of layout" />
     <MESSAGE value="global update" />
-    <option name="LAST_COMMIT_MESSAGE" value="global update" />
+    <MESSAGE value="before upgrade to bootstrap4 final" />
+    <option name="LAST_COMMIT_MESSAGE" value="before upgrade to bootstrap4 final" />
   </component>
   <component name="WindowStateProjectService">
     <state width="1142" height="1006" key="Git.Branch.Popup" />
@@ -1450,48 +1506,19 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/modules/cards/trendone-cards.php</url>
-          <line>4</line>
-          <option name="timeStamp" value="82" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/modules/taxonomies/featboxes.php</url>
-          <line>11</line>
-          <option name="timeStamp" value="86" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/functions.php</url>
-          <line>18</line>
-          <option name="timeStamp" value="88" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/modules/taxonomies/featboxes.php</url>
-          <line>29</line>
-          <option name="timeStamp" value="89" />
+          <line>138</line>
+          <option name="timeStamp" value="92" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="90" />
+      <option name="time" value="93" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../../../wp-includes/post.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="1777" column="0" lean-forward="false" selection-start-line="1777" selection-start-column="0" selection-end-line="1777" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/IdeaProjects/strzal_pl_portal/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="968">
-          <caret line="134" column="27" lean-forward="true" selection-start-line="134" selection-start-column="27" selection-end-line="134" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../../wp-includes/meta.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
@@ -1576,13 +1603,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
           <caret line="11" column="35" lean-forward="false" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/tgm-required-plugins.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="832">
-          <caret line="32" column="31" lean-forward="true" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -1726,13 +1746,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../../wp-includes/class-wp-hook.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="515">
-          <caret line="282" column="0" lean-forward="false" selection-start-line="282" selection-start-column="0" selection-end-line="282" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/footer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
@@ -1780,25 +1793,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/taxonomies/featboxes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="747">
-          <caret line="34" column="12" lean-forward="false" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/template-parts/common/common-cards-scnd.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="26">
           <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front-page.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="728">
-          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1809,18 +1807,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/functions.php">
+    <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1742">
-          <caret line="126" column="52" lean-forward="true" selection-start-line="126" selection-start-column="52" selection-end-line="126" selection-end-column="52" />
+        <state relative-caret-position="1248">
+          <caret line="48" column="32" lean-forward="false" selection-start-line="48" selection-start-column="32" selection-end-line="48" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/webpack.config.js">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-96">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/postcss.config.js">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/tgm-required-plugins.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../wp-includes/class-wp-hook.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="776">
+          <caret line="292" column="0" lean-forward="false" selection-start-line="292" selection-start-column="0" selection-end-line="292" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/taxonomies/featboxes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="14" column="65" lean-forward="false" selection-start-line="14" selection-start-column="65" selection-end-line="14" selection-end-column="65" />
           <folding />
         </state>
       </provider>
