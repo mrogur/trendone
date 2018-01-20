@@ -1,27 +1,43 @@
 <?php
 
-require __DIR__ . '/trendone-slider-data.php';
+/**
+ * Shortcode for ads Slider
+ */
+add_shortcode('trendone-slider', function ($params = []) {
+    /**
+     * @var $posts_per_page number
+     * @var $cssId string
+     * @var $css_classes string
+     * @var $duration number
+     * @var $terms string
+     * @var $image_profile string
+     * @var $random bool
+     *  * */
+    extract(shortcode_atts([
+        'posts_per_page' => 5,
+        'duration' => 3000,
+        'css_classes' => '',
+        'terms' => '',
+        'image_profile' => '',
+        'random' => false,
+    ], $params));
 
-function trendone_print_ad_slider($trendoneSliderData) {
-    /* @var $trs TrendoneSliderData */
-    $trs = $trendoneSliderData; ?>
+    ob_start();
+    ?>
 
-<div class="container p-0">
-    <div id="<?php echo $trs->cssId ?>" class="carousel slide carousel-fade col-12 p-0
-        <?php echo $trs->cssClasses ?>
-        " data-ride="carousel" data-interval="<?php echo $trs->slideDuration ?>">
+    <div id="<?php echo $cssId ?>" class="carousel slide carousel-fade
+        <?php echo $css_classes ?>
+        " data-ride="carousel" data-interval="<?php echo $duration ?>">
         <div class="carousel-inner" role="listbox">
             <?php $posts = get_posts(['post_type' => 'slider',
-                'posts_per_page' => $trs->slidesNumber,
+                'posts_per_page' => $posts_per_page,
                 'tax_query' => [
-                    ['taxonomy' => 'slider-name', 'field' => 'slug', 'terms' => $trs->name]
+                    ['taxonomy' => 'slider-name', 'field' => 'slug', 'terms' => $terms]
                 ]
             ]) ?>
             <?php $count = 0; ?>
             <?php foreach ($posts as $slide):
-               /* $attachment_id = get_post_thumbnail_id($slide->ID);
-                $size = 'trendone_image_adbox_1';*/
-                $image = trendone_get_image_thumb($trs->imageSize, $slide->ID);
+                $image = trendone_get_image_thumb($image_profile, $slide->ID);
                 if (!$image) {
                     continue;
                 }
@@ -37,6 +53,10 @@ function trendone_print_ad_slider($trendoneSliderData) {
             <?php endforeach; ?>
         </div>
     </div>
-    <?php } ?>
+    <?php
+    $content = ob_get_contents();
+    ob_get_clean();
+    return $content;
+}) ?>
 
 

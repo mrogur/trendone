@@ -2,7 +2,7 @@
     <div class="trendone-content trendone-blog-posts">
         <div class="container">
             <div class="row">
-                <div class="col-sm-8">
+                <div class="col-sm-9">
 					<?php
 					while ( have_posts() ) : the_post();
 						get_template_part( 'template-parts/content/content', 'post' );
@@ -23,7 +23,7 @@
                     </div>
 
                 </div>
-                <div class="col-sm-4">
+                <div class="col-sm-3">
 					<?php dynamic_sidebar( 'sidebar-1' ) ?>
                 </div>
             </div>

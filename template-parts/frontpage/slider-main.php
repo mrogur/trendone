@@ -1,7 +1,7 @@
 <div class="container bg-secondary py-2 py-lg-0 mb-3 mt-3">
         <div class="row">
-            <div id="sliderNews" class="carousel slide col-md-12 col-lg-9 pl-lg-0" data-ride="carousel" data-interval="20000">
-                <div class="carousel-inner" role="listbox">
+            <div id="sliderNews" style="height: 450px" class="carousel slide col-md-12 col-lg-9 pl-lg-0" data-ride="carousel" data-interval="20000">
+                <div class="carousel-inner" style="height: 100%" role="listbox">
                     <?php $slider = get_posts(['post_type' => 'slider',
                         'posts_per_page' => 5,
                         'tax_query' => [
@@ -18,10 +18,12 @@
                         }
                         list($src, $width, $height) = $image;
                         ?>
-                        <div class="carousel-item <?php echo $count == 0 ? 'active' : '' ?>" data-slide-id="<?php echo $slide->ID ?>">
-                            <img class="d-block mx-auto" width="<?php echo $width ?>"
+                        <div class="h-100 carousel-item <?php echo $count == 0 ? 'active' : '' ?>" data-slide-id="<?php echo $slide->ID ?>">
+                            <div class="h-100 d-flex align-items-center ">
+                            <img class="justify-content-center align-self-center mx-auto" width="<?php echo $width ?>"
                                  src="<?php echo $src ?>"
                                  alt="First slide">
+                            </div>
                         </div>
                         <?php $count++ ?>
                     <?php endforeach; ?>
@@ -47,7 +49,7 @@
                     }
                     ?>
                     <div id="<?php echo 'sliderNews' . $slide->ID ?>"  class="slide-description d-none <?php echo $count == 0 ? ' d-block' : '' ?>" >
-                        <div class="bg-light p-2">
+                        <div class="bg-light p-2" style="height: 100px">
                             <h6 class="font-italic">NEWSY</h6>
                             <h5 class="font-weight-bold"><?php echo $slide->post_title ?></h5>
                             <p class="py-0">
