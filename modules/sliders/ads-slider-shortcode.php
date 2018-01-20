@@ -59,6 +59,6 @@ add_shortcode('trendone-slider', function ($params = []) {
     $content = ob_get_contents();
     ob_get_clean();
     return $content;
-}) ?>
+});
 
 

@@ -53,4 +53,8 @@ add_shortcode('trendone-featbox', function ($params) {
         </div><!--end first column -->
     </div>
 
-<?php });
+<?php
+    $content = ob_get_contents();
+    ob_get_clean();
+    return $content;
+});

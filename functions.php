@@ -1,6 +1,6 @@
 <?php
 //Includes
-
+//ob_start();
 define( "ROOT_DIR", get_template_directory() );
 
 
@@ -11,13 +11,8 @@ include( get_template_directory() . "/modules/tgm-required-plugins.php" );
 include( get_template_directory() . "/lib/BootstrapNavMenuWalker.php" );
 include(get_template_directory() . "/modules/metaboxes/button-metabox.php");
 include(get_template_directory() . "/modules/custom-post-types/trendone-slider.php");
-include(get_template_directory() . "/modules/custom-post-types/trendone-cards.php");
-
-include(get_template_directory() . "/modules/customizer/hero-section.php");
-require_once (get_template_directory() . "/modules/cards/class-trendone-card-data.php");
-include(get_template_directory() . "/modules/cards/trendone-cards.php");
-include(get_template_directory() . "/modules/cards/trendone-cards-shortcode.php");
 include(get_template_directory() . "/modules/taxonomies/featboxes.php");
+include(get_template_directory() . "/modules/cards/trendone-cards-shortcode.php");
 include(get_template_directory() . "/modules/sliders/ads-slider-shortcode.php");
 
 
@@ -69,7 +64,7 @@ function modify_jquery_version() {
 	}
 }
 
-add_action( 'init', 'modify_jquery_version' );
+add_action( 'wp_enqueue_scripts', 'modify_jquery_version' );
 
 
 function setup_custom_logo() {
@@ -139,5 +134,5 @@ function trendone_get_image_thumb($thumbnailDimension, $postId=null) {
     return wp_get_attachment_image_src($attachment_id, $thumbnailDimension, null);
 }
 
-
+//ob_get_clean();
 

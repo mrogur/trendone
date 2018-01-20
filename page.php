@@ -27,4 +27,4 @@
     </div>
     <?php get_template_part('template-parts/common/common', 'widgets'); ?>
 
-<?php get_footer(); ?>
+<?php get_footer();
