@@ -1,25 +1,603 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/functions.php" line="28" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e502621-2b7f-41b8-84fc-0f27fb542280" name="Default" comment="Fixed margins">
+    <list default="true" id="4e502621-2b7f-41b8-84fc-0f27fb542280" name="Default" comment="Custom function for generate">
       <change beforePath="" afterPath="$USER_HOME$/IdeaProjects/strzal_pl_portal/strzal_pl_portal.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assets/scss/_footer.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/template-parts/common/common-cards-scnd.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/modules/taxonomies/featboxes.php" />
       <change beforePath="$USER_HOME$/IdeaProjects/strzal_pl_portal/.idea/workspace.xml" afterPath="$USER_HOME$/IdeaProjects/strzal_pl_portal/.idea/workspace.xml" />
       <change beforePath="$USER_HOME$/IdeaProjects/strzal_pl_portal/index.html" afterPath="$USER_HOME$/IdeaProjects/strzal_pl_portal/index.html" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/akismet/akismet.php" afterPath="$PROJECT_DIR$/../../plugins/akismet/akismet.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/akismet/class.akismet-admin.php" afterPath="$PROJECT_DIR$/../../plugins/akismet/class.akismet-admin.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/akismet/class.akismet.php" afterPath="$PROJECT_DIR$/../../plugins/akismet/class.akismet.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/akismet/readme.txt" afterPath="$PROJECT_DIR$/../../plugins/akismet/readme.txt" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/akismet/views/notice.php" afterPath="$PROJECT_DIR$/../../plugins/akismet/views/notice.php" />
       <change beforePath="$PROJECT_DIR$/../../plugins/calendar-event/languages/lang.pot" afterPath="$PROJECT_DIR$/../../plugins/calendar-event/languages/lang.pot" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/contact-form-7/admin/css/styles.css" afterPath="$PROJECT_DIR$/../../plugins/contact-form-7/admin/css/styles.css" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/contact-form-7/includes/js/scripts.js" afterPath="$PROJECT_DIR$/../../plugins/contact-form-7/includes/js/scripts.js" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/contact-form-7/includes/rest-api.php" afterPath="$PROJECT_DIR$/../../plugins/contact-form-7/includes/rest-api.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/contact-form-7/modules/checkbox.php" afterPath="$PROJECT_DIR$/../../plugins/contact-form-7/modules/checkbox.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/contact-form-7/modules/select.php" afterPath="$PROJECT_DIR$/../../plugins/contact-form-7/modules/select.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/contact-form-7/readme.txt" afterPath="$PROJECT_DIR$/../../plugins/contact-form-7/readme.txt" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/contact-form-7/wp-contact-form-7.php" afterPath="$PROJECT_DIR$/../../plugins/contact-form-7/wp-contact-form-7.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/image-widget/image-widget.php" afterPath="$PROJECT_DIR$/../../plugins/image-widget/image-widget.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/image-widget/lang/image-widget.pot" afterPath="$PROJECT_DIR$/../../plugins/image-widget/lang/image-widget.pot" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/image-widget/readme.txt" afterPath="$PROJECT_DIR$/../../plugins/image-widget/readme.txt" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/image-widget/views/widget-admin.php" afterPath="$PROJECT_DIR$/../../plugins/image-widget/views/widget-admin.php" />
       <change beforePath="$PROJECT_DIR$/../../plugins/licznik-fixer/licznik-fixer.php" afterPath="$PROJECT_DIR$/../../plugins/licznik-fixer/licznik-fixer.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/editor/editor.css" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/editor/editor.css" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/editor/shortcode.js" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/editor/shortcode.js" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/editor/shortcode.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/editor/shortcode.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/includes/integrations/BeaverBuilder.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/includes/integrations/Divi.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/includes/integrations/Divi.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/includes/integrations/Elementor.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/includes/integrations/Elementor.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/includes/integrations/MotoPressCE.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/includes/integrations/MotoPressCE.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/includes/integrations/VisualComposer.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/includes/integrations/VisualComposer.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/includes/integrations/beaver-builder-module/beaver-builder-module.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/includes/integrations/beaver-builder-module/includes/frontend.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/includes/integrations/beaver-builder/BeaverBuilder.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/includes/integrations/beaver-builder/BeaverBuilder.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/includes/integrations/tailor.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/includes/integrations/tailor.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/includes/integrations/unyson/smartslider/class-fw-extension-smartslider.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/includes/integrations/unyson/smartslider/class-fw-extension-smartslider.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/includes/integrations/unyson/smartslider/includes/option-types.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/includes/integrations/unyson/smartslider/includes/option-types.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/includes/integrations/unyson/smartslider/manifest.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/includes/integrations/unyson/smartslider/manifest.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/includes/shortcode.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/includes/shortcode.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/includes/smartslider3.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/includes/smartslider3.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/includes/widget.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/includes/widget.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/media/admin/dist/smartslider-backend.css" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/media/admin/dist/smartslider-backend.css" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/media/admin/js/jqueryui/jquery-ui.canvas-item.js" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/media/admin/js/jqueryui/jquery-ui.canvas-item.js" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/media/admin/js/jqueryui/jquery-ui.canvas.js" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/media/admin/js/jqueryui/jquery-ui.canvas.js" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/media/admin/js/jqueryui/jquery-ui.columns.js" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/media/admin/js/jqueryui/jquery-ui.columns.js" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/media/admin/js/jqueryui/jquery-ui.layer-list-item.js" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/media/admin/js/jqueryui/jquery-ui.layer-list-item.js" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/media/admin/js/jqueryui/jquery-ui.layer-list.js" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/media/admin/js/jqueryui/jquery-ui.layer-list.js" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/media/dist/smartslider-backend.js" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/media/dist/smartslider-backend.js" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/media/dist/smartslider-backend.min.js" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/media/dist/smartslider-backend.min.js" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/media/dist/smartslider-frontend.js" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/media/dist/smartslider-frontend.js" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/media/dist/smartslider-frontend.min.js" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/media/dist/smartslider-frontend.min.js" />
       <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/media/less/backgroundanimation.n2less" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/media/less/backgroundanimation.n2less" />
       <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/media/less/clear.n2less" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/media/less/clear.n2less" />
       <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/media/less/spinner.n2less" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/media/less/spinner.n2less" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/media/plugins/type/simple/simple/dist/smartslider-simple-type-frontend.js" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/media/plugins/type/simple/simple/dist/smartslider-simple-type-frontend.js" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/media/plugins/type/simple/simple/dist/smartslider-simple-type-frontend.min.js" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/media/plugins/type/simple/simple/dist/smartslider-simple-type-frontend.min.js" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/media/plugins/widgetarrow/image/image/arrow.js" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/media/plugins/widgetarrow/image/image/arrow.js" />
       <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/media/plugins/widgetarrow/image/image/style.n2less" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/media/plugins/widgetarrow/image/image/style.n2less" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/media/plugins/widgetautoplay/image/image/autoplay.js" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/media/plugins/widgetautoplay/image/image/autoplay.js" />
       <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/media/plugins/widgetautoplay/image/image/style.n2less" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/media/plugins/widgetautoplay/image/image/style.n2less" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/media/plugins/widgetbar/horizontal/horizontal/bar.js" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/media/plugins/widgetbar/horizontal/horizontal/bar.js" />
       <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/media/plugins/widgetbar/horizontal/horizontal/style.n2less" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/media/plugins/widgetbar/horizontal/horizontal/style.n2less" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/media/plugins/widgetbullet/transition/transition/bullet.js" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/media/plugins/widgetbullet/transition/transition/bullet.js" />
       <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/media/plugins/widgetbullet/transition/transition/style.n2less" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/media/plugins/widgetbullet/transition/transition/style.n2less" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/media/plugins/widgetshadow/shadow/shadow/shadow.js" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/media/plugins/widgetshadow/shadow/shadow/shadow.js" />
       <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/media/plugins/widgetshadow/shadow/shadow/style.n2less" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/media/plugins/widgetshadow/shadow/shadow/style.n2less" />
       <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/media/plugins/widgetthumbnail/default/default/style.n2less" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/media/plugins/widgetthumbnail/default/default/style.n2less" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/media/plugins/widgetthumbnail/default/default/thumbnail.js" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/media/plugins/widgetthumbnail/default/default/thumbnail.js" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/media/plugins/widgetthumbnail/default/default/thumbnail.min.js" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/media/plugins/widgetthumbnail/default/default/thumbnail.min.js" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/N2SmartsliderApplication.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/N2SmartsliderApplication.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/N2SmartsliderApplicationInfo.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/N2SmartsliderApplicationInfo.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/backend/N2SmartsliderApplicationTypeBackend.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/backend/N2SmartsliderApplicationTypeBackend.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/backend/controllers/Backgroundanimation.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/backend/controllers/Backgroundanimation.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/backend/controllers/Generator.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/backend/controllers/Generator.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/backend/controllers/Install.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/backend/controllers/Install.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/backend/controllers/License.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/backend/controllers/License.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/backend/controllers/Preview.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/backend/controllers/Preview.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/backend/controllers/Settings.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/backend/controllers/Settings.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/backend/controllers/Slider.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/backend/controllers/Slider.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/backend/controllers/Sliders.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/backend/controllers/Sliders.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/backend/controllers/Slides.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/backend/controllers/Slides.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/backend/controllers/ajax/Backgroundanimation.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/backend/controllers/ajax/Backgroundanimation.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/backend/controllers/ajax/Generator.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/backend/controllers/ajax/Generator.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/backend/controllers/ajax/Guide.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/backend/controllers/ajax/Guide.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/backend/controllers/ajax/Settings.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/backend/controllers/ajax/Settings.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/backend/controllers/ajax/Slider.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/backend/controllers/ajax/Slider.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/backend/controllers/ajax/Sliders.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/backend/controllers/ajax/Sliders.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/backend/controllers/ajax/Slides.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/backend/controllers/ajax/Slides.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/backend/helpers/controller/N2SmartSliderController.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/backend/helpers/controller/N2SmartSliderController.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/backend/inline/_sidebar_settings.phtml" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/backend/inline/_sidebar_settings.phtml" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/backend/inline/embedslidermanager.phtml" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/backend/inline/embedslidermanager.phtml" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/backend/inline/font.phtml" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/backend/inline/font.phtml" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/backend/inline/sidebar/backgroundanimation.phtml" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/backend/inline/sidebar/backgroundanimation.phtml" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/backend/inline/slidemanager.phtml" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/backend/inline/slidemanager.phtml" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/backend/inline/slidermanager.phtml" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/backend/inline/slidermanager.phtml" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/backend/inline/tutorial-free.phtml" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/backend/inline/tutorial-free.phtml" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/backend/layouts/_mainmenu.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/backend/layouts/_mainmenu.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/backend/layouts/default.phtml" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/backend/layouts/default.phtml" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/backend/layouts/default1c.phtml" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/backend/layouts/default1c.phtml" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/backend/layouts/embed.phtml" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/backend/layouts/embed.phtml" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/backend/layouts/lightbox.phtml" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/backend/layouts/lightbox.phtml" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/backend/layouts/preview.phtml" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/backend/layouts/preview.phtml" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/backend/layouts/sidebar.phtml" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/backend/layouts/sidebar.phtml" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/backend/views/backgroundanimation/index.phtml" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/backend/views/backgroundanimation/index.phtml" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/backend/views/backgroundanimation/topbar.phtml" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/backend/views/backgroundanimation/topbar.phtml" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/backend/views/defaults/noaccess.phtml" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/backend/views/defaults/noaccess.phtml" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/backend/views/generator/_view.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/backend/views/generator/_view.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/backend/views/generator/check_configuration.phtml" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/backend/views/generator/check_configuration.phtml" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/backend/views/generator/create.phtml" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/backend/views/generator/create.phtml" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/backend/views/generator/create_settings.phtml" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/backend/views/generator/create_settings.phtml" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/backend/views/generator/edit.phtml" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/backend/views/generator/edit.phtml" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/backend/views/preview/_preview.phtml" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/backend/views/preview/_preview.phtml" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/backend/views/preview/_view.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/backend/views/preview/_view.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/backend/views/preview/generator.phtml" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/backend/views/preview/generator.phtml" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/backend/views/preview/index.phtml" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/backend/views/preview/index.phtml" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/backend/views/preview/slide.phtml" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/backend/views/preview/slide.phtml" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/backend/views/settings/_view.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/backend/views/settings/_view.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/backend/views/settings/cache.phtml" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/backend/views/settings/cache.phtml" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/backend/views/settings/default.phtml" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/backend/views/settings/default.phtml" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/backend/views/settings/defaults.phtml" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/backend/views/settings/defaults.phtml" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/backend/views/slider/_slider_edit.phtml" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/backend/views/slider/_slider_edit.phtml" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/backend/views/slider/_view.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/backend/views/slider/_view.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/backend/views/slider/cachedslider.phtml" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/backend/views/slider/cachedslider.phtml" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/backend/views/slider/edit.phtml" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/backend/views/slider/edit.phtml" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/backend/views/slider/group.phtml" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/backend/views/slider/group.phtml" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/backend/views/slider/sliderbox.phtml" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/backend/views/slider/sliderbox.phtml" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/backend/views/sliders/_view.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/backend/views/sliders/_view.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/backend/views/sliders/embed.phtml" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/backend/views/sliders/embed.phtml" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/backend/views/sliders/import.phtml" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/backend/views/sliders/import.phtml" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/backend/views/sliders/index.phtml" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/backend/views/sliders/index.phtml" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/backend/views/slides/_add-sidebar.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/backend/views/slides/_add-sidebar.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/backend/views/slides/_canvas.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/backend/views/slides/_canvas.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/backend/views/slides/_layer-list.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/backend/views/slides/_layer-list.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/backend/views/slides/_layer-window.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/backend/views/slides/_layer-window.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/backend/views/slides/_main-top-bar.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/backend/views/slides/_main-top-bar.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/backend/views/slides/_structures.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/backend/views/slides/_structures.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/backend/views/slides/_toolbar.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/backend/views/slides/_toolbar.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/backend/views/slides/_view.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/backend/views/slides/_view.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/backend/views/slides/edit.phtml" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/backend/views/slides/edit.phtml" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/backend/views/slides/slidebox.phtml" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/backend/views/slides/slidebox.phtml" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/form/element/alignitems.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/form/element/alignitems.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/form/element/backgroundanimation.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/form/element/backgroundanimation.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/form/element/columns.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/form/element/columns.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/form/element/inneralign.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/form/element/inneralign.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/form/element/sliderwidgetarea.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/form/element/sliderwidgetarea.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/form/element/verticalalign.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/form/element/verticalalign.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/form/element/widgetpluginmatrix.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/form/element/widgetpluginmatrix.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/form/element/widgetposition.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/form/element/widgetposition.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/frontend/N2SmartsliderApplicationTypeFrontend.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/frontend/N2SmartsliderApplicationTypeFrontend.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/frontend/controllers/Home.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/frontend/controllers/Home.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/frontend/controllers/prerender/Slider.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/frontend/controllers/prerender/Slider.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/frontend/layouts/default.phtml" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/frontend/layouts/default.phtml" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/frontend/views/home/magento.phtml" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/frontend/views/home/magento.phtml" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/frontend/views/home/native.phtml" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/frontend/views/home/native.phtml" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/frontend/views/home/wordpress.phtml" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/frontend/views/home/wordpress.phtml" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/frontend/views/slider/iframe.phtml" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/frontend/views/slider/iframe.phtml" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/libraries/backgroundanimation/manager.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/libraries/backgroundanimation/manager.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/libraries/backgroundanimation/storage.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/libraries/backgroundanimation/storage.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/libraries/backup.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/libraries/backup.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/libraries/export.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/libraries/export.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/libraries/import.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/libraries/import.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/libraries/layout/storage.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/libraries/layout/storage.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/libraries/link.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/libraries/link.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/libraries/plugins/N2SliderGeneratorPluginAbstract.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/libraries/plugins/N2SliderGeneratorPluginAbstract.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/libraries/plugins/N2SliderWidgetAbstract.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/libraries/plugins/N2SliderWidgetAbstract.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/libraries/settings/settings.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/libraries/settings/settings.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/libraries/slider/abstract.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/libraries/slider/abstract.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/libraries/slider/backend.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/libraries/slider/backend.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/libraries/slider/cache/generator.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/libraries/slider/cache/generator.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/libraries/slider/cache/slider.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/libraries/slider/cache/slider.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/libraries/slider/css.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/libraries/slider/css.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/libraries/slider/features/align.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/libraries/slider/features/align.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/libraries/slider/features/autoplay.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/libraries/slider/features/autoplay.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/libraries/slider/features/blockrightclick.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/libraries/slider/features/blockrightclick.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/libraries/slider/features/controls.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/libraries/slider/features/controls.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/libraries/slider/features/fadeonload.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/libraries/slider/features/fadeonload.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/libraries/slider/features/features.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/libraries/slider/features/features.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/libraries/slider/features/layermode.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/libraries/slider/features/layermode.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/libraries/slider/features/lazyload.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/libraries/slider/features/lazyload.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/libraries/slider/features/maintainsession.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/libraries/slider/features/maintainsession.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/libraries/slider/features/margin.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/libraries/slider/features/margin.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/libraries/slider/features/optimize.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/libraries/slider/features/optimize.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/libraries/slider/features/responsive.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/libraries/slider/features/responsive.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/libraries/slider/features/slidebackground.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/libraries/slider/features/slidebackground.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/libraries/slider/features/spinner.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/libraries/slider/features/spinner.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/libraries/slider/features/translateUrl.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/libraries/slider/features/translateUrl.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/libraries/slider/generator/abstract.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/libraries/slider/generator/abstract.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/libraries/slider/generator/generator.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/libraries/slider/generator/generator.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/libraries/slider/group.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/libraries/slider/group.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/libraries/slider/helper.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/libraries/slider/helper.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/libraries/slider/manager.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/libraries/slider/manager.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/libraries/slider/slides/admin/slide.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/libraries/slider/slides/admin/slide.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/libraries/slider/slides/admin/slides.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/libraries/slider/slides/admin/slides.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/libraries/slider/slides/slide.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/libraries/slider/slides/slide.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/libraries/slider/slides/slide/component.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/libraries/slider/slides/slide/component.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/libraries/slider/slides/slide/component/col.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/libraries/slider/slides/slide/component/col.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/libraries/slider/slides/slide/component/content.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/libraries/slider/slides/slide/component/content.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/libraries/slider/slides/slide/component/layer.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/libraries/slider/slides/slide/component/layer.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/libraries/slider/slides/slide/component/main.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/libraries/slider/slides/slide/component/main.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/libraries/slider/slides/slide/component/row.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/libraries/slider/slides/slide/component/row.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/libraries/slider/slides/slide/container.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/libraries/slider/slides/slide/container.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/libraries/slider/slides/slide/item/itemAbstract.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/libraries/slider/slides/slide/item/itemAbstract.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/libraries/slider/slides/slide/item/itemFactoryAbstract.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/libraries/slider/slides/slide/item/itemFactoryAbstract.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/libraries/slider/slides/slide/item/itemhelper.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/libraries/slider/slides/slide/item/itemhelper.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/libraries/slider/slides/slide/item/itemsFactory.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/libraries/slider/slides/slide/item/itemsFactory.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/libraries/slider/slides/slide/layerhelper.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/libraries/slider/slides/slide/layerhelper.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/libraries/slider/slides/slide/placement.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/libraries/slider/slides/slide/placement.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/libraries/slider/slides/slide/placement/absolute.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/libraries/slider/slides/slide/placement/absolute.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/libraries/slider/slides/slide/placement/content.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/libraries/slider/slides/slide/placement/content.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/libraries/slider/slides/slide/placement/default.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/libraries/slider/slides/slide/placement/default.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/libraries/slider/slides/slide/placement/group.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/libraries/slider/slides/slide/placement/group.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/libraries/slider/slides/slide/placement/normal.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/libraries/slider/slides/slide/placement/normal.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/libraries/slider/slides/slides.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/libraries/slider/slides/slides.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/libraries/slider/type.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/libraries/slider/type.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/libraries/slider/widget/widgets.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/libraries/slider/widget/widgets.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/libraries/storage.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/libraries/storage.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/models/Ajax.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/models/Ajax.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/models/Install.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/models/Install.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/models/Item.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/models/Item.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/models/Layers.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/models/Layers.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/models/License.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/models/License.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/models/Modules.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/models/Modules.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/models/ModulesMenu.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/models/ModulesMenu.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/models/Settings.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/models/Settings.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/models/Sliders.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/models/Sliders.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/models/SlidersXref.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/models/SlidersXref.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/models/Slides.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/models/Slides.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/models/Update.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/models/Update.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/models/backgroundanimation.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/models/backgroundanimation.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/models/forms/backgroundanimation/sets.xml" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/models/forms/backgroundanimation/sets.xml" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/models/forms/element/background.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/models/forms/element/background.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/models/forms/element/halign.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/models/forms/element/halign.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/models/forms/element/items.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/models/forms/element/items.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/models/forms/element/publishslider.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/models/forms/element/publishslider.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/models/forms/element/sliderresponsive.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/models/forms/element/sliderresponsive.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/models/forms/element/slidertype.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/models/forms/element/slidertype.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/models/forms/element/valign.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/models/forms/element/valign.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/models/forms/import/restorefromserver.xml" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/models/forms/import/restorefromserver.xml" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/models/forms/layout/sets.xml" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/models/forms/layout/sets.xml" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/models/forms/license.xml" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/models/forms/license.xml" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/models/forms/settings/default.xml" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/models/forms/settings/default.xml" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/models/forms/slide_generator.xml" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/models/forms/slide_generator.xml" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/models/forms/slidergroup.xml" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/models/forms/slidergroup.xml" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/models/forms/translateurl.xml" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/models/forms/translateurl.xml" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/models/generator.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/models/generator.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/plugins/generator/loadplugin.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/plugins/generator/loadplugin.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/plugins/item/button/button.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/plugins/item/button/button.php" />
       <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/plugins/item/button/button/button.n2less" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/plugins/item/button/button/button.n2less" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/plugins/item/button/button/item.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/plugins/item/button/button/item.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/plugins/item/heading/heading.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/plugins/item/heading/heading.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/plugins/item/heading/heading/heading.js" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/plugins/item/heading/heading/heading.js" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/plugins/item/heading/heading/item.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/plugins/item/heading/heading/item.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/plugins/item/image/image.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/plugins/item/image/image.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/plugins/item/image/image/item.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/plugins/item/image/image/item.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/plugins/item/loadplugin.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/plugins/item/loadplugin.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/plugins/item/text/text.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/plugins/item/text/text.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/plugins/item/text/text/item.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/plugins/item/text/text/item.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/plugins/item/vimeo/vimeo.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/plugins/item/vimeo/vimeo.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/plugins/item/vimeo/vimeo/item.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/plugins/item/vimeo/vimeo/item.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/plugins/item/vimeo/vimeo/vimeo.js" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/plugins/item/vimeo/vimeo/vimeo.js" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/plugins/item/youtube/youtube.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/plugins/item/youtube/youtube.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/plugins/item/youtube/youtube/item.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/plugins/item/youtube/youtube/item.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/plugins/loadplugin.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/plugins/loadplugin.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/plugins/responsive/auto/auto.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/plugins/responsive/auto/auto.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/plugins/responsive/auto/auto/responsive.xml" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/plugins/responsive/auto/auto/responsive.xml" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/plugins/responsive/fullwidth/fullwidth.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/plugins/responsive/fullwidth/fullwidth.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/plugins/responsive/fullwidth/fullwidth/responsive.xml" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/plugins/responsive/fullwidth/fullwidth/responsive.xml" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/plugins/responsive/loadplugin.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/plugins/responsive/loadplugin.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/plugins/type/loadplugin.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/plugins/type/loadplugin.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/plugins/type/simple/simple.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/plugins/type/simple/simple.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/plugins/type/simple/simple/backup.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/plugins/type/simple/simple/backup.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/plugins/type/simple/simple/css.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/plugins/type/simple/simple/css.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/plugins/type/simple/simple/type.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/plugins/type/simple/simple/type.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/plugins/widget/arrow/arrow.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/plugins/widget/arrow/arrow.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/plugins/widget/autoplay/autoplay.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/plugins/widget/autoplay/autoplay.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/plugins/widget/bar/bar.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/plugins/widget/bar/bar.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/plugins/widget/bullet/bullet.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/plugins/widget/bullet/bullet.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/plugins/widget/loadplugin.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/plugins/widget/loadplugin.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/plugins/widget/shadow/shadow.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/plugins/widget/shadow/shadow.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/plugins/widget/thumbnail/thumbnail.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/plugins/widget/thumbnail/thumbnail.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/plugins/widgetarrow/image/image.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/plugins/widgetarrow/image/image.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/plugins/widgetarrow/loadplugin.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/plugins/widgetarrow/loadplugin.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/plugins/widgetautoplay/image/image.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/plugins/widgetautoplay/image/image.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/plugins/widgetautoplay/loadplugin.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/plugins/widgetautoplay/loadplugin.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/plugins/widgetbar/horizontal/horizontal.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/plugins/widgetbar/horizontal/horizontal.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/plugins/widgetbar/loadplugin.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/plugins/widgetbar/loadplugin.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/plugins/widgetbullet/loadplugin.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/plugins/widgetbullet/loadplugin.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/plugins/widgetbullet/transition/transition.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/plugins/widgetbullet/transition/transition.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/plugins/widgetshadow/loadplugin.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/plugins/widgetshadow/loadplugin.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/plugins/widgetshadow/shadow/shadow.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/plugins/widgetshadow/shadow/shadow.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/plugins/widgetthumbnail/default/default.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/plugins/widgetthumbnail/default/default.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/plugins/widgetthumbnail/loadplugin.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/plugins/widgetthumbnail/loadplugin.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/smartslider3.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/smartslider3.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/wordpress/N2SmartsliderApplicationInfoFilter.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/wordpress/N2SmartsliderApplicationInfoFilter.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/wordpress/backend/inline/publish.phtml" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/wordpress/backend/inline/publish.phtml" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/wordpress/install.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/wordpress/install.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/wordpress/libraries/slider/slider.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/wordpress/libraries/slider/slider.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/wordpress/plugins/generator/loadplugin.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/wordpress/plugins/generator/loadplugin.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/wordpress/plugins/generator/posts/posts.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/wordpress/plugins/generator/posts/posts.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/wordpress/plugins/generator/posts/posts/element/wpcategories.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/wordpress/plugins/generator/posts/posts/element/wpcategories.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/wordpress/plugins/generator/posts/posts/element/wpcustomtaxonomy.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/wordpress/plugins/generator/posts/posts/element/wpcustomtaxonomy.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/wordpress/plugins/generator/posts/posts/element/wptags.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/wordpress/plugins/generator/posts/posts/element/wptags.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/wordpress/plugins/generator/posts/posts/generator.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/wordpress/plugins/generator/posts/posts/generator.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/wordpress/plugins/generator/posts/postsbyids/generator.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/wordpress/plugins/generator/posts/postsbyids/generator.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/wordpress/plugins/loadplugin.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/wordpress/plugins/loadplugin.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/N2SystemApplication.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/N2SystemApplication.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/N2SystemApplicationInfo.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/N2SystemApplicationInfo.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/backend/N2SystemApplicationTypeBackend.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/backend/N2SystemApplicationTypeBackend.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/backend/controllers/Animation.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/backend/controllers/Animation.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/backend/controllers/Browse.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/backend/controllers/Browse.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/backend/controllers/Dashboard.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/backend/controllers/Dashboard.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/backend/controllers/Font.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/backend/controllers/Font.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/backend/controllers/Help.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/backend/controllers/Help.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/backend/controllers/Image.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/backend/controllers/Image.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/backend/controllers/Install.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/backend/controllers/Install.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/backend/controllers/Login.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/backend/controllers/Login.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/backend/controllers/Settings.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/backend/controllers/Settings.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/backend/controllers/Style.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/backend/controllers/Style.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/backend/controllers/ajax/Animation.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/backend/controllers/ajax/Animation.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/backend/controllers/ajax/Aviary.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/backend/controllers/ajax/Aviary.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/backend/controllers/ajax/Browse.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/backend/controllers/ajax/Browse.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/backend/controllers/ajax/Content.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/backend/controllers/ajax/Content.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/backend/controllers/ajax/Css.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/backend/controllers/ajax/Css.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/backend/controllers/ajax/Font.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/backend/controllers/ajax/Font.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/backend/controllers/ajax/Image.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/backend/controllers/ajax/Image.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/backend/controllers/ajax/Link.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/backend/controllers/ajax/Link.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/backend/controllers/ajax/Style.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/backend/controllers/ajax/Style.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/backend/helpers/controllers/VisualManager.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/backend/helpers/controllers/VisualManager.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/backend/helpers/controllers/VisualManagerAjax.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/backend/helpers/controllers/VisualManagerAjax.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/backend/inline/sidebar/animation.phtml" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/backend/inline/sidebar/animation.phtml" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/backend/inline/sidebar/font.phtml" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/backend/inline/sidebar/font.phtml" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/backend/inline/sidebar/settings.phtml" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/backend/inline/sidebar/settings.phtml" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/backend/inline/sidebar/style.phtml" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/backend/inline/sidebar/style.phtml" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/backend/layouts/default.phtml" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/backend/layouts/default.phtml" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/backend/layouts/full.phtml" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/backend/layouts/full.phtml" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/backend/layouts/fulllightbox.phtml" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/backend/layouts/fulllightbox.phtml" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/backend/layouts/lightbox.phtml" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/backend/layouts/lightbox.phtml" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/backend/layouts/modal.phtml" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/backend/layouts/modal.phtml" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/backend/views/animation/index.phtml" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/backend/views/animation/index.phtml" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/backend/views/animation/topbar.phtml" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/backend/views/animation/topbar.phtml" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/backend/views/dashboard/index.phtml" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/backend/views/dashboard/index.phtml" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/backend/views/font/index.phtml" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/backend/views/font/index.phtml" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/backend/views/font/topbar.phtml" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/backend/views/font/topbar.phtml" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/backend/views/help/index.phtml" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/backend/views/help/index.phtml" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/backend/views/image/index.phtml" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/backend/views/image/index.phtml" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/backend/views/image/topbar.phtml" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/backend/views/image/topbar.phtml" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/backend/views/login/index.phtml" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/backend/views/login/index.phtml" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/backend/views/settings/_view.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/backend/views/settings/_view.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/backend/views/settings/aviary.phtml" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/backend/views/settings/aviary.phtml" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/backend/views/settings/fonts.phtml" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/backend/views/settings/fonts.phtml" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/backend/views/settings/index.phtml" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/backend/views/settings/index.phtml" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/backend/views/style/index.phtml" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/backend/views/style/index.phtml" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/backend/views/style/topbar.phtml" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/backend/views/style/topbar.phtml" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/models/Install.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/models/Install.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/models/animation.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/models/animation.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/models/css.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/models/css.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/models/font.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/models/font.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/models/forms/animation/extra.xml" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/models/forms/animation/extra.xml" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/models/forms/animation/form.xml" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/models/forms/animation/form.xml" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/models/forms/animation/sets.xml" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/models/forms/animation/sets.xml" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/models/forms/aviary.xml" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/models/forms/aviary.xml" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/models/forms/font/extra.xml" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/models/forms/font/extra.xml" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/models/forms/font/form.xml" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/models/forms/font/form.xml" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/models/forms/font/sets.xml" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/models/forms/font/sets.xml" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/models/forms/fonts.xml" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/models/forms/fonts.xml" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/models/forms/image/form.xml" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/models/forms/image/form.xml" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/models/forms/login.xml" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/models/forms/login.xml" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/models/forms/style/extra.xml" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/models/forms/style/extra.xml" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/models/forms/style/form.xml" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/models/forms/style/form.xml" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/models/forms/style/sets.xml" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/models/forms/style/sets.xml" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/models/image.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/models/image.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/models/login.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/models/login.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/models/style.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/models/style.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/models/visual.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/models/visual.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/plugins/loadplugin.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/plugins/loadplugin.php" />
       <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/plugins/nextendfontservices/google/families.csv" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/plugins/nextendfontservices/google/families.csv" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/plugins/nextendfontservices/google/google.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/plugins/nextendfontservices/google/google.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/plugins/nextendfontservices/loadplugin.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/plugins/nextendfontservices/loadplugin.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/embedwidgets/box/Box.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/embedwidgets/box/Box.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/embedwidgets/box/views/view.phtml" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/embedwidgets/box/views/view.phtml" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/embedwidgets/buttonmenu/Buttonmenu.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/embedwidgets/buttonmenu/Buttonmenu.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/embedwidgets/definitionlist/Definitionlist.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/embedwidgets/definitionlist/Definitionlist.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/embedwidgets/definitionlist/views/view.phtml" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/embedwidgets/definitionlist/views/view.phtml" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/embedwidgets/heading/Heading.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/embedwidgets/heading/Heading.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/embedwidgets/heading/views/view.phtml" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/embedwidgets/heading/views/view.phtml" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/embedwidgets/link/Link.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/embedwidgets/link/Link.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/embedwidgets/link/views/view.phtml" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/embedwidgets/link/views/view.phtml" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/embedwidgets/listn/Listn.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/embedwidgets/listn/Listn.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/embedwidgets/listn/views/view.phtml" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/embedwidgets/listn/views/view.phtml" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/embedwidgets/nav/Nav.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/embedwidgets/nav/Nav.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/embedwidgets/nav/views/view.phtml" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/embedwidgets/nav/views/view.phtml" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/embedwidgets/topbar/Topbar.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/embedwidgets/topbar/Topbar.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/embedwidgets/topbar/views/view.phtml" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/embedwidgets/topbar/views/view.phtml" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/acl/acl.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/acl/acl.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/ajax/ajax.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/ajax/ajax.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/ajax/response.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/ajax/response.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/animations/manager.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/animations/manager.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/animations/renderer.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/animations/renderer.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/animations/storage.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/animations/storage.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/assets/assets.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/assets/assets.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/assets/cache.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/assets/cache.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/assets/css/assets.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/assets/css/assets.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/assets/css/cache.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/assets/css/cache.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/assets/css/css.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/assets/css/css.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/assets/google/fonts.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/assets/google/fonts.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/assets/js/assets.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/assets/js/assets.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/assets/js/cache.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/assets/js/cache.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/assets/js/js.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/assets/js/js.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/assets/less/assets.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/assets/less/assets.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/assets/less/cache.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/assets/less/cache.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/assets/less/less.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/assets/less/less.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/assets/less/lessc.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/assets/less/lessc.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/assets/manager.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/assets/manager.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/assets/predefined.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/assets/predefined.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/base64.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/base64.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/browse/browse.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/browse/browse.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/cache/cache.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/cache/cache.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/cache/combine.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/cache/combine.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/cache/image.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/cache/image.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/cache/manifest.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/cache/manifest.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/cache/minifyJS.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/cache/minifyJS.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/cache/storage/cachestorage.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/cache/storage/cachestorage.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/cache/storage/cachestoragedatabase.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/cache/storage/cachestoragedatabase.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/cache/storage/cachestoragefilesystem.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/cache/storage/cachestoragefilesystem.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/data/data.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/data/data.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/embedwidget/embedwidget.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/embedwidget/embedwidget.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/embedwidget/interface.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/embedwidget/interface.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/filesystem/filesystem.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/filesystem/filesystem.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/fonts/fontmanager.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/fonts/fontmanager.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/fonts/fonts.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/fonts/fonts.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/fonts/renderer.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/fonts/renderer.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/fonts/storage.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/fonts/storage.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/element.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/element.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/element/autocomplete.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/element/autocomplete.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/element/autocompleteslider.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/element/autocompleteslider.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/element/button.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/element/button.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/element/checkbox.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/element/checkbox.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/element/clearcache.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/element/clearcache.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/element/color.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/element/color.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/element/connected.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/element/connected.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/element/container.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/element/container.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/element/date.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/element/date.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/element/decoration.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/element/decoration.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/element/devices.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/element/devices.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/element/easing.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/element/easing.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/element/editorgroup.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/element/editorgroup.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/element/enabled.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/element/enabled.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/element/family.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/element/family.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/element/filter.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/element/filter.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/element/folders.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/element/folders.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/element/foldersimage.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/element/foldersimage.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/element/font.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/element/font.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/element/fontpreset.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/element/fontpreset.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/element/group.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/element/group.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/element/hidden.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/element/hidden.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/element/iconmanager.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/element/iconmanager.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/element/image.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/element/image.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/element/imagelist.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/element/imagelist.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/element/imagelistfromfolder.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/element/imagelistfromfolder.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/element/imagelistfromfoldervalue.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/element/imagelistfromfoldervalue.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/element/imagelistlabel.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/element/imagelistlabel.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/element/imagemanager.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/element/imagemanager.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/element/joomlacomponentoptions.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/element/joomlacomponentoptions.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/element/jqueryeasing.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/element/jqueryeasing.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/element/list.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/element/list.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/element/marginpadding.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/element/marginpadding.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/element/menuitems.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/element/menuitems.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/element/mirror.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/element/mirror.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/element/mixed.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/element/mixed.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/element/number.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/element/number.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/element/numberautocomplete.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/element/numberautocomplete.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/element/numberautocompleteslider.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/element/numberautocompleteslider.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/element/onoff.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/element/onoff.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/element/password.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/element/password.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/element/plugingroup.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/element/plugingroup.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/element/pluginmatrix.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/element/pluginmatrix.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/element/radio.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/element/radio.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/element/radiotab.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/element/radiotab.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/element/richtextarea.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/element/richtextarea.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/element/skin.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/element/skin.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/element/style.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/element/style.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/element/subform.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/element/subform.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/element/subformImage.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/element/subformImage.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/element/subpluginmatrix.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/element/subpluginmatrix.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/element/switcher.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/element/switcher.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/element/text.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/element/text.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/element/textalign.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/element/textalign.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/element/textarea.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/element/textarea.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/element/textautocomplete.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/element/textautocomplete.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/element/tmplist.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/element/tmplist.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/element/token.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/element/token.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/element/units.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/element/units.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/element/upload.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/element/upload.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/element/url.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/element/url.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/element/video.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/element/video.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/form.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/form.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/tab.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/tab.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/tabs/basiccss.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/tabs/basiccss.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/tabs/basiccssfont.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/tabs/basiccssfont.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/tabs/basiccssstyle.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/tabs/basiccssstyle.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/tabs/darkraw.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/tabs/darkraw.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/tabs/groupped.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/tabs/groupped.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/tabs/grouppedsidebar.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/tabs/grouppedsidebar.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/tabs/horizontal.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/tabs/horizontal.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/tabs/naked.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/tabs/naked.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/tabs/placeholder.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/tabs/placeholder.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/tabs/raw.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/tabs/raw.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/tabs/tabbed.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/tabs/tabbed.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/tabs/tabbedsidebar.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/tabs/tabbedsidebar.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/tabs/tabbedwithhide.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/form/tabs/tabbedwithhide.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/google/fonts.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/google/fonts.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/helpers/html.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/helpers/html.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/helpers/system.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/helpers/system.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/image/aviary.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/image/aviary.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/image/color.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/image/color.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/image/helper.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/image/helper.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/image/image.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/image/image.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/image/manager.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/image/manager.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/link/link.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/link/link.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/localization/localization.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/localization/localization.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/localization/pomo/plural-forms.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/localization/pomo/plural-forms.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/message/message.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/message/message.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/mvc/application/application.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/mvc/application/application.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/mvc/application/type.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/mvc/application/type.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/mvc/base.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/mvc/base.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/mvc/controller.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/mvc/controller.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/mvc/controllers/backend.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/mvc/controllers/backend.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/mvc/db.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/mvc/db.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/mvc/layout.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/mvc/layout.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/mvc/model.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/mvc/model.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/mvc/view.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/mvc/view.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/mvc/viewBase.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/mvc/viewBase.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/oauth/oauth.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/oauth/oauth.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/parse/font.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/parse/font.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/parse/ini.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/parse/ini.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/parse/parse.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/parse/parse.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/parse/style.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/parse/style.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/plugin/plugin.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/plugin/plugin.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/request.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/request.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/router/router.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/router/router.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/session/session.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/session/session.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/session/storage.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/session/storage.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/storage/section.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/storage/section.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/string.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/string.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/stylemanager/renderer.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/stylemanager/renderer.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/stylemanager/storage.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/stylemanager/storage.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/stylemanager/stylemanager.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/stylemanager/stylemanager.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/translation/translation.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/translation/translation.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/uri/uri.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/uri/uri.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/xml/helper.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/xml/helper.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/zip/creator.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/zip/creator.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/zip/reader.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/libraries/zip/reader.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/library.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/library.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/loader.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/loader.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/nextend.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/nextend.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/settings.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/settings.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/media/css/litebox.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/media/css/litebox.min.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/media/dist/nextend-backend.css" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/media/dist/nextend-backend.css" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/media/dist/nextend-backend.js" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/media/dist/nextend-backend.js" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/media/dist/nextend-backend.min.css" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/media/dist/nextend-backend.min.css" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/media/dist/nextend-frontend.js" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/media/dist/nextend-frontend.js" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/media/dist/nextend-frontend.min.js" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/media/dist/nextend-frontend.min.js" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/media/dist/nextend-litebox.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/media/dist/nextend-litebox.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/media/dist/nextend-webfontloader.js" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/media/dist/nextend-webfontloader.js" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/media/dist/system-backend.js" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/media/dist/system-backend.js" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/media/dist/system-backend.min.js" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/media/dist/system-backend.min.js" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/media/js/core/jquery/njQuery.js" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/media/js/core/jquery/njQuery.js" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/media/js/core/jquery/ui/jquery-ui.nextend.js" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/media/js/core/jquery/ui/jquery-ui.nextend.js" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/media/js/core/jquery/ui/jquery-ui.nextendNormalSizing.js" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/media/js/core/jquery/ui/jquery-ui.nextendNormalSizing.js" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/media/js/core/jquery/ui/jquery-ui.nextendResizable.js" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/media/js/core/jquery/ui/jquery-ui.nextendResizable.js" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/media/js/core/jquery/ui/jquery-ui.nextendSpacing.js" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/media/js/core/jquery/ui/jquery-ui.nextendSpacing.js" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/media/normalize.css" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/media/normalize.css" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/nextend.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/nextend.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/wordpress/N2SystemApplicationInfoFilter.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/wordpress/N2SystemApplicationInfoFilter.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/wordpress/init.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/wordpress/init.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/wordpress/install.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/wordpress/install.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/wordpress/libraries/acl/acl.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/wordpress/libraries/acl/acl.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/wordpress/libraries/filesystem/filesystem.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/wordpress/libraries/filesystem/filesystem.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/wordpress/libraries/form/element/url.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/wordpress/libraries/form/element/url.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/wordpress/libraries/form/form.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/wordpress/libraries/form/form.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/wordpress/libraries/image/helper.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/wordpress/libraries/image/helper.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/wordpress/libraries/localization/localization.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/wordpress/libraries/localization/localization.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/wordpress/libraries/models/content.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/wordpress/libraries/models/content.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/wordpress/libraries/models/link.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/wordpress/libraries/models/link.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/wordpress/libraries/mvc/db.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/wordpress/libraries/mvc/db.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/wordpress/libraries/router/router.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/wordpress/libraries/router/router.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/wordpress/libraries/session/storage.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/wordpress/libraries/session/storage.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/wordpress/libraries/translation/translation.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/wordpress/libraries/translation/translation.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/wordpress/libraries/uri/uri.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/wordpress/libraries/uri/uri.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/wordpress/platform.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/wordpress/platform.php" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/readme.txt" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/readme.txt" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/smart-slider-3.php" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/smart-slider-3.php" />
       <change beforePath="$PROJECT_DIR$/../gazeti/functions/wpzoom/assets/css/dashboard.css" afterPath="$PROJECT_DIR$/../gazeti/functions/wpzoom/assets/css/dashboard.css" />
       <change beforePath="$PROJECT_DIR$/../gazeti/functions/wpzoom/assets/js/shortcode-generator/editor-plugin.3.8.js" afterPath="$PROJECT_DIR$/../gazeti/functions/wpzoom/assets/js/shortcode-generator/editor-plugin.3.8.js" />
       <change beforePath="$PROJECT_DIR$/../gazeti/functions/wpzoom/assets/js/shortcode-tabs.js" afterPath="$PROJECT_DIR$/../gazeti/functions/wpzoom/assets/js/shortcode-tabs.js" />
@@ -49,21 +627,11 @@
       <change beforePath="$PROJECT_DIR$/../gazeti/functions/wpzoom/pages/update.php" afterPath="$PROJECT_DIR$/../gazeti/functions/wpzoom/pages/update.php" />
       <change beforePath="$PROJECT_DIR$/../gazeti/functions/wpzoom/pages/welcome.php" afterPath="$PROJECT_DIR$/../gazeti/functions/wpzoom/pages/welcome.php" />
       <change beforePath="$PROJECT_DIR$/../gazeti/functions/wpzoom/wpzoom.php" afterPath="$PROJECT_DIR$/../gazeti/functions/wpzoom/wpzoom.php" />
-      <change beforePath="$PROJECT_DIR$" afterPath="$PROJECT_DIR$" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/app.scss" afterPath="$PROJECT_DIR$/assets/scss/app.scss" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/colors.scss" afterPath="$PROJECT_DIR$/assets/scss/colors.scss" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/main.scss" afterPath="$PROJECT_DIR$/assets/scss/main.scss" />
-      <change beforePath="$PROJECT_DIR$/footer.php" afterPath="$PROJECT_DIR$/footer.php" />
       <change beforePath="$PROJECT_DIR$/front-page.php" afterPath="$PROJECT_DIR$/front-page.php" />
-      <change beforePath="$PROJECT_DIR$/header.php" afterPath="$PROJECT_DIR$/header.php" />
-      <change beforePath="$PROJECT_DIR$/modules/image-sizes.php" afterPath="$PROJECT_DIR$/modules/image-sizes.php" />
-      <change beforePath="$PROJECT_DIR$/modules/menus.php" afterPath="$PROJECT_DIR$/modules/menus.php" />
-      <change beforePath="$PROJECT_DIR$/modules/sliders/ads-slider.php" afterPath="$PROJECT_DIR$/modules/sliders/ads-slider.php" />
-      <change beforePath="$PROJECT_DIR$/modules/sliders/trendone-slider-data.php" afterPath="$PROJECT_DIR$/modules/sliders/trendone-slider-data.php" />
-      <change beforePath="$PROJECT_DIR$/page.php" afterPath="$PROJECT_DIR$/page.php" />
-      <change beforePath="$PROJECT_DIR$/template-parts/frontpage/slider-ads.php" afterPath="$PROJECT_DIR$/template-parts/frontpage/slider-ads.php" />
-      <change beforePath="$PROJECT_DIR$/template-parts/frontpage/slider-main.php" afterPath="$PROJECT_DIR$/template-parts/frontpage/slider-main.php" />
+      <change beforePath="$PROJECT_DIR$/functions.php" afterPath="$PROJECT_DIR$/functions.php" />
+      <change beforePath="$PROJECT_DIR$/modules/cards/class-trendone-card-data.php" afterPath="$PROJECT_DIR$/modules/cards/class-trendone-card-data.php" />
+      <change beforePath="$PROJECT_DIR$/modules/cards/trendone-cards.php" afterPath="$PROJECT_DIR$/modules/cards/trendone-cards.php" />
       <change beforePath="$PROJECT_DIR$/../../../wp-trackback.php" afterPath="$PROJECT_DIR$/../../../wp-trackback.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -90,11 +658,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="image-sizes.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/modules/image-sizes.php">
+      <file leaf-file-name="webpack.config.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/webpack.config.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="11" column="47" lean-forward="false" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -119,6 +687,9 @@
       <find>plugins|plugins|plugins|plugins|plugins</find>
       <find>trs_image_newsfeed</find>
       <find>trs_image_ad</find>
+      <find>athlete</find>
+      <find>Featboxs</find>
+      <find>box_u</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -127,6 +698,8 @@
       <replace>&lt;?php echo $this-&gt;cssFormClasses; ?&gt;</replace>
       <replace>trendone_image_newsfeed</replace>
       <replace>trendone_image_adbox_1</replace>
+      <replace>featbox</replace>
+      <replace>featboxes</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
@@ -152,8 +725,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../../plugins/trendone-maps/languages/trendone-maps-pl_PL.po" />
-        <option value="$PROJECT_DIR$/template-parts/content/content-contact.php" />
         <option value="$PROJECT_DIR$/page-kontakt.php" />
         <option value="$PROJECT_DIR$/search.php" />
         <option value="&lt;02fe26eb-0c96-410a-95e2-6b95bbaee988&gt;/wp-content/themes/trendone/header.php" />
@@ -164,7 +735,6 @@
         <option value="$PROJECT_DIR$/../../../index.php" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/assets/scss/media.scss" />
-        <option value="$PROJECT_DIR$/webpack.config.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/modules/metaboxes/button_metabox.php" />
         <option value="$PROJECT_DIR$/template-parts/header/slider-main-old.php" />
@@ -183,14 +753,10 @@
         <option value="$PROJECT_DIR$/modules/tgm-required-plugins.php" />
         <option value="$PROJECT_DIR$/template-parts/frontpage/front-content.php" />
         <option value="$PROJECT_DIR$/modules/cards/trendone-card-data.php" />
-        <option value="$PROJECT_DIR$/modules/cards/class-trendone-card-data.php" />
-        <option value="$PROJECT_DIR$/modules/cards/trendone-cards.php" />
-        <option value="$PROJECT_DIR$/functions.php" />
         <option value="$PROJECT_DIR$/modules/sliders/trendone-slider-data.php" />
         <option value="$PROJECT_DIR$/template-parts/common/common-cards.php" />
         <option value="$PROJECT_DIR$/template-parts/common/common-cards-scnd.php" />
         <option value="$PROJECT_DIR$/assets/scss/colors.scss" />
-        <option value="$PROJECT_DIR$/front-page.php" />
         <option value="$PROJECT_DIR$/modules/sliders/ads-slider.php" />
         <option value="$PROJECT_DIR$/modules/menus.php" />
         <option value="$PROJECT_DIR$/assets/scss/main.scss" />
@@ -203,6 +769,13 @@
         <option value="$PROJECT_DIR$/template-parts/frontpage/slider-main.php" />
         <option value="$PROJECT_DIR$/assets/scss/app.scss" />
         <option value="$PROJECT_DIR$/modules/image-sizes.php" />
+        <option value="$PROJECT_DIR$/modules/taxonomies/newsboxes.php" />
+        <option value="$PROJECT_DIR$/modules/taxonomies/featboxes.php" />
+        <option value="$PROJECT_DIR$/modules/cards/trendone-cards.php" />
+        <option value="$PROJECT_DIR$/modules/cards/class-trendone-card-data.php" />
+        <option value="$PROJECT_DIR$/front-page.php" />
+        <option value="$PROJECT_DIR$/functions.php" />
+        <option value="$PROJECT_DIR$/webpack.config.js" />
       </list>
     </option>
   </component>
@@ -240,10 +813,10 @@
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="PhpXdebugProxy" ide_key="xdebug" host="localhost" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="2006" />
-    <option name="y" value="22" />
-    <option name="width" value="1834" />
-    <option name="height" value="2138" />
+    <option name="x" value="2085" />
+    <option name="y" value="248" />
+    <option name="width" value="1680" />
+    <option name="height" value="1868" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -324,7 +897,7 @@
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
+    <navigator currentView="Scope" currentSubView="Project Files" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -332,15 +905,41 @@
       <hideEmptyPackages />
       <abbreviatePackageNames />
       <autoscrollToSource ProjectPane="true" />
-      <autoscrollFromSource ProjectPane="true" />
+      <autoscrollFromSource Scope="true" ProjectPane="true" />
       <sortByType />
       <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="Scratches" />
-      <pane id="Scope" />
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="trendone" type="cbb8eebc:String" user="trendone" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="trendone" type="cbb8eebc:String" user="trendone" />
+              <item name="$PROJECT_DIR$/../../.." type="cbb8eebc:String" user="$PROJECT_DIR$/../../.." />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="trendone" type="cbb8eebc:String" user="trendone" />
+              <item name="$PROJECT_DIR$/../../.." type="cbb8eebc:String" user="$PROJECT_DIR$/../../.." />
+              <item name="wp-content" type="cbb8eebc:String" user="wp-content" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="trendone" type="cbb8eebc:String" user="trendone" />
+              <item name="$PROJECT_DIR$/../../.." type="cbb8eebc:String" user="$PROJECT_DIR$/../../.." />
+              <item name="wp-content" type="cbb8eebc:String" user="wp-content" />
+              <item name="themes" type="cbb8eebc:String" user="themes" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -377,6 +976,59 @@
             <path>
               <item name="trendone" type="b2602c69:ProjectViewProjectNode" />
               <item name="strzal_pl" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="trendone" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="cards" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="trendone" type="b2602c69:ProjectViewProjectNode" />
+              <item name="strzal_pl" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="trendone" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="custom-post-types" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="trendone" type="b2602c69:ProjectViewProjectNode" />
+              <item name="strzal_pl" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="trendone" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="sliders" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="trendone" type="b2602c69:ProjectViewProjectNode" />
+              <item name="strzal_pl" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="trendone" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="taxonomies" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="trendone" type="b2602c69:ProjectViewProjectNode" />
+              <item name="strzal_pl" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="trendone" type="462c0819:PsiDirectoryNode" />
+              <item name="template-parts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="trendone" type="b2602c69:ProjectViewProjectNode" />
+              <item name="strzal_pl" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="trendone" type="462c0819:PsiDirectoryNode" />
+              <item name="template-parts" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="trendone" type="b2602c69:ProjectViewProjectNode" />
+              <item name="strzal_pl" type="462c0819:PsiDirectoryNode" />
               <item name="wp-includes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -387,6 +1039,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -1040,7 +1694,12 @@
       <workItem from="1515697933081" duration="7461000" />
       <workItem from="1515778544634" duration="22405000" />
       <workItem from="1516010082834" duration="33000" />
-      <workItem from="1516021079313" duration="11000" />
+      <workItem from="1516021079313" duration="7226000" />
+      <workItem from="1516122146989" duration="2155000" />
+      <workItem from="1516292718478" duration="222000" />
+      <workItem from="1516293471531" duration="1279000" />
+      <workItem from="1516299778967" duration="1868000" />
+      <workItem from="1516394535102" duration="1304000" />
     </task>
     <task id="LOCAL-00001" summary="Improved menu walker">
       <created>1501948241140</created>
@@ -1196,11 +1855,18 @@
       <option name="project" value="LOCAL" />
       <updated>1515929070304</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Prototype for general preview of layout">
+      <created>1516021158327</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1516021158327</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="276704000" />
+    <option name="totallyTimeSpent" value="290747000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1212,30 +1878,31 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="2006" y="22" width="1834" height="2138" extended-state="0" />
+    <frame x="2085" y="248" width="1680" height="1868" extended-state="0" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32986766" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32901135" sideWeight="0.5151042" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850778" sideWeight="0.5151042" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25876778" sideWeight="0.48489583" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32809553" sideWeight="0.48775056" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20119956" sideWeight="0.36882865" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32768634" sideWeight="0.48775056" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25847048" sideWeight="0.48489583" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20119956" sideWeight="0.36882865" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14213198" sideWeight="0.4841871" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38220608" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20119956" sideWeight="0.63117135" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18988095" sideWeight="0.6287512" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Tail" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44107142" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.62" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24960506" sideWeight="0.49709302" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19020618" sideWeight="0.37124878" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44046468" sideWeight="0.49574015" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21964286" sideWeight="0.371" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1250,7 +1917,6 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32765958" sideWeight="0.49844098" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.8637532" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.62" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1367,7 +2033,8 @@
     <MESSAGE value="Fixed names and definitions" />
     <MESSAGE value="added TrendoneSliderData" />
     <MESSAGE value="Rename files and classes to meet convention" />
-    <option name="LAST_COMMIT_MESSAGE" value="Rename files and classes to meet convention" />
+    <MESSAGE value="Prototype for general preview of layout" />
+    <option name="LAST_COMMIT_MESSAGE" value="Prototype for general preview of layout" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -1386,50 +2053,34 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/front-page.php</url>
-          <line>2</line>
-          <option name="timeStamp" value="81" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/modules/cards/trendone-cards.php</url>
           <line>4</line>
           <option name="timeStamp" value="82" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/front-page.php</url>
-          <line>10</line>
-          <option name="timeStamp" value="83" />
+          <url>file://$PROJECT_DIR$/modules/taxonomies/featboxes.php</url>
+          <line>11</line>
+          <option name="timeStamp" value="86" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/functions.php</url>
+          <line>18</line>
+          <option name="timeStamp" value="88" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/modules/taxonomies/featboxes.php</url>
+          <line>29</line>
+          <option name="timeStamp" value="89" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="84" />
+      <option name="time" value="90" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../../../wp-includes/media.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="25" column="3" lean-forward="true" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/scss/oldOne/media.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/scss/oldOne/contact-form.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../../wp-includes/post.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="296">
@@ -1476,7 +2127,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1495,19 +2145,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/common.php" />
-    <entry file="file://$PROJECT_DIR$/modules/enqueue.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="50" column="61" lean-forward="true" selection-start-line="50" selection-start-column="61" selection-end-line="50" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/IdeaProjects/strzal_pl_portal/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="362">
           <caret line="20" column="28" lean-forward="false" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1524,27 +2165,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/cards/class-trendone-card-data.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="1" column="14" lean-forward="false" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/custom-post-types/trendone-cards.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/custom-post-types/trendone-slider.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="68" column="28" lean-forward="false" selection-start-line="68" selection-start-column="28" selection-end-line="68" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -1566,20 +2186,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="832">
           <caret line="32" column="31" lean-forward="true" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/cards/trendone-cards.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="18" column="65" lean-forward="false" selection-start-line="18" selection-start-column="65" selection-end-line="18" selection-end-column="65" />
-          <folding>
-            <element signature="e#195#200#0#PHP" expanded="false" />
-            <element signature="e#1411#1416#0#PHP" expanded="false" />
-            <element signature="e#1719#1724#0#PHP" expanded="false" />
-            <element signature="e#1926#1931#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1590,25 +2196,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/template-parts/common/common-cards.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="650">
-          <caret line="25" column="52" lean-forward="false" selection-start-line="25" selection-start-column="52" selection-end-line="25" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/scss/colors.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1118">
           <caret line="43" column="31" lean-forward="false" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front-page.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="7" column="24" lean-forward="false" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1623,14 +2214,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="130">
           <caret line="5" column="60" lean-forward="false" selection-start-line="5" selection-start-column="60" selection-end-line="5" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template-parts/common/common-cards-scnd.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="1" column="27" lean-forward="false" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
         </state>
       </provider>
     </entry>
@@ -1645,29 +2228,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="182">
           <caret line="7" column="32" lean-forward="false" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/sliders/ads-slider.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="12" column="38" lean-forward="false" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="60" column="1" lean-forward="true" selection-start-line="60" selection-start-column="1" selection-end-line="60" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="10" column="31" lean-forward="false" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1710,7 +2270,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="16" column="54" lean-forward="false" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1739,7 +2298,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
           <caret line="9" column="82" lean-forward="false" selection-start-line="9" selection-start-column="82" selection-end-line="9" selection-end-column="82" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1759,8 +2317,113 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/image-sizes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="11" column="47" lean-forward="false" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
+        <state relative-caret-position="182">
+          <caret line="7" column="45" lean-forward="true" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template-parts/common/common-cards.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../wp-includes/class-wp-hook.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="515">
+          <caret line="282" column="0" lean-forward="false" selection-start-line="282" selection-start-column="0" selection-end-line="282" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="10" column="31" lean-forward="false" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/custom-post-types/trendone-slider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1043">
+          <caret line="61" column="36" lean-forward="false" selection-start-line="61" selection-start-column="28" selection-end-line="61" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/custom-post-types/trendone-cards.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/cards/class-trendone-card-data.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="7" column="10" lean-forward="false" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/cards/trendone-cards.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="13" column="35" lean-forward="true" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+          <folding>
+            <element signature="e#1366#1371#0#PHP" expanded="false" />
+            <element signature="e#1650#1655#0#PHP" expanded="false" />
+            <element signature="e#1833#1838#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/enqueue.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="999">
+          <caret line="50" column="61" lean-forward="true" selection-start-line="50" selection-start-column="61" selection-end-line="50" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/taxonomies/featboxes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="747">
+          <caret line="34" column="12" lean-forward="false" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template-parts/common/common-cards-scnd.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="728">
+          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/sliders/ads-slider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="34" column="22" lean-forward="false" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1742">
+          <caret line="126" column="52" lean-forward="true" selection-start-line="126" selection-start-column="52" selection-end-line="126" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>

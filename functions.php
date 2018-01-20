@@ -14,9 +14,21 @@ include(get_template_directory() . "/modules/custom-post-types/trendone-slider.p
 include(get_template_directory() . "/modules/custom-post-types/trendone-cards.php");
 
 include(get_template_directory() . "/modules/customizer/hero-section.php");
+require_once (get_template_directory() . "/modules/cards/class-trendone-card-data.php");
+include(get_template_directory() . "/modules/cards/trendone-cards.php");
+include(get_template_directory() . "/modules/taxonomies/featboxes.php");
+
 
 //Hooks
-
+/**
+ * @param $featboxTerm - term of featbox taxonomy
+ */
+function trendone_print_card_section($featboxTerm) {
+    $cardDataCards1 = new TrendoneCardData();
+    $cardDataCards1->postType = 'post';
+    $cardDataCards1->terms = $featboxTerm;
+    trendone_print_cards($cardDataCards1);
+}
 
 /**
  * Template setup
