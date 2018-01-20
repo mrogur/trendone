@@ -22,7 +22,7 @@ add_shortcode('trendone-featbox', function ($params) {
         'tax_query' => [
             ['taxonomy' => 'featbox', 'field' => 'slug', 'terms' => $terms]
         ]]) ?>
-    <div class="row">
+    <div class="row mr-0">
         <div class="col pl-0 pr-0">
             <div class="row">
                 <?php foreach ($featuredPosts as $post): ?>

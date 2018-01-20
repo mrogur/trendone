@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4e502621-2b7f-41b8-84fc-0f27fb542280" name="Default" comment="styling frontpage cards">
-      <change beforePath="" afterPath="$PROJECT_DIR$/assets/scss/_cards.scss" />
       <change beforePath="$PROJECT_DIR$/../../../license.txt" afterPath="$PROJECT_DIR$/../../../license.txt" />
       <change beforePath="$PROJECT_DIR$/../../../wp-config-sample.php" afterPath="$PROJECT_DIR$/../../../wp-config-sample.php" />
       <change beforePath="$PROJECT_DIR$/../../../wp-config.php" afterPath="$PROJECT_DIR$/../../../wp-config.php" />
@@ -22,14 +21,8 @@
       <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/plugins/item/button/button/button.n2less" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/library/smartslider/plugins/item/button/button/button.n2less" />
       <change beforePath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/plugins/nextendfontservices/google/families.csv" afterPath="$PROJECT_DIR$/../../plugins/smart-slider-3/nextend/library/applications/system/plugins/nextendfontservices/google/families.csv" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/app.scss" afterPath="$PROJECT_DIR$/assets/scss/_app.scss" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/cards.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/colors.scss" afterPath="$PROJECT_DIR$/assets/scss/_colors.scss" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/main.scss" afterPath="$PROJECT_DIR$/assets/scss/main.scss" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/slider-main.scss" afterPath="$PROJECT_DIR$/assets/scss/_slider-main.scss" />
-      <change beforePath="$PROJECT_DIR$/front-page.php" afterPath="$PROJECT_DIR$/front-page.php" />
-      <change beforePath="$PROJECT_DIR$/modules/sliders/ads-slider-shortcode.php" afterPath="$PROJECT_DIR$/modules/sliders/ads-slider-shortcode.php" />
-      <change beforePath="$PROJECT_DIR$/template-parts/frontpage/slider-main.php" afterPath="$PROJECT_DIR$/template-parts/frontpage/slider-main.php" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/_cards.scss" afterPath="$PROJECT_DIR$/assets/scss/_cards.scss" />
+      <change beforePath="$PROJECT_DIR$/modules/cards/trendone-cards-shortcode.php" afterPath="$PROJECT_DIR$/modules/cards/trendone-cards-shortcode.php" />
       <change beforePath="$PROJECT_DIR$/../../../wp-trackback.php" afterPath="$PROJECT_DIR$/../../../wp-trackback.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -56,11 +49,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="_cards.scss" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/assets/scss/_cards.scss">
+      <file leaf-file-name="trendone-cards-shortcode.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/modules/cards/trendone-cards-shortcode.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="52">
-              <caret line="2" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+            <state relative-caret-position="452">
+              <caret line="28" column="53" lean-forward="true" selection-start-line="28" selection-start-column="53" selection-end-line="28" selection-end-column="53" />
               <folding />
             </state>
           </provider>
@@ -180,10 +173,10 @@
         <option value="$PROJECT_DIR$/../../../wp-config.php" />
         <option value="$PROJECT_DIR$/modules/sliders/ads-slider-shortcode.php" />
         <option value="$PROJECT_DIR$/template-parts/frontpage/slider-main.php" />
-        <option value="$PROJECT_DIR$/modules/cards/trendone-cards-shortcode.php" />
         <option value="$PROJECT_DIR$/front-page.php" />
         <option value="$PROJECT_DIR$/assets/scss/cards.scss" />
         <option value="$PROJECT_DIR$/assets/scss/_cards.scss" />
+        <option value="$PROJECT_DIR$/modules/cards/trendone-cards-shortcode.php" />
       </list>
     </option>
   </component>
@@ -1217,7 +1210,7 @@
       <workItem from="1516292718478" duration="222000" />
       <workItem from="1516293471531" duration="1279000" />
       <workItem from="1516299778967" duration="1868000" />
-      <workItem from="1516394535102" duration="27561000" />
+      <workItem from="1516394535102" duration="27769000" />
     </task>
     <task id="LOCAL-00001" summary="Improved menu walker">
       <created>1501948241140</created>
@@ -1422,11 +1415,18 @@
       <option name="project" value="LOCAL" />
       <updated>1516467317217</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="styling frontpage cards">
+      <created>1516470984301</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1516470984301</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="317004000" />
+    <option name="totallyTimeSpent" value="317212000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -2001,14 +2001,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/cards/trendone-cards-shortcode.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="611">
-          <caret line="24" column="19" lean-forward="false" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/front-page.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="645">
@@ -2043,8 +2035,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/scss/_cards.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        <state relative-caret-position="26">
+          <caret line="1" column="2" lean-forward="false" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/cards/trendone-cards-shortcode.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="452">
+          <caret line="28" column="53" lean-forward="true" selection-start-line="28" selection-start-column="53" selection-end-line="28" selection-end-column="53" />
           <folding />
         </state>
       </provider>
