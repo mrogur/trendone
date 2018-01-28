@@ -20,7 +20,7 @@
         <!--first column-->
         <div class="col-sm-12 col-lg-4"><!--start logo column-->
             <div class="to-quote clYellow">
-                PRO LIBERATE
+
             </div>
             <div class="to-logo justify-content-between"><!--start logo-->
                 <a class="navbar-brand" href="<?php echo esc_url(home_url('/')); ?>"><?php setup_custom_logo() ?></a>

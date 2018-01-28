@@ -10,6 +10,14 @@
           <option name="port" value="21" />
         </fileTransfer>
       </webServer>
+      <webServer id="96a68f10-10a0-478e-860c-06fd28b14d19" name="wlazlo.me" url="http://91.205.73.220">
+        <fileTransfer host="91.205.73.220" port="21" rootFolder="/www/wlazlo.me">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </project>

@@ -9,6 +9,15 @@
           </mappings>
         </serverdata>
       </paths>
+      <paths name="wlazlo.me">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/" local="$PROJECT_DIR$/../../.." web="/" />
+            <mapping deploy="/wp-content/themes/trendone" local="$PROJECT_DIR$" web="/" />
+            <mapping deploy="" local="$USER_HOME$/IdeaProjects/strzal_pl_portal" />
+          </mappings>
+        </serverdata>
+      </paths>
     </serverData>
   </component>
 </project>

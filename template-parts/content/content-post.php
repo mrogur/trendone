@@ -23,6 +23,9 @@
                         <?php the_title(); ?>
                     </a>
                 </h3>
+                <p class="text-light">
+                    <?php the_date();  ?>
+                </p>
             </header><!-- .entry-header -->
             <div class="entry-content">
                 <?php
@@ -41,6 +44,6 @@
                 '</span></footer><!-- .entry-footer -->'
             );
             ?>
-        </article><!-- #post-## -->
+    </article><!-- #post-## -->
     </div>
 </div>

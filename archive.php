@@ -4,8 +4,11 @@
             <div class="row">
                 <div class="col-sm-9 trendone-article-list">
                     <?php
+                    $slugs = explode('/', get_query_var('category_name'));
+                    $currentCategory = get_category_by_slug('/'.end($slugs));
                     $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
-                    $query = new WP_Query(array('posts_per_page' => 8, 'paged' => $paged));
+                    $query = new WP_Query(array('posts_per_page' => 8, 'paged' => $paged, 'category_name'=> $currentCategory->slug));
+
                     while ($query->have_posts()) : $query->the_post();
                         get_template_part('template-parts/content/content', 'post');
                     endwhile;
