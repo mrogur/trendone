@@ -87,8 +87,6 @@ class TrendOne_CoAuthor {
     {
         return $this->initial;
     }
-
-
 }
 
 function trendone_coauthors_get_post_term_metadata($postId) {
