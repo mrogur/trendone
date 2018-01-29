@@ -19,7 +19,8 @@ include(get_template_directory() . "/modules/sliders/trendone-ads-slider-shortco
 
 
 include(get_template_directory() . "/modules/trendone-register-terms.php");
-
+include(get_template_directory(). "/modules/taxonomies/trendone-coauthor-metabox.php");
+include(get_template_directory(). "/modules/metaboxes/trendone-coauthors-category-metabox.php");
 
 //Hooks
 /**

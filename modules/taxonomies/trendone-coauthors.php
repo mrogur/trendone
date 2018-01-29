@@ -61,5 +61,48 @@ function coauthor_register_terms_action()
   do_action('coauthor_register_terms');
 }
 
+class TrendOne_CoAuthor {
+    private $name;
+    private $initial;
 
+    public function __construct($name, $initial)
+    {
+
+        $this->name = $name;
+        $this->initial = $initial;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getName()
+    {
+        return $this->name;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getInitial()
+    {
+        return $this->initial;
+    }
+
+
+}
+
+function trendone_coauthors_get_post_term_metadata($postId) {
+    $terms = get_the_terms($postId, 'coauthor');
+    $coauthors = [];
+    if(empty($terms)) {
+        return;
+    }
+
+    /** @var WP_Term $term */
+    foreach ($terms as $term) {
+        $coauthors[] = new TrendOne_CoAuthor($term->name, get_term_meta($term->term_id, 'initials', true));
+    }
+
+    return $coauthors;
+}
 

@@ -5,18 +5,21 @@
  * Date: 21.01.2018
  * Time: 08:07
  */
+require_once(get_template_directory() . '/modules/taxonomies/coauthor-display-options.php');
 
-class TermMetaRegistration
+class TrendOne_CategoryCouathorDisplayRegistration
 {
     private $taxonomy;
     private $fieldTitle;
     private $metaKey;
+    private $displayOptions;
 
     public function __construct($taxonomyName, $metaKey, $fieldTitle)
     {
         $this->taxonomy = $taxonomyName;
         $this->fieldTitle = $fieldTitle;
         $this->metaKey = $metaKey;
+        $this->displayOptions = coauthor_get_display_options();
     }
 
     public function init()

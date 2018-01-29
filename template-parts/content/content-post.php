@@ -6,9 +6,8 @@
  * @subpackage Twenty_Sixteen
  * @since Twenty Sixteen 1.0
  */
+    $coauthors = trendone_coauthors_get_post_term_metadata(get_the_ID());
 ?>
-
-
 <div class="row">
     <div class="col-sm-4">
         <div class="d-flex h-100 align-items-center">
@@ -31,6 +30,15 @@
                 <?php
                 the_excerpt();
                 ?>
+            <div class="coauthor">
+                <?php
+                $coauthorStr = "";
+                foreach ($coauthors as $coauthor) {
+
+                }
+
+                ?>
+            </div>
             </div><!-- .entry-content -->
 
             <?php
