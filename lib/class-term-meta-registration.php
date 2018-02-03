@@ -61,7 +61,7 @@ class TermMetaRegistration
     }
 
     public function edit_form_field_term_meta_text( $term ) {
-        $value  = $this->get_term_meta_text( $term->term_id );
+        $value  = $this->get_term_meta_text( $term->term_id);
         if ( ! $value )
             $value = ""; ?>
 

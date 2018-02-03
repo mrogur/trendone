@@ -23,15 +23,11 @@ include(get_template_directory(). "/modules/taxonomies/trendone-coauthor-metabox
 include(get_template_directory(). "/modules/metaboxes/trendone-coauthors-category-metabox.php");
 
 //Hooks
-/**
- * @param $featboxTerm - term of featbox taxonomy
- */
-function trendone_print_card_section($featboxTerm) {
-    $cardDataCards1 = new TrendoneCardData();
-    $cardDataCards1->postType = 'post';
-    $cardDataCards1->terms = $featboxTerm;
-    trendone_print_cards($cardDataCards1);
-}
+
+
+$trendOne_CoauthorPostMetaBox = new TrendOne_CoauthorPostMetaBox();
+
+add_action('init', [$trendOne_CoauthorPostMetaBox, 'init_action']);
 
 function trendone_print_ads_slider($imageProfile, $customClasses = [])
 {
