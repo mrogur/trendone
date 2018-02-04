@@ -5,6 +5,7 @@ define( "ROOT_DIR", get_template_directory() );
 
 
 include( get_template_directory() . "/modules/trendone-enqueue.php" );
+include( get_template_directory() . "/modules/trendone-admin-enqueue.php" );
 include( get_template_directory() . "/modules/trendone-menus.php" );
 include( get_template_directory() . "/modules/trendone-image-sizes.php" );
 include( get_template_directory() . "/modules/tgm-required-plugins.php" );

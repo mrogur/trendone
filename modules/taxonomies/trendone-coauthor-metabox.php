@@ -5,6 +5,20 @@
 
 require_once(get_template_directory() . '/modules/taxonomies/coauthor-display-options.php');
 
+class TrendOne_CoauthorCategoryMetadata
+{
+    /** @var WP_Term */
+    public $category;
+    /** @var string */
+    public $displayOption;
+
+    public function __construct($category, $displayOption)
+    {
+        $this->category = $category;
+        $this->displayOption = $displayOption;
+    }
+}
+
 
 class TrendOne_CoauthorPostMetaBox
 {
@@ -36,43 +50,100 @@ class TrendOne_CoauthorPostMetaBox
 
     /**
      * @param $post WP_Post
+     * @return TrendOne_CoauthorCategoryMetadata[]
+     */
+
+    public function get_coauthor_category_display($post)
+    {
+
+        $cat = wp_get_post_categories($post->ID, ['fields' => 'all']);
+        $categories = [];
+        /** @var WP_Term $category */
+        foreach ($cat as $category) {
+            $term_meta = get_term_meta($category->term_id, 'display_coauthor', true);
+            $categories[] = new TrendOne_CoauthorCategoryMetadata($category, $term_meta);
+        }
+        return $categories;
+
+    }
+
+    /**
+     * @param $categoryDisplayOptions TrendOne_CoauthorCategoryMetadata[]
      * @return string
      */
-    public function trendone_get_coauthor_display_from_category($post)
+
+    public function trendone_get_coauthor_display_from_category($categoryDisplayOptions)
     {
-        $cat = wp_get_post_categories($post->ID);
-        if (count($cat) > 1) {
+        if (count($categoryDisplayOptions) > 1) {
             $this->hasMoreThanOneCategory = true;
             $this->hasValueFromPostCategory = true;
-            return "9";
+            return "0";
         }
-        if (empty($cat)) {
-            return "1";
-        }
+        return $categoryDisplayOptions[0]->displayOption;
+    }
 
-        $found = "";
-
-        foreach ($cat as $categoryName) {
-            $term_meta = get_term_meta($categoryName, 'display_coauthor', true);
-            if (!empty($term_meta)) {
-                $found = $term_meta;
-                break;
-            }
-        }
-
-        $this->hasValueFromPostCategory = true;
-        return empty($found) ? "1" : $found;
+    /**
+     * @param TrendOne_CoauthorCategoryMetadata[] $categoryDisplayOptions
+     */
+    private function print_category_display_options_table($categoryDisplayOptions = [])
+    {
+        ?>
+        <h5><?php echo _("CoAuthor Display Options by Category") ?></h5>
+        <div class="row">
+            <div class="col-md-6">
+                <table class="table">
+                    <thead class="thead-light">
+                    <tr class="">
+                        <th><?php echo _('Category Name') ?></th>
+                        <th><?php echo _('Display Option') ?></th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <?php
+                    $terms = coauthor_get_display_options();
+                    foreach ($categoryDisplayOptions as $catDspOpt):
+                        ?>
+                        <tr>
+                            <td><?php echo $catDspOpt->category->name ?></td>
+                            <td><?php echo !empty($catDspOpt->displayOption) ? $terms[$catDspOpt->displayOption] : "Not assigned" ?>
+                            </td>
+                        </tr>
+                    <?php endforeach; ?>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <?php
     }
 
 
+    /**
+     * @param $post WP_Post
+     * @param $categoryDisplayOptions TrendOne_CoauthorCategoryMetadata[]
+     * @return string
+     */
+    private function get_selected_option_id($post, $categoryDisplayOptions)
+    {
+        $trendone_coauthor_display_option =
+            get_post_meta($post->ID, self::TRENDONE_COAUTHOR_DISPLAY_OPTION, true);
+
+        if (!empty($trendone_coauthor_display_option)) {
+            return $trendone_coauthor_display_option;
+        }
+        return "0";
+
+    }
+
     public function coauthor_custom_box_html($post)
     {
-        $trendone_coauthor_display_option = get_post_meta($post->ID, self::TRENDONE_COAUTHOR_DISPLAY_OPTION, true);
-        $optionSelected = empty($trendone_coauthor_display_option) ?
-            $this->trendone_get_coauthor_display_from_category($post) : $trendone_coauthor_display_option;
-        $disabled = $this->hasMoreThanOneCategory ? "disabled" : "";
+
         ?>
         <div class="custom-coauthor-metabox">
+            <?php
+            $displayOptions = $this->get_coauthor_category_display($post);
+            $selectedOption = $this->get_selected_option_id($post, $displayOptions);
+            $disabled = $this->hasMoreThanOneCategory ? "disabled" : "";
+            ?>
             <div class="custom-coauthor-metabox-field-wrapper">
                 <?php if ($this->hasMoreThanOneCategory): ?>
                     <div class="text-warning">
@@ -80,13 +151,16 @@ class TrendOne_CoauthorPostMetaBox
                     </div>
 
                 <?php endif; ?>
-                <label for="trendone_coauthor_display_option">Display Coauthor</label>
+                <?php $this->print_category_display_options_table($displayOptions) ?>
+                <label for="trendone_coauthor_display_option">Display Coauthor by:</label>
+
                 <input type="hidden" name="has_value_from_post_category"
                        value="<?php echo $this->hasValueFromPostCategory ?>">
-                <select name="trendone_coauthor_display_option" id="" <?php echo $disabled ?>>
+                <select name="trendone_coauthor_display_option"
+                        id="trendone_coauthor_display_option" <?php echo $disabled ?>>
                     <?php foreach (coauthor_get_display_options() as $value => $optionText): ?>
                         <option value="<?php echo $value ?>"
-                            <?php echo ($value == $optionSelected) ? "selected" : "" ?>>
+                            <?php echo ($value == $selectedOption) ? "selected" : "" ?>>
                             <?php echo $optionText ?>
                         </option>
                     <?php endforeach; ?>

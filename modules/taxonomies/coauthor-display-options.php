@@ -9,8 +9,8 @@
 function coauthor_get_display_options() {
     return [
         "9" => "",
-        "1" => _("Display Coauthor Name"),
-        "2" => _("Display Coauthor Initials"),
-        "3" => _("Display Team"),
-        "0" => _("Display None")];
+        "1" => _("Coauthor Name"),
+        "2" => _("Coauthor Initials"),
+        "3" => _("Team"),
+        "0" => _("Coauthor Settings From Category ")];
 }
