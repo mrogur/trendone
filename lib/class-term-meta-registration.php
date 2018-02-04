@@ -49,6 +49,7 @@ class TermMetaRegistration
         return $value;
     }
 
+
     public function add_form_field_term_meta_text()
     { ?>
         <?php wp_nonce_field(basename(__FILE__), $this->metaKey.'_nonce'); ?>

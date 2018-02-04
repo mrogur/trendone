@@ -6,7 +6,6 @@
 require_once(get_template_directory() . '/modules/taxonomies/coauthor-display-options.php');
 
 
-
 class TrendOne_CoauthorPostMetaBox
 {
 
@@ -15,9 +14,10 @@ class TrendOne_CoauthorPostMetaBox
     private $hasValueFromPostCategory = false;
     private $hasMoreThanOneCategory = false;
 
-    public function init_action() {
-        add_action('add_meta_boxes', [$this,'coauthor_add_custom_box']);
-        add_action('save_post', [$this,'coauthor_save_postdata']);
+    public function init_action()
+    {
+        add_action('add_meta_boxes', [$this, 'coauthor_add_custom_box']);
+        add_action('save_post', [$this, 'coauthor_save_postdata']);
     }
 
     function coauthor_add_custom_box()
@@ -27,23 +27,21 @@ class TrendOne_CoauthorPostMetaBox
             add_meta_box(
                 'trendone_coauthor_box_id',           // Unique ID
                 _('CoAuthor Display Options'),  // Box title
-                [$this,'coauthor_custom_box_html'],  // Content callback, must be of type callable
+                [$this, 'coauthor_custom_box_html'],  // Content callback, must be of type callable
                 $screen                   // Post type
             );
         }
     }
 
 
-
     /**
      * @param $post WP_Post
      * @return string
      */
-    function trendone_get_coauthor_display_from_category($post)
+    public function trendone_get_coauthor_display_from_category($post)
     {
-        $cat = $post->post_category;
-        if(count($cat)>1) 
-        {
+        $cat = wp_get_post_categories($post->ID);
+        if (count($cat) > 1) {
             $this->hasMoreThanOneCategory = true;
             $this->hasValueFromPostCategory = true;
             return "9";
@@ -53,19 +51,17 @@ class TrendOne_CoauthorPostMetaBox
         }
 
         $found = "";
-        $categories = array_reverse($cat);
-        foreach ($categories as $categoryName) {
+
+        foreach ($cat as $categoryName) {
             $term_meta = get_term_meta($categoryName, 'display_coauthor', true);
             if (!empty($term_meta)) {
                 $found = $term_meta;
                 break;
             }
         }
-        if (empty($found)) {
-            return "1";
-        }
+
         $this->hasValueFromPostCategory = true;
-        return $found;
+        return empty($found) ? "1" : $found;
     }
 
 
@@ -78,14 +74,15 @@ class TrendOne_CoauthorPostMetaBox
         ?>
         <div class="custom-coauthor-metabox">
             <div class="custom-coauthor-metabox-field-wrapper">
-                <?php if($this->hasMoreThanOneCategory): ?>
+                <?php if ($this->hasMoreThanOneCategory): ?>
                     <div class="text-warning">
                         <?php echo _("This post belongs to more than one category. Using category based display settings.") ?>
                     </div>
 
-                <?php endif;  ?>
+                <?php endif; ?>
                 <label for="trendone_coauthor_display_option">Display Coauthor</label>
-                <input type="hidden" name="has_value_from_post_category" value="<?php echo $this->hasValueFromPostCategory?>">
+                <input type="hidden" name="has_value_from_post_category"
+                       value="<?php echo $this->hasValueFromPostCategory ?>">
                 <select name="trendone_coauthor_display_option" id="" <?php echo $disabled ?>>
                     <?php foreach (coauthor_get_display_options() as $value => $optionText): ?>
                         <option value="<?php echo $value ?>"
@@ -102,7 +99,7 @@ class TrendOne_CoauthorPostMetaBox
 
     function coauthor_save_postdata($post_id)
     {
-        if(array_key_exists('has_value_from_post_category', $_POST) && $_POST['has_value_from_post_category'] == true) {
+        if (array_key_exists('has_value_from_post_category', $_POST) && $_POST['has_value_from_post_category'] == true) {
             return;
         }
         if (array_key_exists(self::TRENDONE_COAUTHOR_DISPLAY_OPTION, $_POST)) {

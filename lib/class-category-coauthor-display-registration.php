@@ -121,8 +121,13 @@ class TrendOne_CategoryCouathorDisplayRegistration
         if ($this->metaKey === $column) {
             $value = $this->get_term_meta_text($term_id);
             if (!$value)
-                $value = '';
-            $out = sprintf('<span class="term-meta-text-block" style="" >%s</span>', esc_attr($value));
+                $value = "9";
+
+            $coauthorOptions = coauthor_get_display_options();
+
+            $coauthorDisplay = $coauthorOptions[$value];
+
+            $out = sprintf('<span class="term-meta-text-block" style="" >%s</span>', esc_attr($coauthorDisplay));
         }
         return $out;
     }

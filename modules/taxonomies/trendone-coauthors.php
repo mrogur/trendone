@@ -104,3 +104,9 @@ function trendone_coauthors_get_post_term_metadata($postId) {
     return $coauthors;
 }
 
+function trendone_get_coauthors($categoryId, $postId)
+{
+    
+}
+
+

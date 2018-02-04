@@ -29,10 +29,6 @@ $trendOne_CoauthorPostMetaBox = new TrendOne_CoauthorPostMetaBox();
 
 add_action('init', [$trendOne_CoauthorPostMetaBox, 'init_action']);
 
-function trendone_print_ads_slider($imageProfile, $customClasses = [])
-{
-
-}
 
 /**
  * Template setup
