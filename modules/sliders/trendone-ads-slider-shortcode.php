@@ -47,7 +47,7 @@ add_shortcode('trendone-slider', function ($params = []) {
                 ?>
                 <div class="carousel-item <?php echo $count == 0 ? 'active' : '' ?>"
                      data-slide-id="<?php echo $slide->ID ?>">
-                    <img class="d-block mx-auto" width="<?php echo $width ?>" height="<?php $height ?>"
+                    <img class="d-block mx-auto img-fluid" width="<?php echo $width ?>" height="<?php $height ?>"
                          src="<?php echo $src ?>"
                          alt="First slide">
                 </div>

@@ -23,13 +23,13 @@
 
             </div>
             <div class="to-logo justify-content-between"><!--start logo-->
-                <a class="navbar-brand" href="<?php echo esc_url(home_url('/')); ?>"><?php setup_custom_logo() ?></a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                <button class="navbar-toggler mr-3" type="button" data-toggle="collapse"
                         data-target="#mainNav"
                         aria-controls="mainNav" aria-expanded="false"
                         aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
+                <a class="navbar-brand" href="<?php echo esc_url(home_url('/')); ?>"><?php setup_custom_logo() ?></a>
             </div><!--end logo-->
         </div><!--end logo column-->
         <!--first column-->
@@ -57,10 +57,10 @@
                 <div class="d-flex flex-row justify-content-end mb-4"><!--start row register  -->
                     <a class="clYellow fntSmall mr-3 " href="#">Zarejestruj się</a>
                 </div>
-                <div class="d-flex flex-row"><!--start row menu-->
+                <div class="d-flex flex-row align-self-center mx-auto mt-lg-1 mt-md-5 mt-sm-0 mt-xs-1 "><!--start row menu-->
                     <?php wp_nav_menu([
                         'theme_location' => 'header-menu',
-                        'menu_class' => "navbar-nav ml-md-auto mainMenu",
+                        'menu_class' => "navbar-nav mt-1 mt-md-5  mainMenu",
                         'container' => false,
                         'depth' => 3,
                         'walker' => new BootstrapNavMenuWalker()

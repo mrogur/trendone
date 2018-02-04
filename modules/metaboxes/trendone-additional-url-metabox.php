@@ -42,15 +42,14 @@ function slider_save_postdata( $post_id ) {
 		update_post_meta(
 			$post_id,
 			'tro_button_url',
-			$_POST['tro_button_url']
+			sanitize_text_field( $_POST['tro_button_url'])
 		);
 	}
 	if ( array_key_exists( 'tro_button_text', $_POST ) ) {
-		update_post_meta(
-			$post_id,
-			'tro_button_text',
-			$_POST['tro_button_text']
-		);
+        update_post_meta(
+            $post_id,
+            'tro_button_text',
+            sanitize_text_field($_POST['tro_button_text']));
 	}
 }
 

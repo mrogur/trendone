@@ -26,6 +26,7 @@ function custom_bootstrap_slider() {
 		'menu_icon'          => 'dashicons-star-half',
 		'description'        => __( 'Description.' ),
 		'public'             => true,
+        'show_admin_column'  => true,
 		'publicly_queryable' => true,
 		'show_ui'            => true,
 		'show_in_menu'       => true,
@@ -53,6 +54,7 @@ function trs_register_taxonomies() {
             'label' => __( 'Slider' ),
             'rewrite' => array( 'slug' => 'slider-name' ),
             'hierarchical' => true,
+            'show_admin_column' => true,
         )
     );
     register_taxonomy(
@@ -62,6 +64,7 @@ function trs_register_taxonomies() {
             'label' => __( 'Category' ),
             'rewrite' => array( 'slug' => 'slide-category' ),
             'hierarchical' => true,
+            'show_admin_column' => true
         )
     );
 }
