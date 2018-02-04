@@ -5,20 +5,23 @@
  * Date: 15.01.2018
  * Time: 17:42
  */
-require_once( get_template_directory() . "/lib/class-term-meta-registration.php" );
+require_once(get_template_directory(). "/lib/class-term-meta-registration.php");
+include(__DIR__."/trendone-coauthor-post-metabox.php");
+include(__DIR__. "/metaboxes/trendone-coauthors-category-metabox.php");
+
 
 $termMetaRegistration = new TermMetaRegistration('coauthor', 'initials', 'Initials');
 
-add_action('init', 'create_coauthor_taxonomy');
-add_action('init', 'coauthor_register_terms_action');
-add_action('init', [$termMetaRegistration, 'init']);
-
+function trendone_get_coauthors()
+{
+    return [];
+}
 
 
 function create_coauthor_taxonomy()
 {
     $labels = array(
-        'name' => 'CoAuthors',
+        'name' => 'CoAupthors',
         'singular_name' => 'CoAuthor',
         'search_items' => 'Search CoAuthors',
         'all_items' => 'All CoAuthors',
@@ -55,58 +58,19 @@ function create_coauthor_taxonomy()
 }
 
 
-
 function coauthor_register_terms_action()
 {
-  do_action('coauthor_register_terms');
+    do_action('coauthor_register_terms');
 }
 
-class TrendOne_CoAuthor {
-    private $name;
-    private $initial;
 
-    public function __construct($name, $initial)
-    {
+$trendOne_CoauthorPostMetaBox = new TrendOne_CoauthorPostMetaBox();
+$coauthorCache = new TrendOne_CoauthorCache();
 
-        $this->name = $name;
-        $this->initial = $initial;
-    }
+add_action('init', 'create_coauthor_taxonomy');
+add_action('init', 'coauthor_register_terms_action');
+add_action('init', [$termMetaRegistration, 'init']);
+add_action('init', [$trendOne_CoauthorPostMetaBox, 'init_action']);
 
-    /**
-     * @return mixed
-     */
-    public function getName()
-    {
-        return $this->name;
-    }
-
-    /**
-     * @return mixed
-     */
-    public function getInitial()
-    {
-        return $this->initial;
-    }
-}
-
-function trendone_coauthors_get_post_term_metadata($postId) {
-    $terms = get_the_terms($postId, 'coauthor');
-    $coauthors = [];
-    if(empty($terms)) {
-        return;
-    }
-
-    /** @var WP_Term $term */
-    foreach ($terms as $term) {
-        $coauthors[] = new TrendOne_CoAuthor($term->name, get_term_meta($term->term_id, 'initials', true));
-    }
-
-    return $coauthors;
-}
-
-function trendone_get_coauthors($categoryId, $postId)
-{
-    
-}
 
 

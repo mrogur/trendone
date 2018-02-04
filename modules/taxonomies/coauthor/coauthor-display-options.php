@@ -11,6 +11,6 @@ function coauthor_get_display_options() {
         "9" => "",
         "1" => _("Coauthor Name"),
         "2" => _("Coauthor Initials"),
-        "3" => _("Team"),
         "0" => _("Coauthor Settings From Category ")];
 }
+

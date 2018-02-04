@@ -3,22 +3,9 @@
  * Custom metaboxes
  */
 
-require_once(get_template_directory() . '/modules/taxonomies/coauthor-display-options.php');
-
-class TrendOne_CoauthorCategoryMetadata
-{
-    /** @var WP_Term */
-    public $category;
-    /** @var string */
-    public $displayOption;
-
-    public function __construct($category, $displayOption)
-    {
-        $this->category = $category;
-        $this->displayOption = $displayOption;
-    }
-}
-
+require_once(__DIR__.'/coauthor-display-options.php');
+require_once(__DIR__.'/data/class-trendone-category-metadata.php');
+require_once(__DIR__.'/class-trendone-coauthor-cache.php');
 
 class TrendOne_CoauthorPostMetaBox
 {
@@ -28,6 +15,12 @@ class TrendOne_CoauthorPostMetaBox
     private $hasValueFromPostCategory = false;
     private $hasMoreThanOneCategory = false;
 
+    private $cache;
+    public function __construct()
+    {
+        $this->cache = new TrendOne_CoauthorCache();
+    }
+    
     public function init_action()
     {
         add_action('add_meta_boxes', [$this, 'coauthor_add_custom_box']);
@@ -48,24 +41,8 @@ class TrendOne_CoauthorPostMetaBox
     }
 
 
-    /**
-     * @param $post WP_Post
-     * @return TrendOne_CoauthorCategoryMetadata[]
-     */
 
-    public function get_coauthor_category_display($post)
-    {
 
-        $cat = wp_get_post_categories($post->ID, ['fields' => 'all']);
-        $categories = [];
-        /** @var WP_Term $category */
-        foreach ($cat as $category) {
-            $term_meta = get_term_meta($category->term_id, 'display_coauthor', true);
-            $categories[] = new TrendOne_CoauthorCategoryMetadata($category, $term_meta);
-        }
-        return $categories;
-
-    }
 
     /**
      * @param $categoryDisplayOptions TrendOne_CoauthorCategoryMetadata[]
@@ -118,20 +95,18 @@ class TrendOne_CoauthorPostMetaBox
 
 
     /**
-     * @param $post WP_Post
-     * @param $categoryDisplayOptions TrendOne_CoauthorCategoryMetadata[]
+     * @param $postId int
      * @return string
      */
-    private function get_selected_option_id($post, $categoryDisplayOptions)
+    private function get_selected_option_id($postId)
     {
         $trendone_coauthor_display_option =
-            get_post_meta($post->ID, self::TRENDONE_COAUTHOR_DISPLAY_OPTION, true);
+            get_post_meta($postId, self::TRENDONE_COAUTHOR_DISPLAY_OPTION, true);
 
         if (!empty($trendone_coauthor_display_option)) {
             return $trendone_coauthor_display_option;
         }
         return "0";
-
     }
 
     public function coauthor_custom_box_html($post)
@@ -140,7 +115,7 @@ class TrendOne_CoauthorPostMetaBox
         ?>
         <div class="custom-coauthor-metabox">
             <?php
-            $displayOptions = $this->get_coauthor_category_display($post);
+            $displayOptions = $this->cache->get_coauthor_category_display($post->ID);
             $selectedOption = $this->get_selected_option_id($post, $displayOptions);
             $disabled = $this->hasMoreThanOneCategory ? "disabled" : "";
             ?>
@@ -170,12 +145,11 @@ class TrendOne_CoauthorPostMetaBox
         <?php
     }
 
-
     function coauthor_save_postdata($post_id)
     {
-        if (array_key_exists('has_value_from_post_category', $_POST) && $_POST['has_value_from_post_category'] == true) {
+   /*     if (array_key_exists('has_value_from_post_category', $_POST) && $_POST['has_value_from_post_category'] == true) {
             return;
-        }
+        }*/
         if (array_key_exists(self::TRENDONE_COAUTHOR_DISPLAY_OPTION, $_POST)) {
             if (!array_key_exists($_POST[self::TRENDONE_COAUTHOR_DISPLAY_OPTION], array_keys(coauthor_get_display_options()))) {
                 return;

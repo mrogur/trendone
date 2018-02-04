@@ -12,23 +12,24 @@ include( get_template_directory() . "/modules/tgm-required-plugins.php" );
 include( get_template_directory() . "/lib/BootstrapNavMenuWalker.php" );
 include(get_template_directory() . "/modules/metaboxes/trendone-additional-url-metabox.php");
 include(get_template_directory() . "/modules/custom-post-types/trendone-slider.php");
-include(get_template_directory() . "/modules/taxonomies/trendone-featboxes.php");
-include(get_template_directory() . "/modules/taxonomies/trendone-coauthors.php");
 //include(get_template_directory() . "/modules/taxonomies/trendone-coauthors-term-meta.php");
 include(get_template_directory() . "/modules/cards/trendone-cards-shortcode.php");
 include(get_template_directory() . "/modules/sliders/trendone-ads-slider-shortcode.php");
 
 
-include(get_template_directory() . "/modules/trendone-register-terms.php");
-include(get_template_directory(). "/modules/taxonomies/trendone-coauthor-metabox.php");
-include(get_template_directory(). "/modules/metaboxes/trendone-coauthors-category-metabox.php");
+/*FeatBox Taxnonomy*/
+include(get_template_directory() . "/modules/taxonomies/featbox/trendone-featboxes.php");
+include(get_template_directory() . "/modules/taxonomies/featbox/trendone-register-terms.php");
+
+
+/*CoAuthors Taxonomy */
+include(get_template_directory() . "/modules/taxonomies/coauthor/trendone-coauthors.php");
+
 
 //Hooks
 
 
-$trendOne_CoauthorPostMetaBox = new TrendOne_CoauthorPostMetaBox();
 
-add_action('init', [$trendOne_CoauthorPostMetaBox, 'init_action']);
 
 
 /**

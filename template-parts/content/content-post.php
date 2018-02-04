@@ -6,7 +6,8 @@
  * @subpackage Twenty_Sixteen
  * @since Twenty Sixteen 1.0
  */
-    $coauthors = trendone_coauthors_get_post_term_metadata(get_the_ID());
+global $coauthorCache;
+    $coauthors = $coauthorCache->get_coauthors(get_the_ID());
 ?>
 <div class="row">
     <div class="col-sm-4">
@@ -32,11 +33,9 @@
                 ?>
             <div class="coauthor">
                 <?php
-                $coauthorStr = "";
-                foreach ($coauthors as $coauthor) {
-
-                }
-
+                global $category_id;
+                $coauthorStr = $coauthorCache->get_coauthors_div(get_the_ID(), $category_id);
+                echo $coauthorStr;
                 ?>
             </div>
             </div><!-- .entry-content -->

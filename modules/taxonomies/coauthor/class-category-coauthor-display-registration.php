@@ -5,7 +5,7 @@
  * Date: 21.01.2018
  * Time: 08:07
  */
-require_once(get_template_directory() . '/modules/taxonomies/coauthor-display-options.php');
+require_once(__DIR__.'/coauthor-display-options.php');
 
 class TrendOne_CategoryCouathorDisplayRegistration
 {
