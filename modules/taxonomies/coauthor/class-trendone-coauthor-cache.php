@@ -34,7 +34,7 @@ class TrendOne_CoauthorCache
                 $coauthors[] = $this->coAuthors[$term->term_id];
                 continue;
             }
-            $cauth = new TrendOne_CoAuthor($term->name, get_term_meta($term->term_id, 'initials', true));
+            $cauth = new TrendOne_CoAuthor($term, $term->name, get_term_meta($term->term_id, 'initials', true));
             $this->coAuthors[$term->term_id] = $cauth;
             $coauthors[] = $cauth;
         }
@@ -93,6 +93,11 @@ class TrendOne_CoauthorCache
             return $option_by_post_id;
         }
 
+        if(null == $categoryId)
+        {
+            return "1";
+        }
+
         $option_by_category = $this->get_coauthor_category_display($postId, $categoryId);
         if (empty($option_by_category)) {
             return "1";
@@ -127,8 +132,10 @@ class TrendOne_CoauthorCache
             <?php
             echo $start_section;
             while ($iter->valid()):
+                /** @var TrendOne_CoAuthor $coauthor */
                 $coauthor = $iter->current();
                 $name = $coauthor->getName();
+                $link =  get_term_link($coauthor->getTerm());
                 if ($display_option == "2") {
                     $name = $coauthor->getInitial();
                 }
@@ -136,7 +143,7 @@ class TrendOne_CoauthorCache
                 $iter->next();
                 ?>
 
-                <span class="coauthor-display"><?php echo $name ?> </span>
+                <span class="coauthor-display"><?php echo "<a href=".esc_attr($link).">" . $name . "</a>" ?> </span>
                 <?php if ($iter->valid()) {
                 echo ", ";
             } ?>

@@ -10,10 +10,12 @@ class TrendOne_CoAuthor
 {
     private $name;
     private $initial;
+    private $term;
 
-    public function __construct($name, $initial)
+    public function __construct($term, $name, $initial)
     {
 
+        $this->term = $term;
         $this->name = $name;
         $this->initial = $initial;
     }
@@ -33,5 +35,15 @@ class TrendOne_CoAuthor
     {
         return $this->initial;
     }
+
+    /**
+     * @return mixed
+     */
+    public function getTerm()
+    {
+        return $this->term;
+    }
+
+
 }
 

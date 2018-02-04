@@ -3,9 +3,9 @@
  * Custom metaboxes
  */
 
-require_once(__DIR__.'/coauthor-display-options.php');
-require_once(__DIR__.'/data/class-trendone-category-metadata.php');
-require_once(__DIR__.'/class-trendone-coauthor-cache.php');
+require_once(__DIR__ . '/coauthor-display-options.php');
+require_once(__DIR__ . '/data/class-trendone-category-metadata.php');
+require_once(__DIR__ . '/class-trendone-coauthor-cache.php');
 
 class TrendOne_CoauthorPostMetaBox
 {
@@ -16,11 +16,12 @@ class TrendOne_CoauthorPostMetaBox
     private $hasMoreThanOneCategory = false;
 
     private $cache;
+
     public function __construct()
     {
         $this->cache = new TrendOne_CoauthorCache();
     }
-    
+
     public function init_action()
     {
         add_action('add_meta_boxes', [$this, 'coauthor_add_custom_box']);
@@ -39,9 +40,6 @@ class TrendOne_CoauthorPostMetaBox
             );
         }
     }
-
-
-
 
 
     /**
@@ -147,9 +145,9 @@ class TrendOne_CoauthorPostMetaBox
 
     function coauthor_save_postdata($post_id)
     {
-   /*     if (array_key_exists('has_value_from_post_category', $_POST) && $_POST['has_value_from_post_category'] == true) {
+        if (array_key_exists('has_value_from_post_category', $_POST) && $_POST['has_value_from_post_category'] == true) {
             return;
-        }*/
+        }
         if (array_key_exists(self::TRENDONE_COAUTHOR_DISPLAY_OPTION, $_POST)) {
             if (!array_key_exists($_POST[self::TRENDONE_COAUTHOR_DISPLAY_OPTION], array_keys(coauthor_get_display_options()))) {
                 return;
