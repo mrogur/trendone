@@ -1,7 +1,7 @@
 <?php
 /**This is TrendOne header file. */
 ?>
-<!doctype html>
+<!doctype html>1
 <html lang="en">
 <head>
     <meta charset="utf-8">

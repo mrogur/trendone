@@ -114,7 +114,7 @@ class TrendOne_CoauthorPostMetaBox
         <div class="custom-coauthor-metabox">
             <?php
             $displayOptions = $this->cache->get_coauthor_category_display($post->ID);
-            $selectedOption = $this->get_selected_option_id($post, $displayOptions);
+            $selectedOption = $this->get_selected_option_id($post->ID, $displayOptions);
             $disabled = $this->hasMoreThanOneCategory ? "disabled" : "";
             ?>
             <div class="custom-coauthor-metabox-field-wrapper">

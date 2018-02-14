@@ -6,8 +6,8 @@
  * @subpackage Twenty_Sixteen
  * @since Twenty Sixteen 1.0
  */
-global $coauthorCache;
-    $coauthors = $coauthorCache->get_coauthors(get_the_ID());
+$coauthorCache = trendone_get_coauthor_cache();
+$coauthors = $coauthorCache->get_coauthors(get_the_ID());
 ?>
 <div class="row">
     <div class="col-sm-4">
@@ -24,20 +24,20 @@ global $coauthorCache;
                     </a>
                 </h3>
                 <p class="text-light">
-                    <?php the_date();  ?>
+                    <?php the_date(); ?>
                 </p>
             </header><!-- .entry-header -->
             <div class="entry-content">
                 <?php
                 the_excerpt();
                 ?>
-            <div class="coauthor">
-                <?php
-                global $category_id;
-                $coauthorStr = $coauthorCache->get_coauthors_div(get_the_ID(), $category_id);
-                echo $coauthorStr;
-                ?>
-            </div>
+                <div class="coauthor">
+                    <?php
+                    global $category_id;
+                    $coauthorStr = $coauthorCache->get_coauthors_div(get_the_ID(), $category_id);
+                    echo $coauthorStr;
+                    ?>
+                </div>
             </div><!-- .entry-content -->
 
             <?php
@@ -51,6 +51,6 @@ global $coauthorCache;
                 '</span></footer><!-- .entry-footer -->'
             );
             ?>
-    </article><!-- #post-## -->
+        </article><!-- #post-## -->
     </div>
 </div>

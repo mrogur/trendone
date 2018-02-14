@@ -10,14 +10,14 @@
 <section class="trendone-page-section">
     <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
         <div class="row">
-            <div class="col-sm-5">
-                <a href="<?php the_permalink(); ?>">
+<!--            <div class="col-sm-5">
+                <a href="<?php /*the_permalink(); */?>">
                     <div class="d-flex h-100 align-items-center ">
-                        <?php echo get_the_post_thumbnail(null, 'trendone_archive', ['class' => 'float-left m-1 d-inline justify-content-center align-self-center mx-auto']); ?>
+                        <?php /*echo get_the_post_thumbnail(null, 'trendone_archive', ['class' => 'float-left m-1 d-inline justify-content-center align-self-center mx-auto']); */?>
                     </div>
                 </a>
-            </div>
-            <div class="col-sm-7">
+            </div>-->
+            <div class="col-12">
                 <header class="entry-header">
                     <h3>
                         <a href="<?php the_permalink(); ?>">
@@ -27,8 +27,13 @@
                 </header><!-- .entry-header -->
             </div>
         </div>
-
         <div class="row">
+            <div class="col-12 text-info text-right">
+                <?php echo the_date("Y/m/d") ?>
+            </div>
+        </div>
+
+        <div class="row mt-3">
             <div class="col-sm-12">
                 <div class="entry-content">
                     <?php
@@ -47,7 +52,13 @@
                 </div>
             </div>
         </div><!-- .entry-content -->
-
+        <div class="coauthor">
+            <?php
+            $coauthorCache = trendone_get_coauthor_cache();
+            $coauthorStr = $coauthorCache->get_coauthors_div(get_the_ID());
+            echo $coauthorStr;
+            ?>
+        </div>
         <?php
         edit_post_link(
             sprintf(
