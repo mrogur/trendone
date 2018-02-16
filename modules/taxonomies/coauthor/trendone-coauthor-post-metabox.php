@@ -129,7 +129,7 @@ class TrendOne_CoauthorPostMetaBox
 
                 <input type="hidden" name="has_value_from_post_category"
                        value="<?php echo $this->hasValueFromPostCategory ?>">
-                <select name="trendone_coauthor_display_option"
+                <select name="<?php echo self::TRENDONE_COAUTHOR_DISPLAY_OPTION ?>"
                         id="trendone_coauthor_display_option" <?php echo $disabled ?>>
                     <?php foreach (coauthor_get_display_options() as $value => $optionText): ?>
                         <option value="<?php echo $value ?>"
